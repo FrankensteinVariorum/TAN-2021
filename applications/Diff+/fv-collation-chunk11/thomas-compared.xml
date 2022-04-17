@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group xmlns="tag:textalign.net,2015:ns" cgk="eng" count="2">
+   <stats>
+      <witness id="a" class="e-a" ref="thomas">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/thomas.xml</uri>
+         <length>1369</length>
+         <diff-count>5</diff-count>
+         <diff-length>246</diff-length>
+         <diff-portion>17.97%</diff-portion>
+      </witness>
+      <witness id="b" class="e-b" ref="vs1818">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/vs1818.xml</uri>
+         <length>1200</length>
+         <diff-count>4</diff-count>
+         <diff-length>77</diff-length>
+         <diff-portion>6.42%</diff-portion>
+      </witness>
+      <diff id="diff" class="a-diff">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-collation-chunk11/thomas-compared.xml</uri>
+         <length>1446</length>
+         <diff-count>6</diff-count>
+         <diff-length>323</diff-length>
+         <diff-portion>22.34%</diff-portion>
+      </diff>
+   </stats>
+   <group-name>eng</group-name>
+   <group-label>thomas vs1818</group-label>
+   <file orig-length="1369"
+         length="1369"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/thomas.xml"
+         ref="thomas"/>
+   <file orig-length="1200"
+         length="1200"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/vs1818.xml"
+         ref="vs1818"/>
+   <diff>
+      <common _len="392" _pos-a="1" _pos-b="1">&lt;xml xml:lang="eng"&gt;“I cannot describe to you the uneasiness we have all felt concerning your health. We cannot help imagining that your friend Clerval conceals the extent of your disorder: for it is now several months since we have seen your hand-writing; and all this time you have been obliged to dictate your letters to Henry. Surely, Victor, you must have been exceedingly ill; and this </common>
+      <a _len="15" _pos-a="393" _pos-b="393">suspicion fills</a>
+      <b _len="5" _pos-a="408" _pos-b="393">makes</b>
+      <common _len="4" _pos-a="408" _pos-b="398"> us </common>
+      <a _len="29" _pos-a="412" _pos-b="402">with anguish. I perceive that</a>
+      <b _len="58" _pos-a="441" _pos-b="402">all very wretched, as much so nearly as after the death of</b>
+      <common _len="6" _pos-a="441" _pos-b="460"> your </common>
+      <a _len="185" _pos-a="447" _pos-b="466">father attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety</a>
+      <b _len="11" _pos-a="632" _pos-b="466">dear mother</b>
+      <common _len="2" _pos-a="632" _pos-b="477">. </common>
+      <a _len="12" _pos-a="634" _pos-b="479">At one time </a>
+      <common _len="9" _pos-a="646" _pos-b="479">My uncle </common>
+      <a _len="5" _pos-a="655" _pos-b="488">being</a>
+      <b _len="3" _pos-a="660" _pos-b="488">was</b>
+      <common _len="710" _pos-a="660" _pos-b="491"> almost persuaded that you were indeed dangerously ill, and could hardly be restrained from undertaking a journey to Ingolstadt. Clerval always writes that you are getting better; I eagerly hope that you will confirm this intelligence soon in your own hand-writing; for indeed, indeed, Victor, we are all very miserable on this account. Relieve us from this fear, and we shall be the happiest creatures in the world. Your father’s health is now so vigorous, that he appears ten years younger since last winter. Ernest also is so much improved, that you would hardly know him: he is now nearly sixteen, and has lost that sickly appearance which he had some years ago; he is grown quite robust and active. &lt;/xml&gt;</common>
+   </diff>
+</group>
