@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group xmlns="tag:textalign.net,2015:ns" cgk="eng" count="4">
+   <stats>
+      <witness class="a-w-1818-versionSimple" ref="1818-versionSimple">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/1818-versionSimple.xml</uri>
+         <length>1291</length>
+         <diff-count>27</diff-count>
+         <diff-length>1289</diff-length>
+         <diff-portion>99.8%</diff-portion>
+      </witness>
+      <witness class="a-w-1823-versionSimple" ref="1823-versionSimple">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/1823-versionSimple.xml</uri>
+         <length>1286</length>
+         <diff-count>27</diff-count>
+         <diff-length>1284</diff-length>
+         <diff-portion>99.8%</diff-portion>
+      </witness>
+      <witness class="a-w-Readme" ref="Readme">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/Readme.md</uri>
+         <length>27</length>
+         <diff-count>3</diff-count>
+         <diff-length>25</diff-length>
+         <diff-portion>92.6%</diff-portion>
+      </witness>
+      <witness class="a-w-Thomas-versionSimple" ref="Thomas-versionSimple">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/Thomas-versionSimple.xml</uri>
+         <length>1453</length>
+         <diff-count>30</diff-count>
+         <diff-length>1451</diff-length>
+         <diff-portion>99.9%</diff-portion>
+      </witness>
+      <collation id="collation" class="a-collation">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-collation-chunk11/1818-versionSimple-compared.xml</uri>
+         <length>1635</length>
+         <diff-count>44</diff-count>
+         <diff-length>1633</diff-length>
+         <diff-portion>99.9%</diff-portion>
+      </collation>
+   </stats>
+   <venns>
+      <venn>
+         <a>1818-versionSimple</a>
+         <b>1823-versionSimple</b>
+         <c>Readme</c>
+         <node-count>39</node-count>
+         <length>1373</length>
+         <part>
+            <a/>
+            <node-count>7</node-count>
+            <length>62</length>
+            <portion>0.045156591405680991</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>7</node-count>
+            <length>57</length>
+            <portion>0.041514930808448653</portion>
+            <texts>
+               <u>
+                  <txt>handwriting</txt>
+                  <wit ref="1823-versionSimple" pos="810"/>
+               </u>
+               <u>
+                  <txt> for
+    </txt>
+                  <wit ref="1823-versionSimple" pos="822"/>
+               </u>
+               <u>
+                  <txt> this
+   </txt>
+                  <wit ref="1823-versionSimple" pos="913"/>
+               </u>
+               <u>
+                  <txt> now
+   </txt>
+                  <wit ref="1823-versionSimple" pos="1005"/>
+               </u>
+               <u>
+                  <txt> much
+    </txt>
+                  <wit ref="1823-versionSimple" pos="1097"/>
+               </u>
+               <u>
+                  <txt> that
+   </txt>
+                  <wit ref="1823-versionSimple" pos="1187"/>
+               </u>
+               <u>
+                  <txt> </txt>
+                  <wit ref="1823-versionSimple" pos="1196"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>3</node-count>
+            <length>25</length>
+            <portion>0.01820830298616169</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>20</node-count>
+            <length>1227</length>
+            <portion>0.893663510560815732</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+            <texts/>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>2</node-count>
+            <length>2</length>
+            <portion>0.001456664238892935</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1818-versionSimple</a>
+         <b>1823-versionSimple</b>
+         <c>Thomas-versionSimple</c>
+         <node-count>44</node-count>
+         <length>1615</length>
+         <part>
+            <a/>
+            <node-count>1</node-count>
+            <length>10</length>
+            <portion>0.006191950464396285</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>6</node-count>
+            <length>56</length>
+            <portion>0.034674922600619195</portion>
+            <texts>
+               <u>
+                  <txt>handwriting</txt>
+                  <wit ref="1823-versionSimple" pos="810"/>
+               </u>
+               <u>
+                  <txt> for
+    </txt>
+                  <wit ref="1823-versionSimple" pos="822"/>
+               </u>
+               <u>
+                  <txt> this
+   </txt>
+                  <wit ref="1823-versionSimple" pos="913"/>
+               </u>
+               <u>
+                  <txt> now
+   </txt>
+                  <wit ref="1823-versionSimple" pos="1005"/>
+               </u>
+               <u>
+                  <txt> much
+    </txt>
+                  <wit ref="1823-versionSimple" pos="1097"/>
+               </u>
+               <u>
+                  <txt> that
+   </txt>
+                  <wit ref="1823-versionSimple" pos="1187"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>8</node-count>
+            <length>267</length>
+            <portion>0.165325077399380805</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>5</node-count>
+            <length>96</length>
+            <portion>0.059442724458204334</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>6</node-count>
+            <length>52</length>
+            <portion>0.032198142414860681</portion>
+            <texts>
+               <u>
+                  <txt>hand-writing</txt>
+                  <wit ref="1818-versionSimple" pos="810"/>
+                  <wit ref="Thomas-versionSimple" pos="972"/>
+               </u>
+               <u>
+                  <txt>
+    for </txt>
+                  <wit ref="1818-versionSimple" pos="823"/>
+                  <wit ref="Thomas-versionSimple" pos="985"/>
+               </u>
+               <u>
+                  <txt>
+    this</txt>
+                  <wit ref="1818-versionSimple" pos="914"/>
+                  <wit ref="Thomas-versionSimple" pos="1076"/>
+               </u>
+               <u>
+                  <txt>
+    now</txt>
+                  <wit ref="1818-versionSimple" pos="1006"/>
+                  <wit ref="Thomas-versionSimple" pos="1168"/>
+               </u>
+               <u>
+                  <txt>
+    much </txt>
+                  <wit ref="1818-versionSimple" pos="1098"/>
+                  <wit ref="Thomas-versionSimple" pos="1260"/>
+               </u>
+               <u>
+                  <txt>
+   </txt>
+                  <wit ref="1818-versionSimple" pos="1273"/>
+                  <wit ref="Thomas-versionSimple" pos="1435"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>1</node-count>
+            <length>1</length>
+            <portion>0.000619195046439628</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>17</node-count>
+            <length>1133</length>
+            <portion>0.701547987616099071</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1818-versionSimple</a>
+         <b>Readme</b>
+         <c>Thomas-versionSimple</c>
+         <node-count>40</node-count>
+         <length>1579</length>
+         <part>
+            <a/>
+            <node-count>6</node-count>
+            <length>106</length>
+            <portion>0.067131095630145662</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>2</node-count>
+            <length>20</length>
+            <portion>0.012666244458518049</portion>
+            <texts>
+               <u>
+                  <txt>dummy file</txt>
+                  <wit ref="Readme" pos="1"/>
+               </u>
+               <u>
+                  <txt>processing</txt>
+                  <wit ref="Readme" pos="16"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>8</node-count>
+            <length>263</length>
+            <portion>0.16656111462951235</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>21</node-count>
+            <length>1183</length>
+            <portion>0.749208359721342622</portion>
+            <texts>
+               <u>
+                  <txt>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xml xml:lang="eng"&gt;“I cannot describe to you the uneasiness we have all felt concerning your health. We</txt>
+                  <wit ref="1818-versionSimple" pos="1"/>
+                  <wit ref="Thomas-versionSimple" pos="1"/>
+               </u>
+               <u>
+                  <txt> cannot help imagining that your friend Clerval conceals the extent of your disorder: for
+    it is now several months since we have seen your hand-writing; and all this time you
+    have been obliged to dictate your letters to Henry. Surely, Victor, you must have been exceedingly ill; and this </txt>
+                  <wit ref="1818-versionSimple" pos="148"/>
+                  <wit ref="Thomas-versionSimple" pos="144"/>
+               </u>
+               <u>
+                  <txt> us </txt>
+                  <wit ref="1818-versionSimple" pos="449"/>
+                  <wit ref="Thomas-versionSimple" pos="455"/>
+               </u>
+               <u>
+                  <txt> your </txt>
+                  <wit ref="1818-versionSimple" pos="515"/>
+                  <wit ref="Thomas-versionSimple" pos="488"/>
+               </u>
+               <u>
+                  <txt>. </txt>
+                  <wit ref="1818-versionSimple" pos="532"/>
+                  <wit ref="Thomas-versionSimple" pos="679"/>
+               </u>
+               <u>
+                  <txt>My uncle </txt>
+                  <wit ref="1818-versionSimple" pos="534"/>
+                  <wit ref="Thomas-versionSimple" pos="693"/>
+               </u>
+               <u>
+                  <txt> persuaded that you were indeed dangerously ill, and could hardly be restrained from
+    undertaking a journey to Ingolstadt. Clerval always writes that you are getting better;
+    I eagerly hope that you will confirm this intelligence soon in your own </txt>
+                  <wit ref="1818-versionSimple" pos="557"/>
+                  <wit ref="Thomas-versionSimple" pos="719"/>
+               </u>
+               <u>
+                  <txt>hand-writing</txt>
+                  <wit ref="1818-versionSimple" pos="810"/>
+                  <wit ref="Thomas-versionSimple" pos="972"/>
+               </u>
+               <u>
+                  <txt>;</txt>
+                  <wit ref="1818-versionSimple" pos="822"/>
+                  <wit ref="Thomas-versionSimple" pos="984"/>
+               </u>
+               <u>
+                  <txt>
+    for </txt>
+                  <wit ref="1818-versionSimple" pos="823"/>
+                  <wit ref="Thomas-versionSimple" pos="985"/>
+               </u>
+               <u>
+                  <txt>indeed, indeed, Victor, we are all very miserable on this account. Relieve us from</txt>
+                  <wit ref="1818-versionSimple" pos="832"/>
+                  <wit ref="Thomas-versionSimple" pos="994"/>
+               </u>
+               <u>
+                  <txt>
+    this</txt>
+                  <wit ref="1818-versionSimple" pos="914"/>
+                  <wit ref="Thomas-versionSimple" pos="1076"/>
+               </u>
+               <u>
+                  <txt> fear, and we shall be the happiest creatures in the world. Your father’s health is</txt>
+                  <wit ref="1818-versionSimple" pos="923"/>
+                  <wit ref="Thomas-versionSimple" pos="1085"/>
+               </u>
+               <u>
+                  <txt>
+    now</txt>
+                  <wit ref="1818-versionSimple" pos="1006"/>
+                  <wit ref="Thomas-versionSimple" pos="1168"/>
+               </u>
+               <u>
+                  <txt> so vigorous, that he appears ten years younger since last winter. Ernest also is so</txt>
+                  <wit ref="1818-versionSimple" pos="1014"/>
+                  <wit ref="Thomas-versionSimple" pos="1176"/>
+               </u>
+               <u>
+                  <txt>
+    much </txt>
+                  <wit ref="1818-versionSimple" pos="1098"/>
+                  <wit ref="Thomas-versionSimple" pos="1260"/>
+               </u>
+               <u>
+                  <txt>improved, that you would hardly know him: he is now nearly sixteen, and has lost</txt>
+                  <wit ref="1818-versionSimple" pos="1108"/>
+                  <wit ref="Thomas-versionSimple" pos="1270"/>
+               </u>
+               <u>
+                  <txt>sickly appearance which he had some years ago; he is grown quite robust and</txt>
+                  <wit ref="1818-versionSimple" pos="1198"/>
+                  <wit ref="Thomas-versionSimple" pos="1360"/>
+               </u>
+               <u>
+                  <txt>
+   </txt>
+                  <wit ref="1818-versionSimple" pos="1273"/>
+                  <wit ref="Thomas-versionSimple" pos="1435"/>
+               </u>
+               <u>
+                  <txt> active</txt>
+                  <wit ref="1818-versionSimple" pos="1277"/>
+                  <wit ref="Thomas-versionSimple" pos="1439"/>
+               </u>
+               <u>
+                  <txt>&lt;/xml&gt;</txt>
+                  <wit ref="1818-versionSimple" pos="1285"/>
+                  <wit ref="Thomas-versionSimple" pos="1447"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>1</node-count>
+            <length>5</length>
+            <portion>0.003166561114629512</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>2</node-count>
+            <length>2</length>
+            <portion>0.001266624445851805</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1823-versionSimple</a>
+         <b>Readme</b>
+         <c>Thomas-versionSimple</c>
+         <node-count>45</node-count>
+         <length>1625</length>
+         <part>
+            <a/>
+            <node-count>11</node-count>
+            <length>152</length>
+            <portion>0.093538461538461538</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>2</node-count>
+            <length>20</length>
+            <portion>0.012307692307692308</portion>
+            <texts>
+               <u>
+                  <txt>dummy file</txt>
+                  <wit ref="Readme" pos="1"/>
+               </u>
+               <u>
+                  <txt>processing</txt>
+                  <wit ref="Readme" pos="16"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>13</node-count>
+            <length>314</length>
+            <portion>0.193230769230769231</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>16</node-count>
+            <length>1132</length>
+            <portion>0.696615384615384615</portion>
+            <texts>
+               <u>
+                  <txt>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xml xml:lang="eng"&gt;“I cannot describe to you the uneasiness we have all felt concerning your health. We</txt>
+                  <wit ref="1823-versionSimple" pos="1"/>
+                  <wit ref="Thomas-versionSimple" pos="1"/>
+               </u>
+               <u>
+                  <txt> cannot help imagining that your friend Clerval conceals the extent of your disorder: for
+    it is now several months since we have seen your hand-writing; and all this time you
+    have been obliged to dictate your letters to Henry. Surely, Victor, you must have been exceedingly ill; and this </txt>
+                  <wit ref="1823-versionSimple" pos="148"/>
+                  <wit ref="Thomas-versionSimple" pos="144"/>
+               </u>
+               <u>
+                  <txt> us </txt>
+                  <wit ref="1823-versionSimple" pos="449"/>
+                  <wit ref="Thomas-versionSimple" pos="455"/>
+               </u>
+               <u>
+                  <txt> your </txt>
+                  <wit ref="1823-versionSimple" pos="515"/>
+                  <wit ref="Thomas-versionSimple" pos="488"/>
+               </u>
+               <u>
+                  <txt>. </txt>
+                  <wit ref="1823-versionSimple" pos="532"/>
+                  <wit ref="Thomas-versionSimple" pos="679"/>
+               </u>
+               <u>
+                  <txt>My uncle </txt>
+                  <wit ref="1823-versionSimple" pos="534"/>
+                  <wit ref="Thomas-versionSimple" pos="693"/>
+               </u>
+               <u>
+                  <txt> persuaded that you were indeed dangerously ill, and could hardly be restrained from
+    undertaking a journey to Ingolstadt. Clerval always writes that you are getting better;
+    I eagerly hope that you will confirm this intelligence soon in your own </txt>
+                  <wit ref="1823-versionSimple" pos="557"/>
+                  <wit ref="Thomas-versionSimple" pos="719"/>
+               </u>
+               <u>
+                  <txt>;</txt>
+                  <wit ref="1823-versionSimple" pos="821"/>
+                  <wit ref="Thomas-versionSimple" pos="984"/>
+               </u>
+               <u>
+                  <txt>indeed, indeed, Victor, we are all very miserable on this account. Relieve us from</txt>
+                  <wit ref="1823-versionSimple" pos="831"/>
+                  <wit ref="Thomas-versionSimple" pos="994"/>
+               </u>
+               <u>
+                  <txt> fear, and we shall be the happiest creatures in the world. Your father’s health is</txt>
+                  <wit ref="1823-versionSimple" pos="922"/>
+                  <wit ref="Thomas-versionSimple" pos="1085"/>
+               </u>
+               <u>
+                  <txt> so vigorous, that he appears ten years younger since last winter. Ernest also is so</txt>
+                  <wit ref="1823-versionSimple" pos="1013"/>
+                  <wit ref="Thomas-versionSimple" pos="1176"/>
+               </u>
+               <u>
+                  <txt>improved, that you would hardly know him: he is now nearly sixteen, and has lost</txt>
+                  <wit ref="1823-versionSimple" pos="1107"/>
+                  <wit ref="Thomas-versionSimple" pos="1270"/>
+               </u>
+               <u>
+                  <txt> </txt>
+                  <wit ref="1823-versionSimple" pos="1196"/>
+                  <wit ref="Thomas-versionSimple" pos="1359"/>
+               </u>
+               <u>
+                  <txt>sickly appearance which he had some years ago; he is grown quite robust and</txt>
+                  <wit ref="1823-versionSimple" pos="1197"/>
+                  <wit ref="Thomas-versionSimple" pos="1360"/>
+               </u>
+               <u>
+                  <txt> active</txt>
+                  <wit ref="1823-versionSimple" pos="1272"/>
+                  <wit ref="Thomas-versionSimple" pos="1439"/>
+               </u>
+               <u>
+                  <txt>&lt;/xml&gt;</txt>
+                  <wit ref="1823-versionSimple" pos="1280"/>
+                  <wit ref="Thomas-versionSimple" pos="1447"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>1</node-count>
+            <length>5</length>
+            <portion>0.003076923076923077</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>2</node-count>
+            <length>2</length>
+            <portion>0.001230769230769231</portion>
+         </part>
+      </venn>
+   </venns>
+   <group-name>eng</group-name>
+   <group-label>1818-versionSimple 1823-versionSimple Readme Thomas-versionSimple</group-label>
+   <file orig-length="1291"
+         length="1291"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/1818-versionSimple.xml"
+         ref="1818-versionSimple"/>
+   <file orig-length="1286"
+         length="1286"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/1823-versionSimple.xml"
+         ref="1823-versionSimple"/>
+   <file orig-length="27"
+         length="27"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/Readme.md"
+         ref="Readme"/>
+   <file orig-length="1453"
+         length="1453"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/Thomas-versionSimple.xml"
+         ref="Thomas-versionSimple"/>
+   <collation>
+      <witness id="1818-versionSimple">
+         <commonality with="1823-versionSimple">0.95459837019790454</commonality>
+         <commonality with="Thomas-versionSimple">0.870991253644314869</commonality>
+         <commonality with="Readme">0.010622154779969651</commonality>
+      </witness>
+      <witness id="1823-versionSimple">
+         <commonality with="1818-versionSimple">0.95459837019790454</commonality>
+         <commonality with="Thomas-versionSimple">0.828769623950346842</commonality>
+         <commonality with="Readme">0.003046458492003046</commonality>
+      </witness>
+      <witness id="Thomas-versionSimple">
+         <commonality with="1818-versionSimple">0.870991253644314869</commonality>
+         <commonality with="1823-versionSimple">0.828769623950346842</commonality>
+         <commonality with="Readme">0.009459459459459459</commonality>
+      </witness>
+      <witness id="Readme">
+         <commonality with="1818-versionSimple">0.010622154779969651</commonality>
+         <commonality with="Thomas-versionSimple">0.009459459459459459</commonality>
+         <commonality with="1823-versionSimple">0.003046458492003046</commonality>
+      </witness>
+      <u>
+         <txt>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xml xml:lang="eng"&gt;“I cannot describe to you the uneasiness we have all felt concerning your health. We</txt>
+         <wit ref="1818-versionSimple" pos="1"/>
+         <wit ref="1823-versionSimple" pos="1"/>
+         <wit ref="Thomas-versionSimple" pos="1"/>
+      </u>
+      <u>
+         <txt>
+   </txt>
+         <wit ref="1818-versionSimple" pos="144"/>
+         <wit ref="1823-versionSimple" pos="144"/>
+      </u>
+      <u>
+         <txt> cannot help imagining that your friend Clerval conceals the extent of your disorder: for
+    it is now several months since we have seen your hand-writing; and all this time you
+    have been obliged to dictate your letters to Henry. Surely, Victor, you must have been exceedingly ill; and this </txt>
+         <wit ref="1818-versionSimple" pos="148"/>
+         <wit ref="1823-versionSimple" pos="148"/>
+         <wit ref="Thomas-versionSimple" pos="144"/>
+      </u>
+      <u>
+         <txt>makes</txt>
+         <wit ref="1818-versionSimple" pos="444"/>
+         <wit ref="1823-versionSimple" pos="444"/>
+      </u>
+      <u>
+         <txt>suspicion fills</txt>
+         <wit ref="Thomas-versionSimple" pos="440"/>
+      </u>
+      <u>
+         <txt> us </txt>
+         <wit ref="1818-versionSimple" pos="449"/>
+         <wit ref="1823-versionSimple" pos="449"/>
+         <wit ref="Thomas-versionSimple" pos="455"/>
+      </u>
+      <u>
+         <txt>all very
+    wretched, as much so nearly as after the death of</txt>
+         <wit ref="1818-versionSimple" pos="453"/>
+         <wit ref="1823-versionSimple" pos="453"/>
+      </u>
+      <u>
+         <txt>with anguish. I perceive that</txt>
+         <wit ref="Thomas-versionSimple" pos="459"/>
+      </u>
+      <u>
+         <txt> your </txt>
+         <wit ref="1818-versionSimple" pos="515"/>
+         <wit ref="1823-versionSimple" pos="515"/>
+         <wit ref="Thomas-versionSimple" pos="488"/>
+      </u>
+      <u>
+         <txt>dear mother</txt>
+         <wit ref="1818-versionSimple" pos="521"/>
+         <wit ref="1823-versionSimple" pos="521"/>
+      </u>
+      <u>
+         <txt>father attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation</txt>
+         <wit ref="Thomas-versionSimple" pos="494"/>
+      </u>
+      <u>
+         <txt>dummy file</txt>
+         <wit ref="Readme" pos="1"/>
+      </u>
+      <u>
+         <txt> for </txt>
+         <wit ref="Thomas-versionSimple" pos="663"/>
+         <wit ref="Readme" pos="11"/>
+      </u>
+      <u>
+         <txt>our anxiety</txt>
+         <wit ref="Thomas-versionSimple" pos="668"/>
+      </u>
+      <u>
+         <txt>. </txt>
+         <wit ref="1818-versionSimple" pos="532"/>
+         <wit ref="1823-versionSimple" pos="532"/>
+         <wit ref="Thomas-versionSimple" pos="679"/>
+      </u>
+      <u>
+         <txt>At one time </txt>
+         <wit ref="Thomas-versionSimple" pos="681"/>
+      </u>
+      <u>
+         <txt>My uncle </txt>
+         <wit ref="1818-versionSimple" pos="534"/>
+         <wit ref="1823-versionSimple" pos="534"/>
+         <wit ref="Thomas-versionSimple" pos="693"/>
+      </u>
+      <u>
+         <txt>was almost
+   </txt>
+         <wit ref="1818-versionSimple" pos="543"/>
+         <wit ref="1823-versionSimple" pos="543"/>
+      </u>
+      <u>
+         <txt>
+    being almost</txt>
+         <wit ref="Thomas-versionSimple" pos="702"/>
+      </u>
+      <u>
+         <txt> persuaded that you were indeed dangerously ill, and could hardly be restrained from
+    undertaking a journey to Ingolstadt. Clerval always writes that you are getting better;
+    I eagerly hope that you will confirm this intelligence soon in your own </txt>
+         <wit ref="1818-versionSimple" pos="557"/>
+         <wit ref="1823-versionSimple" pos="557"/>
+         <wit ref="Thomas-versionSimple" pos="719"/>
+      </u>
+      <u>
+         <txt>hand-writing</txt>
+         <wit ref="1818-versionSimple" pos="810"/>
+         <wit ref="Thomas-versionSimple" pos="972"/>
+      </u>
+      <u>
+         <txt>handwriting</txt>
+         <wit ref="1823-versionSimple" pos="810"/>
+      </u>
+      <u>
+         <txt>;</txt>
+         <wit ref="1818-versionSimple" pos="822"/>
+         <wit ref="1823-versionSimple" pos="821"/>
+         <wit ref="Thomas-versionSimple" pos="984"/>
+      </u>
+      <u>
+         <txt>
+    for </txt>
+         <wit ref="1818-versionSimple" pos="823"/>
+         <wit ref="Thomas-versionSimple" pos="985"/>
+      </u>
+      <u>
+         <txt> for
+    </txt>
+         <wit ref="1823-versionSimple" pos="822"/>
+      </u>
+      <u>
+         <txt>indeed, indeed, Victor, we are all very miserable on this account. Relieve us from</txt>
+         <wit ref="1818-versionSimple" pos="832"/>
+         <wit ref="1823-versionSimple" pos="831"/>
+         <wit ref="Thomas-versionSimple" pos="994"/>
+      </u>
+      <u>
+         <txt>
+    this</txt>
+         <wit ref="1818-versionSimple" pos="914"/>
+         <wit ref="Thomas-versionSimple" pos="1076"/>
+      </u>
+      <u>
+         <txt> this
+   </txt>
+         <wit ref="1823-versionSimple" pos="913"/>
+      </u>
+      <u>
+         <txt> fear, and we shall be the happiest creatures in the world. Your father’s health is</txt>
+         <wit ref="1818-versionSimple" pos="923"/>
+         <wit ref="1823-versionSimple" pos="922"/>
+         <wit ref="Thomas-versionSimple" pos="1085"/>
+      </u>
+      <u>
+         <txt>
+    now</txt>
+         <wit ref="1818-versionSimple" pos="1006"/>
+         <wit ref="Thomas-versionSimple" pos="1168"/>
+      </u>
+      <u>
+         <txt> now
+   </txt>
+         <wit ref="1823-versionSimple" pos="1005"/>
+      </u>
+      <u>
+         <txt> so vigorous, that he appears ten years younger since last winter. Ernest also is so</txt>
+         <wit ref="1818-versionSimple" pos="1014"/>
+         <wit ref="1823-versionSimple" pos="1013"/>
+         <wit ref="Thomas-versionSimple" pos="1176"/>
+      </u>
+      <u>
+         <txt>
+    much </txt>
+         <wit ref="1818-versionSimple" pos="1098"/>
+         <wit ref="Thomas-versionSimple" pos="1260"/>
+      </u>
+      <u>
+         <txt> much
+    </txt>
+         <wit ref="1823-versionSimple" pos="1097"/>
+      </u>
+      <u>
+         <txt>improved, that you would hardly know him: he is now nearly sixteen, and has lost</txt>
+         <wit ref="1818-versionSimple" pos="1108"/>
+         <wit ref="1823-versionSimple" pos="1107"/>
+         <wit ref="Thomas-versionSimple" pos="1270"/>
+      </u>
+      <u>
+         <txt>
+    that </txt>
+         <wit ref="1818-versionSimple" pos="1188"/>
+      </u>
+      <u>
+         <txt> that
+   </txt>
+         <wit ref="1823-versionSimple" pos="1187"/>
+      </u>
+      <u>
+         <txt>
+    that</txt>
+         <wit ref="Thomas-versionSimple" pos="1350"/>
+      </u>
+      <u>
+         <txt> </txt>
+         <wit ref="1823-versionSimple" pos="1196"/>
+         <wit ref="Thomas-versionSimple" pos="1359"/>
+      </u>
+      <u>
+         <txt>sickly appearance which he had some years ago; he is grown quite robust and</txt>
+         <wit ref="1818-versionSimple" pos="1198"/>
+         <wit ref="1823-versionSimple" pos="1197"/>
+         <wit ref="Thomas-versionSimple" pos="1360"/>
+      </u>
+      <u>
+         <txt>
+   </txt>
+         <wit ref="1818-versionSimple" pos="1273"/>
+         <wit ref="Thomas-versionSimple" pos="1435"/>
+      </u>
+      <u>
+         <txt> active</txt>
+         <wit ref="1818-versionSimple" pos="1277"/>
+         <wit ref="1823-versionSimple" pos="1272"/>
+         <wit ref="Thomas-versionSimple" pos="1439"/>
+      </u>
+      <u>
+         <txt>processing</txt>
+         <wit ref="Readme" pos="16"/>
+      </u>
+      <c>
+         <txt>.</txt>
+         <wit ref="1818-versionSimple" pos="1284"/>
+         <wit ref="1823-versionSimple" pos="1279"/>
+         <wit ref="Thomas-versionSimple" pos="1446"/>
+         <wit ref="Readme" pos="26"/>
+      </c>
+      <u>
+         <txt>&lt;/xml&gt;</txt>
+         <wit ref="1818-versionSimple" pos="1285"/>
+         <wit ref="1823-versionSimple" pos="1280"/>
+         <wit ref="Thomas-versionSimple" pos="1447"/>
+      </u>
+      <c>
+         <txt>
+</txt>
+         <wit ref="1818-versionSimple" pos="1291"/>
+         <wit ref="1823-versionSimple" pos="1286"/>
+         <wit ref="Thomas-versionSimple" pos="1453"/>
+         <wit ref="Readme" pos="27"/>
+      </c>
+   </collation>
+</group>
