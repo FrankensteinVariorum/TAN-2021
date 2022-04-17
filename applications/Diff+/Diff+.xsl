@@ -98,7 +98,7 @@
     <!-- What directories of interest hold the target files? The following parameters are provided as examples,
       and for convenince, in case you want to have several commonly used directories handy. See below for
       the main parameter to pick via variable name the directory or directories you want. -->
-    <xsl:param name="directory-1-uri" select="'../../examples'" as="xs:string?"/>
+    <xsl:param name="directory-1-uri" select="'fv-source-chunk11'" as="xs:string?"/>
     <xsl:param name="directory-2-uri" select="'../../../library-arithmeticus/evagrius/cpg2455'" as="xs:string?"/>
     <xsl:param name="directory-3-uri" select="'../../../library-arithmeticus/bible'" as="xs:string?"/>
     <xsl:param name="directory-4-uri" select="'../../../library-arithmeticus/test/ring1'" as="xs:string?"/>
@@ -107,7 +107,7 @@
     <!-- What directory or directories has the main input files? Any relative path will be calculated
       against the location of this application file. Multiple directories may be supplied. Too many files?
       Results can be filtered below. -->
-    <xsl:param name="tan:main-input-relative-uri-directories" as="xs:string*" select="$directory-4-uri"/>
+    <xsl:param name="tan:main-input-relative-uri-directories" as="xs:string*" select="$directory-1-uri"/>
     
     <!-- Alternatively, you can point to one or more plain text files, each with list of paths to files 
         that should be processed. Every path must start with "file:" and use regular slashes, e.g.,
@@ -278,7 +278,7 @@
         perhaps with a suffix, and the extensions ".xml" and ".html". If the output base filename
         exists, and there is more than one of comparisons group, each set of output will be numerically 
         incremented. This process will overwrite any files already present. -->
-    <xsl:param name="output-base-filename" as="xs:string?" select="output"/>
+    <xsl:param name="output-base-filename" as="xs:string?" select="'output'"/>
     
     <!-- What suffix, if any, should be appended to output filenames? -->
     <xsl:param name="output-filename-suffix" as="xs:string?" select="'-compared'"/>

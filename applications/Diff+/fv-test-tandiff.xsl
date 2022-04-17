@@ -18,6 +18,11 @@
         or empty string means ignore this parameter. -->
     <xsl:param name="tan:input-filenames-must-match-regex" as="xs:string" select="''"/>
     
+    <!-- What pattern must each filename NOT match (a regular expression, case-insensitive)? Of the files 
+        in the directories chosen, any whose names match this pattern will be excluded. A null 
+        or empty string means ignore this parameter. -->
+    <xsl:param name="tan:input-filenames-must-not-match-regex" as="xs:string?" select="''"/>
+    
     <!-- Each diff or collation is performed against a group of files, and there may be one or more
         groups. How shall groups be created? Options:
         1. Detected language (default). Group by detected @xml:lang value; if not present in a particular
@@ -66,7 +71,7 @@
         adjustment, it is recommended you add templates to the mode prepare-input, keeping in mind that
         an important template is applied by Diff+ to the root element, to prepare it for grouping.
     -->
-    <xsl:param name="xml-handling-option" as="xs:integer" select="3"/>
+    <xsl:param name="xml-handling-option" as="xs:integer" select="2"/>
     
     
     <!-- STEP THREE: NORMALIZE INPUT STRINGS -->
@@ -96,9 +101,13 @@
     <xsl:param name="additional-batch-replacements" as="element()*">
         <!--ebb: normalizations to batch process for collation. Remember, these will be processed
             in order, so watch out for conflicts. -->
-      <!-- <replace pattern="(&amp;)(and)" replacement="$2$1" message="ampersand batch replacement"/>
+            <replace pattern="&amp;" replacement="and" message="ampersand batch replacement"/>
+        <replace pattern="(&lt;p)\s+.+?(/&gt;)" replacement="$1$2" message="p-tag batch replacement"/>
+        <replace pattern="&lt;hi.+?/&gt;" replacement="" message="hi batch replacement"/>
+        <replace pattern="&lt;pb.+?/&gt;" replacement="" message="pb batch replacement"/>
+        <replace pattern="&lt;add.+?&gt;" replacement="" message="add batch replacement"/>
        
-       <replace pattern="(&lt;xml.+?&gt;)()" replacement="$2$1" message="xml batch replacement"/>
+      <!-- <replace pattern="(&lt;xml.+?&gt;)()" replacement="$2$1" message="xml batch replacement"/>
         <replace pattern="(&lt;lb/&gt;)()" replacement="$2$1" message="lb-SGA batch replacement"/>
         <replace pattern="(&lt;p\s+.+?/&gt;)(&lt;p/&gt;)" replacement="$2$1" message="p-tag batch replacement"/>
         <replace pattern="(&lt;metamark&gt;.+?/&lt;/metamark&gt;)()" replacement="$2$1" message="metamark batch replacement"/>
@@ -146,6 +155,7 @@
     <!-- In what directory should the output be saved? -->
     <xsl:param name="output-directory-uri" as="xs:string" select="'fv-collation-chunk11'"/>
     
+    <xsl:param name="output-base-filename" as="xs:string?" select="'chunk11'"/>
     <!-- What suffix, if any, should be appended to output filenames? -->
     <xsl:param name="output-filename-suffix" as="xs:string?" select="'-compared'"/>
     
