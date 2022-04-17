@@ -56,8 +56,8 @@
    <xsl:param name="tan:temporary-file-directory" as="xs:anyURI"
       select="resolve-uri('../output/temp', static-base-uri())"/>
 
-   <!-- Shall error elements placed in TAN files during the validation process also be passed on messages? -->
-   <xsl:param name="tan:error-messages-on" as="xs:boolean" select="false()"/>
+   <!-- 2022-04-16 ebb: I converted this from false() to true(). Shall error elements placed in TAN files during the validation process also be passed on messages? -->
+   <xsl:param name="tan:error-messages-on" as="xs:boolean" select="true()"/>
    
    
    
