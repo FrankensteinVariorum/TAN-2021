@@ -2,39 +2,39 @@
 <group xmlns="tag:textalign.net,2015:ns" cgk="eng" count="4">
    <stats>
       <witness class="a-w-_1" ref="_1">
-         <uri>/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/.DS_Store</uri>
-         <length>8200</length>
-         <diff-count>26</diff-count>
-         <diff-length>1291</diff-length>
-         <diff-portion>100.0%</diff-portion>
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/.DS_Store</uri>
+         <length>20</length>
+         <diff-count>27</diff-count>
+         <diff-length>1289</diff-length>
+         <diff-portion>99.8%</diff-portion>
       </witness>
       <witness class="a-w-1818-versionSimple" ref="1818-versionSimple">
          <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/1818-versionSimple.xml</uri>
          <length>1291</length>
          <diff-count>26</diff-count>
-         <diff-length>1286</diff-length>
-         <diff-portion>100.0%</diff-portion>
+         <diff-length>1284</diff-length>
+         <diff-portion>99.8%</diff-portion>
       </witness>
       <witness class="a-w-1823-versionSimple" ref="1823-versionSimple">
          <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/1823-versionSimple.xml</uri>
          <length>1286</length>
          <diff-count>27</diff-count>
-         <diff-length>1453</diff-length>
-         <diff-portion>100.0%</diff-portion>
+         <diff-length>1451</diff-length>
+         <diff-portion>99.9%</diff-portion>
       </witness>
       <witness class="a-w-Thomas-versionSimple" ref="Thomas-versionSimple">
          <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/Thomas-versionSimple.xml</uri>
          <length>1453</length>
-         <diff-count>1</diff-count>
-         <diff-length>8200</diff-length>
-         <diff-portion>100.0%</diff-portion>
+         <diff-count>2</diff-count>
+         <diff-length>18</diff-length>
+         <diff-portion>90.0%</diff-portion>
       </witness>
       <collation id="collation" class="a-collation">
          <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-collation-chunk11/-compared.xml</uri>
-         <length>9814</length>
+         <length>1624</length>
          <diff-count>40</diff-count>
-         <diff-length>9814</diff-length>
-         <diff-portion>100.0%</diff-portion>
+         <diff-length>1622</diff-length>
+         <diff-portion>99.9%</diff-portion>
       </collation>
    </stats>
    <venns>
@@ -42,19 +42,19 @@
          <a>_1</a>
          <b>1818-versionSimple</b>
          <c>1823-versionSimple</c>
-         <node-count>34</node-count>
-         <length>9547</length>
+         <node-count>37</node-count>
+         <length>1366</length>
          <part>
             <a/>
-            <node-count>1</node-count>
-            <length>8200</length>
-            <portion>0.858908557662092804</portion>
+            <node-count>2</node-count>
+            <length>18</length>
+            <portion>0.013177159590043924</portion>
          </part>
          <part>
             <b/>
             <node-count>7</node-count>
-            <length>61</length>
-            <portion>0.00638944170943752</portion>
+            <length>62</length>
+            <portion>0.045387994143484627</portion>
             <texts>
                <u>
                   <txt>hand-writing</txt>
@@ -82,7 +82,7 @@
                </u>
                <u>
                   <txt>
-    that</txt>
+    that </txt>
                   <wit ref="1818-versionSimple" pos="1188"/>
                </u>
                <u>
@@ -94,9 +94,9 @@
          </part>
          <part>
             <c/>
-            <node-count>7</node-count>
-            <length>56</length>
-            <portion>0.005865716979155756</portion>
+            <node-count>6</node-count>
+            <length>57</length>
+            <portion>0.041727672035139092</portion>
          </part>
          <part>
             <a/>
@@ -116,36 +116,36 @@
          <part>
             <b/>
             <c/>
-            <node-count>19</node-count>
-            <length>1230</length>
-            <portion>0.128836283649313921</portion>
+            <node-count>20</node-count>
+            <length>1227</length>
+            <portion>0.898243045387994143</portion>
          </part>
          <part>
             <a/>
             <b/>
             <c/>
-            <node-count>0</node-count>
-            <length>0</length>
-            <portion>0</portion>
+            <node-count>2</node-count>
+            <length>2</length>
+            <portion>0.001464128843338214</portion>
          </part>
       </venn>
       <venn>
          <a>_1</a>
          <b>1818-versionSimple</b>
          <c>Thomas-versionSimple</c>
-         <node-count>34</node-count>
-         <length>9759</length>
+         <node-count>36</node-count>
+         <length>1567</length>
          <part>
             <a/>
-            <node-count>1</node-count>
-            <length>8200</length>
-            <portion>0.84025002561737883</portion>
+            <node-count>2</node-count>
+            <length>18</length>
+            <portion>0.011486917677089981</portion>
          </part>
          <part>
             <b/>
-            <node-count>6</node-count>
-            <length>106</length>
-            <portion>0.010861768623834409</portion>
+            <node-count>5</node-count>
+            <length>96</length>
+            <portion>0.061263560944479898</portion>
             <texts>
                <u>
                   <txt>
@@ -170,18 +170,13 @@
    </txt>
                   <wit ref="1818-versionSimple" pos="543"/>
                </u>
-               <u>
-                  <txt>
-    much </txt>
-                  <wit ref="1818-versionSimple" pos="1098"/>
-               </u>
             </texts>
          </part>
          <part>
             <c/>
-            <node-count>7</node-count>
-            <length>268</length>
-            <portion>0.027461830105543601</portion>
+            <node-count>5</node-count>
+            <length>258</length>
+            <portion>0.164645820038289726</portion>
          </part>
          <part>
             <a/>
@@ -201,36 +196,36 @@
          <part>
             <b/>
             <c/>
-            <node-count>20</node-count>
-            <length>1185</length>
-            <portion>0.12142637565324316</portion>
+            <node-count>22</node-count>
+            <length>1193</length>
+            <portion>0.761327377153797064</portion>
          </part>
          <part>
             <a/>
             <b/>
             <c/>
-            <node-count>0</node-count>
-            <length>0</length>
-            <portion>0</portion>
+            <node-count>2</node-count>
+            <length>2</length>
+            <portion>0.001276324186343331</portion>
          </part>
       </venn>
       <venn>
          <a>_1</a>
          <b>1823-versionSimple</b>
          <c>Thomas-versionSimple</c>
-         <node-count>39</node-count>
-         <length>9804</length>
+         <node-count>42</node-count>
+         <length>1624</length>
          <part>
             <a/>
-            <node-count>1</node-count>
-            <length>8200</length>
-            <portion>0.836393308853529172</portion>
+            <node-count>2</node-count>
+            <length>18</length>
+            <portion>0.011083743842364532</portion>
          </part>
          <part>
             <b/>
             <node-count>11</node-count>
-            <length>151</length>
-            <portion>0.01540187678498572</portion>
+            <length>153</length>
+            <portion>0.094211822660098522</portion>
             <texts>
                <u>
                   <txt>
@@ -276,12 +271,12 @@
                </u>
                <u>
                   <txt> much
-   </txt>
+    </txt>
                   <wit ref="1823-versionSimple" pos="1097"/>
                </u>
                <u>
                   <txt> that
-   </txt>
+    </txt>
                   <wit ref="1823-versionSimple" pos="1187"/>
                </u>
             </texts>
@@ -289,8 +284,8 @@
          <part>
             <c/>
             <node-count>12</node-count>
-            <length>318</length>
-            <portion>0.032435740514075887</portion>
+            <length>320</length>
+            <portion>0.197044334975369458</portion>
          </part>
          <part>
             <a/>
@@ -311,35 +306,35 @@
             <b/>
             <c/>
             <node-count>15</node-count>
-            <length>1135</length>
-            <portion>0.115769073847409221</portion>
+            <length>1131</length>
+            <portion>0.696428571428571429</portion>
          </part>
          <part>
             <a/>
             <b/>
             <c/>
-            <node-count>0</node-count>
-            <length>0</length>
-            <portion>0</portion>
+            <node-count>2</node-count>
+            <length>2</length>
+            <portion>0.001231527093596059</portion>
          </part>
       </venn>
       <venn>
          <a>1818-versionSimple</a>
          <b>1823-versionSimple</b>
          <c>Thomas-versionSimple</c>
-         <node-count>39</node-count>
-         <length>1614</length>
+         <node-count>40</node-count>
+         <length>1606</length>
          <part>
             <a/>
-            <node-count>1</node-count>
-            <length>10</length>
-            <portion>0.006195786864931846</portion>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
          </part>
          <part>
             <b/>
             <node-count>6</node-count>
-            <length>55</length>
-            <portion>0.034076827757125155</portion>
+            <length>57</length>
+            <portion>0.035491905354919054</portion>
             <texts>
                <u>
                   <txt>handwriting</txt>
@@ -362,35 +357,35 @@
                </u>
                <u>
                   <txt> much
-   </txt>
+    </txt>
                   <wit ref="1823-versionSimple" pos="1097"/>
                </u>
                <u>
                   <txt> that
-   </txt>
+    </txt>
                   <wit ref="1823-versionSimple" pos="1187"/>
                </u>
             </texts>
          </part>
          <part>
             <c/>
-            <node-count>6</node-count>
-            <length>267</length>
-            <portion>0.165427509293680297</portion>
+            <node-count>5</node-count>
+            <length>258</length>
+            <portion>0.160647571606475716</portion>
          </part>
          <part>
             <a/>
             <b/>
             <node-count>5</node-count>
             <length>96</length>
-            <portion>0.059479553903345725</portion>
+            <portion>0.059775840597758406</portion>
          </part>
          <part>
             <a/>
             <c/>
-            <node-count>6</node-count>
-            <length>51</length>
-            <portion>0.031598513011152416</portion>
+            <node-count>7</node-count>
+            <length>62</length>
+            <portion>0.038605230386052304</portion>
             <texts>
                <u>
                   <txt>hand-writing</txt>
@@ -417,7 +412,13 @@
                </u>
                <u>
                   <txt>
-    that</txt>
+    much </txt>
+                  <wit ref="1818-versionSimple" pos="1098"/>
+                  <wit ref="Thomas-versionSimple" pos="1260"/>
+               </u>
+               <u>
+                  <txt>
+    that </txt>
                   <wit ref="1818-versionSimple" pos="1188"/>
                   <wit ref="Thomas-versionSimple" pos="1350"/>
                </u>
@@ -432,25 +433,25 @@
          <part>
             <b/>
             <c/>
-            <node-count>1</node-count>
-            <length>1</length>
-            <portion>0.000619578686493185</portion>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
          </part>
          <part>
             <a/>
             <b/>
             <c/>
-            <node-count>14</node-count>
-            <length>1134</length>
-            <portion>0.702602230483271375</portion>
+            <node-count>17</node-count>
+            <length>1133</length>
+            <portion>0.705479452054794521</portion>
          </part>
       </venn>
    </venns>
    <group-name>eng</group-name>
    <group-label> 1823-versionSimple Thomas-versionSimple 1818-versionSimple</group-label>
-   <file orig-length="8200"
-         length="8200"
-         uri="/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/.DS_Store"
+   <file orig-length="20"
+         length="20"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/.DS_Store"
          ref="_1"/>
    <file orig-length="1291"
          length="1291"
@@ -468,22 +469,22 @@
       <witness id="1818-versionSimple">
          <commonality with="1823-versionSimple">0.95459837019790454</commonality>
          <commonality with="Thomas-versionSimple">0.870991253644314869</commonality>
-         <commonality with="_1">0</commonality>
+         <commonality with="_1">0.003051106025934401</commonality>
       </witness>
       <witness id="1823-versionSimple">
          <commonality with="1818-versionSimple">0.95459837019790454</commonality>
          <commonality with="Thomas-versionSimple">0.828769623950346842</commonality>
-         <commonality with="_1">0</commonality>
+         <commonality with="_1">0.003062787136294028</commonality>
       </witness>
       <witness id="Thomas-versionSimple">
          <commonality with="1818-versionSimple">0.870991253644314869</commonality>
          <commonality with="1823-versionSimple">0.828769623950346842</commonality>
-         <commonality with="_1">0</commonality>
+         <commonality with="_1">0.002715546503733876</commonality>
       </witness>
       <witness id="_1">
-         <commonality with="1818-versionSimple">0</commonality>
-         <commonality with="1823-versionSimple">0</commonality>
-         <commonality with="Thomas-versionSimple">0</commonality>
+         <commonality with="1823-versionSimple">0.003062787136294028</commonality>
+         <commonality with="1818-versionSimple">0.003051106025934401</commonality>
+         <commonality with="Thomas-versionSimple">0.002715546503733876</commonality>
       </witness>
       <u>
          <txt>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
@@ -651,21 +652,12 @@
          <txt>
     much </txt>
          <wit ref="1818-versionSimple" pos="1098"/>
-      </u>
-      <u>
-         <txt> much
-   </txt>
-         <wit ref="1823-versionSimple" pos="1097"/>
-      </u>
-      <u>
-         <txt>
-    much</txt>
          <wit ref="Thomas-versionSimple" pos="1260"/>
       </u>
       <u>
-         <txt> </txt>
-         <wit ref="1823-versionSimple" pos="1106"/>
-         <wit ref="Thomas-versionSimple" pos="1269"/>
+         <txt> much
+    </txt>
+         <wit ref="1823-versionSimple" pos="1097"/>
       </u>
       <u>
          <txt>improved, that you would hardly know him: he is now nearly sixteen, and has lost</txt>
@@ -675,20 +667,37 @@
       </u>
       <u>
          <txt>
-    that</txt>
+    that </txt>
          <wit ref="1818-versionSimple" pos="1188"/>
          <wit ref="Thomas-versionSimple" pos="1350"/>
       </u>
       <u>
          <txt> that
-   </txt>
+    </txt>
          <wit ref="1823-versionSimple" pos="1187"/>
       </u>
       <u>
-         <txt> sickly appearance which he had some years ago; he is grown quite robust and</txt>
-         <wit ref="1818-versionSimple" pos="1197"/>
-         <wit ref="1823-versionSimple" pos="1196"/>
-         <wit ref="Thomas-versionSimple" pos="1359"/>
+         <txt>sickly appearance which he had some years ago</txt>
+         <wit ref="1818-versionSimple" pos="1198"/>
+         <wit ref="1823-versionSimple" pos="1197"/>
+         <wit ref="Thomas-versionSimple" pos="1360"/>
+      </u>
+      <u>
+         <txt>afdfjkdslafjkdla</txt>
+         <wit ref="_1" pos="1"/>
+      </u>
+      <c>
+         <txt>;</txt>
+         <wit ref="1818-versionSimple" pos="1243"/>
+         <wit ref="1823-versionSimple" pos="1242"/>
+         <wit ref="Thomas-versionSimple" pos="1405"/>
+         <wit ref="_1" pos="17"/>
+      </c>
+      <u>
+         <txt> he is grown quite robust and</txt>
+         <wit ref="1818-versionSimple" pos="1244"/>
+         <wit ref="Thomas-versionSimple" pos="1406"/>
+         <wit ref="1823-versionSimple" pos="1243"/>
       </u>
       <u>
          <txt>
@@ -697,15 +706,22 @@
          <wit ref="Thomas-versionSimple" pos="1435"/>
       </u>
       <u>
-         <txt> active.&lt;/xml&gt;
-</txt>
+         <txt> active.&lt;/xml&gt;</txt>
          <wit ref="1818-versionSimple" pos="1277"/>
-         <wit ref="1823-versionSimple" pos="1272"/>
          <wit ref="Thomas-versionSimple" pos="1439"/>
+         <wit ref="1823-versionSimple" pos="1272"/>
       </u>
       <u>
-         <txt>AAAAAUJ1ZDEAABAAAAAIAAAAEAAAAAAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAAAABAAAAQAAAAAEAAACAAAAAAQAAAQAAAAABAAACAAAAAAEAAAQAAAAAAAAAAAEAABAAAAAAAQAAIAAAAAABAABAAAAAAAEAAIAAAAAAAQABAAAAAAABAAIAAAAAAAEABAAAAAAAAQAIAAAAAAABABAAAAAAAAEAIAAAAAAAAQBAAAAAAAABAIAAAAAAAAEBAAAAAAAAAQIAAAAAAAABBAAAAAAAAAEIAAAAAAAAARAAAAAAAAABIAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAEAsAAABFAAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBERTREIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAYAAAAAAAAAABAAAAgAAAAAEAAAEAAAAAAQAAAgAAAAABAAAEAAAAAAIAAAgAAAAYAAAAAAAAAAABAAAgAAAAAAEAAEAAAAAAAQAAgAAAAAABAAEAAAAAAAEAAgAAAAAAAQAEAAAAAAABAAgAAAAAAAEAEAAAAAAAAQAgAAAAAAABAEAAAAAAAAEAgAAAAAAAAQEAAAAAAAABAgAAAAAAAAEEAAAAAAAAAQgAAAAAAAABEAAAAAAAAAEgAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</txt>
-         <wit ref="_1" pos="1"/>
+         <txt>sf</txt>
+         <wit ref="_1" pos="18"/>
       </u>
+      <c>
+         <txt>
+</txt>
+         <wit ref="1818-versionSimple" pos="1291"/>
+         <wit ref="1823-versionSimple" pos="1286"/>
+         <wit ref="Thomas-versionSimple" pos="1453"/>
+         <wit ref="_1" pos="20"/>
+      </c>
    </collation>
 </group>

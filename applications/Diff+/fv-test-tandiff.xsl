@@ -16,7 +16,7 @@
     <!-- What pattern must each filename match (a regular expression, case-insensitive)? Of the files 
         in the directories chosen, only those whose names match this pattern will be included. A null 
         or empty string means ignore this parameter. -->
-    <xsl:param name="tan:input-filenames-must-match-regex" as="xs:string" select="'\.xml$'"/>
+    <xsl:param name="tan:input-filenames-must-match-regex" as="xs:string" select="''"/>
     
     <!-- Each diff or collation is performed against a group of files, and there may be one or more
         groups. How shall groups be created? Options:
@@ -37,6 +37,7 @@
  -->  
     <xsl:param name="filename-adjustments-before-grouping" as="element()*">
         <replace pattern="^\w+?-" replacement="" flags="i" message="stripping filename starter string"/>
+        <replace pattern="\.\w+$" replacement="" flags="i" message="stripping filename extension"/>
         <!-- The next example removes an ISO-style date-time stamp from the filename. -->
         <!--<replace pattern="\d{{8}}" replacement="" flags="i" message="stripping date-time stamp from filename"/>-->
         <!-- The next example ignores filename extensions. -->
@@ -165,11 +166,11 @@
     
     <!-- Where are the javascript assets? If this parameter is blank, the default directory will be the
         subdirectory js off $output-directory-uri. -->
-    <xsl:param name="output-javascript-library-directory-uri" as="xs:string?"/>
+    <xsl:param name="output-javascript-library-directory-uri" as="xs:string?" select="' ../../output/js'"/>
     
     <!-- Where are the CSS assets? If this parameter is blank, the default directory will be the
         subdirectory css off $output-directory-uri. -->
-    <xsl:param name="output-css-library-directory-uri" as="xs:string?"/>
+    <xsl:param name="output-css-library-directory-uri" as="xs:string?" select="'../../output/css'"/>
     
     <!-- In the HTML output, should an attempt be made to convert resultant diffs back to their pre-adjustment 
         forms or not? -->
