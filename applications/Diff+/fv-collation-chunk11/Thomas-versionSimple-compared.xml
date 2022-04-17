@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group xmlns="tag:textalign.net,2015:ns" cgk="eng" count="2">
+   <stats>
+      <witness id="a" class="e-a" ref="1818-versionSimple">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/1818-versionSimple.xml</uri>
+         <length>1291</length>
+         <diff-count>5</diff-count>
+         <diff-length>96</diff-length>
+         <diff-portion>7.44%</diff-portion>
+      </witness>
+      <witness id="b" class="e-b" ref="Thomas-versionSimple">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/Thomas-versionSimple.xml</uri>
+         <length>1453</length>
+         <diff-count>5</diff-count>
+         <diff-length>258</diff-length>
+         <diff-portion>17.76%</diff-portion>
+      </witness>
+      <diff id="diff" class="a-diff">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-collation-chunk11/Thomas-versionSimple-compared.xml</uri>
+         <length>1549</length>
+         <diff-count>7</diff-count>
+         <diff-length>354</diff-length>
+         <diff-portion>22.85%</diff-portion>
+      </diff>
+   </stats>
+   <group-name>eng</group-name>
+   <group-label>Thomas-versionSimple 1818-versionSimple</group-label>
+   <file orig-length="1291"
+         length="1291"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/1818-versionSimple.xml"
+         ref="1818-versionSimple"/>
+   <file orig-length="1453"
+         length="1453"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-chunk11/Thomas-versionSimple.xml"
+         ref="Thomas-versionSimple"/>
+   <diff>
+      <common _len="143" _pos-a="1" _pos-b="1">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xml xml:lang="eng"&gt;“I cannot describe to you the uneasiness we have all felt concerning your health. We</common>
+      <a _len="4" _pos-a="144" _pos-b="144">
+   </a>
+      <common _len="296" _pos-a="148" _pos-b="144"> cannot help imagining that your friend Clerval conceals the extent of your disorder: for
+    it is now several months since we have seen your hand-writing; and all this time you
+    have been obliged to dictate your letters to Henry. Surely, Victor, you must have been exceedingly ill; and this </common>
+      <a _len="5" _pos-a="444" _pos-b="440">makes</a>
+      <b _len="15" _pos-a="449" _pos-b="440">suspicion fills</b>
+      <common _len="4" _pos-a="449" _pos-b="455"> us </common>
+      <a _len="62" _pos-a="453" _pos-b="459">all very
+    wretched, as much so nearly as after the death of</a>
+      <b _len="29" _pos-a="515" _pos-b="459">with anguish. I perceive that</b>
+      <common _len="6" _pos-a="515" _pos-b="488"> your </common>
+      <a _len="11" _pos-a="521" _pos-b="494">dear mother</a>
+      <b _len="185" _pos-a="532" _pos-b="494">father attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety</b>
+      <common _len="2" _pos-a="532" _pos-b="679">. </common>
+      <b _len="12" _pos-a="534" _pos-b="681">At one time </b>
+      <common _len="9" _pos-a="534" _pos-b="693">My uncle </common>
+      <a _len="14" _pos-a="543" _pos-b="702">was almost
+   </a>
+      <b _len="17" _pos-a="557" _pos-b="702">
+    being almost</b>
+      <common _len="735" _pos-a="557" _pos-b="719"> persuaded that you were indeed dangerously ill, and could hardly be restrained from
+    undertaking a journey to Ingolstadt. Clerval always writes that you are getting better;
+    I eagerly hope that you will confirm this intelligence soon in your own hand-writing;
+    for indeed, indeed, Victor, we are all very miserable on this account. Relieve us from
+    this fear, and we shall be the happiest creatures in the world. Your father’s health is
+    now so vigorous, that he appears ten years younger since last winter. Ernest also is so
+    much improved, that you would hardly know him: he is now nearly sixteen, and has lost
+    that sickly appearance which he had some years ago; he is grown quite robust and
+    active.&lt;/xml&gt;
+</common>
+   </diff>
+</group>

@@ -278,7 +278,7 @@
         perhaps with a suffix, and the extensions ".xml" and ".html". If the output base filename
         exists, and there is more than one of comparisons group, each set of output will be numerically 
         incremented. This process will overwrite any files already present. -->
-    <xsl:param name="output-base-filename" as="xs:string?"/>
+    <xsl:param name="output-base-filename" as="xs:string?" select="output"/>
     
     <!-- What suffix, if any, should be appended to output filenames? -->
     <xsl:param name="output-filename-suffix" as="xs:string?" select="'-compared'"/>
