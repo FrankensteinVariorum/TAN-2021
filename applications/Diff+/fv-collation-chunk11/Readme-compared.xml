@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group xmlns="tag:textalign.net,2015:ns" cgk="eng" count="2">
+   <stats>
+      <witness id="a" class="e-a" ref="Readme">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/Readme.xml</uri>
+         <length>945</length>
+         <diff-count>9</diff-count>
+         <diff-length>768</diff-length>
+         <diff-portion>81.27%</diff-portion>
+      </witness>
+      <witness id="b" class="e-b" ref="thomas">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/thomas.xml</uri>
+         <length>1369</length>
+         <diff-count>8</diff-count>
+         <diff-length>1192</diff-length>
+         <diff-portion>87.07%</diff-portion>
+      </witness>
+      <diff id="diff" class="a-diff">
+         <uri>file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-collation-chunk11/Readme-compared.xml</uri>
+         <length>2137</length>
+         <diff-count>9</diff-count>
+         <diff-length>1960</diff-length>
+         <diff-portion>91.72%</diff-portion>
+      </diff>
+   </stats>
+   <group-name>eng</group-name>
+   <group-label>Readme thomas</group-label>
+   <file orig-length="945"
+         length="945"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/Readme.xml"
+         ref="Readme"/>
+   <file orig-length="1369"
+         length="1369"
+         uri="file:/C:/Users/ebbon/Documents/GitHub/TAN-2021/applications/Diff+/fv-source-chunk11/thomas.xml"
+         ref="thomas"/>
+   <diff>
+      <a _len="5" _pos-a="1" _pos-b="1">&lt;xml&gt;</a>
+      <b _len="20" _pos-a="6" _pos-b="1">&lt;xml xml:lang="eng"&gt;</b>
+      <common _len="1" _pos-a="6" _pos-b="21">“</common>
+      <a _len="3" _pos-a="7" _pos-b="22">You</a>
+      <b _len="257" _pos-a="10" _pos-b="22">I cannot describe to you the uneasiness we have all felt concerning your health. We cannot help imagining that your friend Clerval conceals the extent of your disorder: for it is now several months since we have seen your hand-writing; and all this time you</b>
+      <common _len="11" _pos-a="10" _pos-b="279"> have been </common>
+      <a _len="3" _pos-a="21" _pos-b="290">ill</a>
+      <b _len="252" _pos-a="24" _pos-b="290">obliged to dictate your letters to Henry. Surely, Victor, you must have been exceedingly ill; and this suspicion fills us with anguish. I perceive that your father attempts to conceal his fears from me; but cheerfulness has flown from our little circle</b>
+      <common _len="2" _pos-a="24" _pos-b="542">, </common>
+      <a _len="4" _pos-a="26" _pos-b="544">very</a>
+      <b _len="166" _pos-a="30" _pos-b="544">only to be restored by a certain assuranance that there is no foundation for our anxiety. At one time My uncle being almost persuaded that you were indeed dangerously</b>
+      <common _len="10" _pos-a="30" _pos-b="710"> ill, and </common>
+      <a _len="326" _pos-a="40" _pos-b="720">even the constant letters of dear kind Henry are not sufficient to reassure me on your account. You are forbidden to write—to hold a pen; yet one word from you, dear Victor, is necessary to calm our apprehensions. For a long time I have thought that each post would bring this line, and my persuasions have restrained my uncle</a>
+      <b _len="26" _pos-a="366" _pos-b="720">could hardly be restrained</b>
+      <common _len="43" _pos-a="366" _pos-b="746"> from undertaking a journey to Ingolstadt. </common>
+      <a _len="402" _pos-a="409" _pos-b="789">I have prevented his encountering the inconveniences and perhaps dangers of so long a journey; yet how often have I regretted not being able to perform it myself! I figure to myself that the task of attending on your sick bed has devolved on some mercenary old nurse, who could never guess your wishes, nor minister to them with the care and affection of your poor cousin. Yet that is over now: Clerval</a>
+      <b _len="14" _pos-a="811" _pos-b="789">Clerval always</b>
+      <common _len="13" _pos-a="811" _pos-b="803"> writes that </common>
+      <a _len="7" _pos-a="824" _pos-b="816">indeed </a>
+      <common _len="16" _pos-a="831" _pos-b="816">you are getting </common>
+      <a _len="7" _pos-a="847" _pos-b="832">better.</a>
+      <b _len="7" _pos-a="854" _pos-b="832">better;</b>
+      <common _len="73" _pos-a="854" _pos-b="839"> I eagerly hope that you will confirm this intelligence soon in your own </common>
+      <a _len="11" _pos-a="927" _pos-b="912">handwriting</a>
+      <b _len="450" _pos-a="938" _pos-b="912">hand-writing; for indeed, indeed, Victor, we are all very miserable on this account. Relieve us from this fear, and we shall be the happiest creatures in the world. Your father’s health is now so vigorous, that he appears ten years younger since last winter. Ernest also is so much improved, that you would hardly know him: he is now nearly sixteen, and has lost that sickly appearance which he had some years ago; he is grown quite robust and active</b>
+      <common _len="8" _pos-a="938" _pos-b="1362">. &lt;/xml&gt;</common>
+   </diff>
+</group>
