@@ -379,8 +379,8 @@
         </xsl:copy>
     </xsl:template>
     
-    <!-- Ignore the tei header and tan header -->
-    <xsl:template match="tan:head | tei:teiHeader" priority="2" mode="prepare-input tan:normalize-tree-space"/>
+    <!-- Ignore the tei header and tan header and (ebb): several other elements -->
+    <xsl:template match="tan:head | tei:teiHeader | Q{}milestone| Q{}lb | Q{}add | Q{}metamark | Q{}surface | Q{}zone | Q{}anchor | Q{}damage | Q{}mod | Q{}restore | Q{}comment | Q{}mdel | Q{}graphic | Q{}unclear | Q{}retrace | Q{}head | Q{}header" priority="2" mode="prepare-input tan:normalize-tree-space"/>
     
     <xsl:template match="*:div[@n]" mode="prepare-input">
         <xsl:copy>

@@ -41,7 +41,7 @@
       Therefore in this parameter an attribute flags="i" is normally desirable.
  -->  
     <xsl:param name="filename-adjustments-before-grouping" as="element()*">
-        <replace pattern="^\w+?-" replacement="" flags="i" message="stripping filename starter string"/>
+        <replace pattern="^.+?(_C)" replacement="$1" message="stripping filename starter string"/>
         <replace pattern="\.\w+$" replacement="" flags="i" message="stripping filename extension"/>
         <!-- The next example removes an ISO-style date-time stamp from the filename. -->
         <!--<replace pattern="\d{{8}}" replacement="" flags="i" message="stripping date-time stamp from filename"/>-->
@@ -53,7 +53,7 @@
     <!-- What language should be assumed for any input text that does not have a language associated with it?
       Please use a standard 3-letter ISO code, e.g., eng for English, grc for ancient Greek, deu for
       German, etc. -->
-    <xsl:param name="default-language" as="xs:string?" select="'eng'"/>
+    <xsl:param name="default-language" as="xs:string?" select="'en'"/>
   
     <!-- Should non-TAN input be space-normalized before processing? Note, all TAN files will be space
         normalized before processing. -->  
@@ -71,7 +71,7 @@
         adjustment, it is recommended you add templates to the mode prepare-input, keeping in mind that
         an important template is applied by Diff+ to the root element, to prepare it for grouping.
     -->
-    <xsl:param name="xml-handling-option" as="xs:integer" select="2"/>
+    <xsl:param name="xml-handling-option" as="xs:integer" select="3"/>
     
     
     <!-- STEP THREE: NORMALIZE INPUT STRINGS -->
@@ -153,7 +153,7 @@
     
     <!-- STEP FIVE: ADJUST OUTPUT -->
     <!-- In what directory should the output be saved? -->
-    <xsl:param name="output-directory-uri" as="xs:string" select="'fv-collation-chunk11'"/>
+    <xsl:param name="output-directory-uri" as="xs:string" select="'corePrepped-collation-chunk11'"/>
     
     <xsl:param name="output-base-filename" as="xs:string?" select="'chunk11'"/>
     <!-- What suffix, if any, should be appended to output filenames? -->
