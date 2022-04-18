@@ -1043,28 +1043,28 @@
     
 
     <!-- Main output -->
-    <xsl:param name="output-diagnostics-on" static="yes" as="xs:boolean" select="false()"/>
+    <xsl:param name="output-diagnostics-on" static="yes" as="xs:boolean" select="true()"/>
     <xsl:output indent="no" use-character-maps="tan:see-special-chars" use-when="not($output-diagnostics-on)"/>
     <xsl:output indent="yes" use-character-maps="tan:see-special-chars" use-when="$output-diagnostics-on"/>
     <xsl:template match="/" priority="1" use-when="$output-diagnostics-on">
         <xsl:message select="'Output diagnostics on for ' || static-base-uri()"/>
         <xsl:apply-templates select="$notices" mode="return-final-messages"/>
         <diagnostics>
-            <!--<input-directories count="{count($main-input-resolved-uri-directories)}"><xsl:sequence select="$main-input-resolved-uri-directories"/></input-directories>-->
-            <!--<main-input-resolved-uris count="{count($main-input-resolved-uris)}"><xsl:sequence select="$main-input-resolved-uris"/></main-input-resolved-uris>-->
-            <!--<MIRUs-chosen count="{count($mirus-chosen)}"><xsl:sequence select="$mirus-chosen"/></MIRUs-chosen>-->
-            <!--<main-input-files count="{count($main-input-files)}"><xsl:copy-of select="tan:trim-long-tree($main-input-files, 10, 20)"/></main-input-files>-->
-            <!--<main-input-files-filtered count="{count($main-input-files-filtered)}"><xsl:copy-of select="tan:trim-long-tree($main-input-files-filtered, 10, 20)"/></main-input-files-filtered>-->
-            <!--<main-input-files-resolved count="{count($main-input-files-resolved)}"><xsl:sequence select="tan:trim-long-tree($main-input-files-resolved, 10, 20)"/></main-input-files-resolved>-->
-            <!--<main-input-files-prepped count="{count($main-input-files-prepped)}"><xsl:sequence select="tan:trim-long-tree($main-input-files-prepped, 10, 20)"/></main-input-files-prepped>-->
-            <!--<main-input-files-space-norm count="{count($main-input-files-space-normalized)}"><xsl:sequence select="tan:trim-long-tree($main-input-files-space-normalized, 10, 20)"/></main-input-files-space-norm>-->
+            <input-directories count="{count($main-input-resolved-uri-directories)}"><xsl:sequence select="$main-input-resolved-uri-directories"/></input-directories>
+            <main-input-resolved-uris count="{count($main-input-resolved-uris)}"><xsl:sequence select="$main-input-resolved-uris"/></main-input-resolved-uris>
+            <MIRUs-chosen count="{count($mirus-chosen)}"><xsl:sequence select="$mirus-chosen"/></MIRUs-chosen>
+            <main-input-files count="{count($main-input-files)}"><xsl:copy-of select="tan:trim-long-tree($main-input-files, 10, 20)"/></main-input-files>
+            <main-input-files-filtered count="{count($main-input-files-filtered)}"><xsl:copy-of select="tan:trim-long-tree($main-input-files-filtered, 10, 20)"/></main-input-files-filtered>
+            <main-input-files-resolved count="{count($main-input-files-resolved)}"><xsl:sequence select="tan:trim-long-tree($main-input-files-resolved, 10, 20)"/></main-input-files-resolved>
+            <main-input-files-prepped count="{count($main-input-files-prepped)}"><xsl:sequence select="tan:trim-long-tree($main-input-files-prepped, 10, 20)"/></main-input-files-prepped>
+            <main-input-files-space-norm count="{count($main-input-files-space-normalized)}"><xsl:sequence select="tan:trim-long-tree($main-input-files-space-normalized, 10, 20)"/></main-input-files-space-norm>
             <!--<main-input-files-non-mixed count="{count($main-input-files-non-mixed)}"><xsl:sequence select="$main-input-files-non-mixed"/></main-input-files-non-mixed>-->
             <!--<output-dir><xsl:value-of select="$output-directory-uri-resolved"/></output-dir>-->
             <!--<file-groups-diffed-and-collated><xsl:copy-of select="tan:trim-long-tree($file-groups-diffed-and-collated, 10, 20)"/></file-groups-diffed-and-collated>-->
             <!--<xml-output-pass-1><xsl:copy-of select="tan:trim-long-tree($xml-output-pass-1, 10, 20)"/></xml-output-pass-1>-->
-            <xml-to-html-prep><xsl:copy-of select="tan:trim-long-tree($xml-to-html-prep, 10, 20)"/></xml-to-html-prep>
+          <!--  <xml-to-html-prep><xsl:copy-of select="tan:trim-long-tree($xml-to-html-prep, 10, 20)"/></xml-to-html-prep>
             <html-output-pass-1><xsl:copy-of select="tan:trim-long-tree($html-output-pass-1, 10, 20)"/></html-output-pass-1>
-            <html-output-pass-2><xsl:copy-of select="tan:trim-long-tree($html-output-pass-2, 10, 20)"/></html-output-pass-2>
+            <html-output-pass-2><xsl:copy-of select="tan:trim-long-tree($html-output-pass-2, 10, 20)"/></html-output-pass-2>-->
         </diagnostics>
     </xsl:template>
     <xsl:template match="/">

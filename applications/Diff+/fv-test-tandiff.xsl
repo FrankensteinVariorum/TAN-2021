@@ -16,12 +16,12 @@
     <!-- What pattern must each filename match (a regular expression, case-insensitive)? Of the files 
         in the directories chosen, only those whose names match this pattern will be included. A null 
         or empty string means ignore this parameter. -->
-    <xsl:param name="tan:input-filenames-must-match-regex" as="xs:string" select="''"/>
+    <xsl:param name="tan:input-filenames-must-match-regex" as="xs:string" select="'\.xml'"/>
     
     <!-- What pattern must each filename NOT match (a regular expression, case-insensitive)? Of the files 
         in the directories chosen, any whose names match this pattern will be excluded. A null 
         or empty string means ignore this parameter. -->
-    <xsl:param name="tan:input-filenames-must-not-match-regex" as="xs:string?" select="''"/>
+    <xsl:param name="tan:input-filenames-must-not-match-regex" as="xs:string?" select="'^\.DS_Store'"/>
     
     <!-- Each diff or collation is performed against a group of files, and there may be one or more
         groups. How shall groups be created? Options:
