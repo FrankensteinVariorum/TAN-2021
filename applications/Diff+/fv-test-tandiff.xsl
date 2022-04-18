@@ -196,4 +196,11 @@
     are. -->
     <xsl:variable name="calling-stylesheet-uri" as="xs:anyURI" select="static-base-uri()"/>
     
+    
+    <!-- Ignore the tei header and tan header and (ebb): several other elements 
+    ebb: removed this mode:  tan:normalize-tree-space
+    -->
+    <xsl:template match="tan:head | tei:teiHeader | Q{}milestone| Q{}lb | Q{}add | Q{}metamark | Q{}surface | Q{}zone | Q{}anchor | Q{}damage | Q{}mod | Q{}restore | Q{}comment | Q{}mdel | Q{}graphic | Q{}unclear | Q{}retrace | Q{}head | Q{}header" priority="2" mode="prepare-input"/>
+    
+    
 </xsl:stylesheet>
