@@ -467,7 +467,7 @@
     
     <xsl:mode name="revert-to-original-root-element-attributes" on-no-match="shallow-copy"/>
     <xsl:template match="*[@_orig-attr-names]" mode="revert-to-original-root-element-attributes">
-        <xsl:variable name="orig-attr-names" as="xs:string+" select="tokenize(@_orig-attr-names, ' ')"/>
+        <xsl:variable name="orig-attr-names" as="xs:string*" select="tokenize(@_orig-attr-names, ' ')"/>
         <xsl:copy>
             <xsl:apply-templates select="@*[name(.) = $orig-attr-names]" mode="#current"/>
             <xsl:apply-templates select="node()" mode="#current"/>

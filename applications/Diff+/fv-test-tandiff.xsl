@@ -10,7 +10,7 @@
     <!-- What directory or directories has the main input files? Any relative path will be calculated
       against the location of this application file. Multiple directories may be supplied. Too many files?
       Results can be filtered below. -->
-    <xsl:param name="tan:main-input-relative-uri-directories" as="xs:string*" select="'fv-source-chunk11'"/>
+    <xsl:param name="tan:main-input-relative-uri-directories" as="xs:string*" select="'fv-source-chunk27'"/>
     
     
     <!-- What pattern must each filename match (a regular expression, case-insensitive)? Of the files 
@@ -153,9 +153,9 @@
     
     <!-- STEP FIVE: ADJUST OUTPUT -->
     <!-- In what directory should the output be saved? -->
-    <xsl:param name="output-directory-uri" as="xs:string" select="'corePrepped-collation-chunk11'"/>
+    <xsl:param name="output-directory-uri" as="xs:string" select="'fv-collation-chunk27'"/>
     
-    <xsl:param name="output-base-filename" as="xs:string?" select="'chunk11'"/>
+    <xsl:param name="output-base-filename" as="xs:string?" select="'chunk27'"/>
     <!-- What suffix, if any, should be appended to output filenames? -->
     <xsl:param name="output-filename-suffix" as="xs:string?" select="'-compared'"/>
     
