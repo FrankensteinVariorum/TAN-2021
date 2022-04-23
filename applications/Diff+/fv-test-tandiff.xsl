@@ -101,7 +101,7 @@
     <xsl:param name="additional-batch-replacements" as="element()*">
         <!--ebb: normalizations to batch process for collation. Remember, these will be processed
             in order, so watch out for conflicts. -->
-            <replace pattern="&amp;" replacement="and" message="ampersand batch replacement"/>
+            <replace pattern="&amp;amp;" replacement="and" message="ampersand batch replacement"/>
         <replace pattern="(&lt;p)\s+.+?(/&gt;)" replacement="$1$2" message="p-tag batch replacement"/>
         <replace pattern="&lt;hi.+?/&gt;" replacement="" message="hi batch replacement"/>
         <replace pattern="&lt;pb.+?/&gt;" replacement="" message="pb batch replacement"/>
