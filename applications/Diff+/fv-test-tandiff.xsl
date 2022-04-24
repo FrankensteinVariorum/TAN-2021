@@ -93,7 +93,7 @@
     <xsl:param name="inject-attr-n" as="xs:boolean" select="false()"/>
     
     <!-- Should differences in case be ignored? -->
-    <xsl:param name="tan:ignore-case-differences" as="xs:boolean?" select="false()"/>
+    <xsl:param name="tan:ignore-case-differences" as="xs:boolean?" select="true()"/>
     
     <!-- Should punctuation be ignored? -->
     <xsl:param name="tan:ignore-punctuation-differences" as="xs:boolean" select="false()"/>
@@ -102,8 +102,11 @@
         <!--ebb: normalizations to batch process for collation. NOTE: We want to do these to preserve some markup in the output for post-processing to reconstruct the edition files. 
             Remember, these will be processed in order, so watch out for conflicts. -->
         <replace pattern="(&lt;.+?&gt;\s*)&amp;gt;" replacement="$1" message="normalizing away extra right angle brackets"/>
-            <replace pattern="&amp;amp;" replacement="and" message="ampersand batch replacement"/>
+         <replace pattern="&amp;amp;" replacement="and" message="ampersand batch replacement"/>
+        <replace pattern="&lt;/?xml&gt;" replacement="" message="xml tag replacement"/>
         <replace pattern="(&lt;p)\s+.+?(/&gt;)" replacement="$1$2" message="p-tag batch replacement"/>
+        <replace pattern="(&lt;/?)m(del).*?(&gt;)" replacement="$1$2$3" message="mdel-SGA batch replacement"/>  <!--ebb: mdel contains a text node, so this catches both start and end tag.
+        We want mdel to be processed as <del>...</del>-->
         <replace pattern="&lt;/?unclear.*?&gt;" replacement="" message="unclear-SGA batch replacement"/> <!--ebb: unclear contains a text node, so this catches both start and end tag. -->
         <replace pattern="&lt;/?retrace.*?&gt;" replacement="" message="retrace-SGA batch replacement"/> <!--ebb: retrace contains a text node, so this catches both start and end tag. -->
         <replace pattern="&lt;/?shi.*?&gt;" replacement="" message="shi-SGA batch replacement"/> <!--ebb: shi (superscript/subscript) contains a text node, so this catches both start and end tag. -->
@@ -138,7 +141,6 @@
         <replace pattern="&lt;damage.+?/&gt;" replacement="" message="damage-SGA batch replacement"/> 
         <replace pattern="&lt;mod.+?/&gt;" replacement="" message="mod-SGA batch replacement"/> 
         <replace pattern="&lt;restore.+?/&gt;" replacement="" message="restore-SGA batch replacement"/> 
-        <replace pattern="&lt;mdel.+?/&gt;" replacement="" message="mdel-SGA batch replacement"/> 
         <replace pattern="&lt;graphic.+?/&gt;" replacement="" message="graphic-SGA batch replacement"/> 
       
         <replace pattern="&lt;head.+?/&gt;" replacement="" message="head batch replacement"/> 
