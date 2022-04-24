@@ -1006,9 +1006,8 @@
         select="($resolved-uri-to-js-dir || 'jquery.js')"/>
     <xsl:variable name="resolved-uri-to-venn-js" as="xs:string"
         select="($resolved-uri-to-js-dir || 'venn.js/venn.js')"/>
-    
-
-    
+  
+   
     
     <xsl:mode name="return-final-messages" on-no-match="shallow-skip"/>
     

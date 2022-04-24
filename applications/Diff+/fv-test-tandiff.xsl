@@ -99,13 +99,54 @@
     <xsl:param name="tan:ignore-punctuation-differences" as="xs:boolean" select="false()"/>
     
     <xsl:param name="additional-batch-replacements" as="element()*">
-        <!--ebb: normalizations to batch process for collation. Remember, these will be processed
-            in order, so watch out for conflicts. -->
+        <!--ebb: normalizations to batch process for collation. NOTE: We want to do these to preserve some markup in the output for post-processing to reconstruct the edition files. 
+            Remember, these will be processed in order, so watch out for conflicts. -->
+        <replace pattern="(&lt;.+?&gt;\s*)&amp;gt;" replacement="$1" message="normalizing away extra right angle brackets"/>
             <replace pattern="&amp;amp;" replacement="and" message="ampersand batch replacement"/>
         <replace pattern="(&lt;p)\s+.+?(/&gt;)" replacement="$1$2" message="p-tag batch replacement"/>
+        <replace pattern="&lt;/?unclear.*?&gt;" replacement="" message="unclear-SGA batch replacement"/> <!--ebb: unclear contains a text node, so this catches both start and end tag. -->
+        <replace pattern="&lt;/?retrace.*?&gt;" replacement="" message="retrace-SGA batch replacement"/> <!--ebb: retrace contains a text node, so this catches both start and end tag. -->
+        <replace pattern="&lt;/?shi.*?&gt;" replacement="" message="shi-SGA batch replacement"/> <!--ebb: shi (superscript/subscript) contains a text node, so this catches both start and end tag. -->
+        <replace pattern="(&lt;del)\s+.+?(/&gt;)" replacement="$1$2" message="del-tag batch replacement"/>
         <replace pattern="&lt;hi.+?/&gt;" replacement="" message="hi batch replacement"/>
         <replace pattern="&lt;pb.+?/&gt;" replacement="" message="pb batch replacement"/>
         <replace pattern="&lt;add.+?&gt;" replacement="" message="add batch replacement"/>
+        <replace pattern="&lt;w.+?/&gt;" replacement="" message="w-SGA batch replacement"/>
+        <replace pattern="(&lt;del)Span.+?spanTo=&quot;#(.+?)&quot;.*?(/&gt;)(.+?)&lt;anchor.+?xml:id=&quot;\2&quot;.*?&gt;" replacement="$1$3$4$1$3" message="delSpan-to-anchor-SGA batch replacement"/>
+ 
+        <!-- delSpan to anchor issue: matching on quotation marks. -->
+    <!-- ebb: This works, but that also means that quotes are read as &quot;    
+        <replace pattern="&quot;" replacement="__" message="TEST replacing quotes"/>-->
+    
+   <!--   <replace pattern="(&lt;del)Span.+?(/&gt;)(.+?)&lt;anchor.+?&gt;" replacement="$1$2$3$1$2" message="delSpan-SGA batch replacement"/>
+   Replace <anchor> AFTER you do the delSpan to anchor replacement. 
+   -->
+       <replace pattern="&lt;anchor.+?/&gt;" replacement="" message="anchor-SGA batch replacement"/>
+        
+        <!--
+              <replace pattern="(&lt;del)Span.+?spanTo=&quot;#(.+?)&quot;.*?(/&gt;)(.+?)&lt;anchor.+?xml:id=&quot;$2&quot;.*?&gt;" replacement="$1$3$4$1$3" message="delSpan-to-anchor-SGA batch replacement"/>
+            2022-04-23 ebb: Here I am trying to have tanDiff read a delSpan to anchor pattern and replace it with a simple del marker.  
+          Is it better to do this during pre-processing, while preserving some marker that this was a delSpan-to-anchor in the source SGA file? Or does that make post-processing more complicated?
+        -->
+  <!-- REPLACEMENT PATTERNS THAT USED TO BE ELEMENTS SENT FOR DELETION IN THE TAN DIFF TEMPLATE -->     
+       
+        <replace pattern="&lt;milestone.+?/&gt;" replacement="" message="milestone batch replacement"/>  
+        <replace pattern="&lt;lb.+?/&gt;" replacement="" message="lb batch replacement"/> 
+        <replace pattern="&lt;metamark.+?/&gt;" replacement="" message="metamark batch replacement"/> 
+        <replace pattern="&lt;surface.+?/&gt;" replacement="" message="surface-SGA batch replacement"/> 
+        <replace pattern="&lt;zone.+?/&gt;" replacement="" message="zone-SGA batch replacement"/> 
+        <replace pattern="&lt;damage.+?/&gt;" replacement="" message="damage-SGA batch replacement"/> 
+        <replace pattern="&lt;mod.+?/&gt;" replacement="" message="mod-SGA batch replacement"/> 
+        <replace pattern="&lt;restore.+?/&gt;" replacement="" message="restore-SGA batch replacement"/> 
+        <replace pattern="&lt;mdel.+?/&gt;" replacement="" message="mdel-SGA batch replacement"/> 
+        <replace pattern="&lt;graphic.+?/&gt;" replacement="" message="graphic-SGA batch replacement"/> 
+      
+        <replace pattern="&lt;head.+?/&gt;" replacement="" message="head batch replacement"/> 
+        <!--ebb: Not sure if I need a replace pattern for <header>? I think we're only using <head>, and only in non-SGA files for Chapter headings, etc. -->
+        <replace pattern="&lt;comment.+?&gt;" replacement="" message="comment batch replacement"/> 
+       
+       
+       
        
       <!-- <replace pattern="(&lt;xml.+?&gt;)()" replacement="$2$1" message="xml batch replacement"/>
         <replace pattern="(&lt;lb/&gt;)()" replacement="$2$1" message="lb-SGA batch replacement"/>
@@ -198,9 +239,22 @@
     
     
     <!-- Ignore the tei header and tan header and (ebb): several other elements 
-    ebb: removed this mode:  tan:normalize-tree-space
+    ebb: putting back this mode:  tan:normalize-tree-space
+    Okay, the mode's presence or absence doesn't seem to matter. If an element is removed, spaces appeararound any text that was inside it.
+    This throws off the collation.
     -->
-    <xsl:template match="tan:head | tei:teiHeader | Q{}milestone| Q{}lb | Q{}add | Q{}metamark | Q{}surface | Q{}zone | Q{}anchor | Q{}damage | Q{}mod | Q{}restore | Q{}comment | Q{}mdel | Q{}graphic | Q{}unclear | Q{}retrace | Q{}head | Q{}header" priority="2" mode="prepare-input"/>
+  <!--  <xsl:template match="tan:head | tei:teiHeader | Q{}milestone | Q{}lb | Q{}metamark | Q{}surface | Q{}zone | Q{}damage | Q{}mod | Q{}restore | Q{}comment | Q{}mdel | Q{}graphic | Q{}unclear | Q{}retrace | Q{}head | Q{}header" priority="2" mode="prepare-input tan:normalize-tree-space"/>-->
     
+    
+    <xsl:variable name="resolved-uri-to-diff-css" as="xs:string"
+        select="($resolved-uri-to-css-dir || 'diff.css')"/>
+    <xsl:variable name="resolved-uri-to-TAN-js" as="xs:string"
+        select="('../../../output/js/' || 'tan2020.js')"/>
+    <xsl:variable name="resolved-uri-to-diff-js" as="xs:string"
+        select="('../../../output/js/' || 'diff.js')"/>
+    <xsl:variable name="resolved-uri-to-jquery" as="xs:string"
+        select="('../../../output/js/' || 'jquery.js')"/>
+    <xsl:variable name="resolved-uri-to-venn-js" as="xs:string"
+        select="('../../../output/js/' || 'venn.js/venn.js')"/>
     
 </xsl:stylesheet>
