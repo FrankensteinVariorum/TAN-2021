@@ -105,8 +105,10 @@
          <replace pattern="&amp;amp;" replacement="and" message="ampersand batch replacement"/>
         <replace pattern="&lt;/?xml&gt;" replacement="" message="xml tag replacement"/>
         <replace pattern="(&lt;p)\s+.+?(/&gt;)" replacement="$1$2" message="p-tag batch replacement"/>
+        <replace pattern="(&lt;)(metamark).*?(&gt;).+?\1/\2\3" replacement="" message="metamark batch replacement"/><!--ebb: metamark contains a text node, and we don't want its contents processed in the collation, so this captures the entire element. -->
         <replace pattern="(&lt;/?)m(del).*?(&gt;)" replacement="$1$2$3" message="mdel-SGA batch replacement"/>  <!--ebb: mdel contains a text node, so this catches both start and end tag.
         We want mdel to be processed as <del>...</del>-->
+        <replace pattern="&lt;/?damage.*?&gt;" replacement="" message="damage-SGA batch replacement"/> <!--ebb: damage contains a text node, so this catches both start and end tag. -->
         <replace pattern="&lt;/?unclear.*?&gt;" replacement="" message="unclear-SGA batch replacement"/> <!--ebb: unclear contains a text node, so this catches both start and end tag. -->
         <replace pattern="&lt;/?retrace.*?&gt;" replacement="" message="retrace-SGA batch replacement"/> <!--ebb: retrace contains a text node, so this catches both start and end tag. -->
         <replace pattern="&lt;/?shi.*?&gt;" replacement="" message="shi-SGA batch replacement"/> <!--ebb: shi (superscript/subscript) contains a text node, so this catches both start and end tag. -->
@@ -132,13 +134,11 @@
           Is it better to do this during pre-processing, while preserving some marker that this was a delSpan-to-anchor in the source SGA file? Or does that make post-processing more complicated?
         -->
   <!-- REPLACEMENT PATTERNS THAT USED TO BE ELEMENTS SENT FOR DELETION IN THE TAN DIFF TEMPLATE -->     
-       
-        <replace pattern="&lt;milestone.+?/&gt;" replacement="" message="milestone batch replacement"/>  
-        <replace pattern="&lt;lb.+?/&gt;" replacement="" message="lb batch replacement"/> 
-        <replace pattern="&lt;metamark.+?/&gt;" replacement="" message="metamark batch replacement"/> 
+        <replace pattern="&lt;milestone.+?unit=&quot;tei:p&quot;.+?/&gt;" replacement="&lt;p/&gt; &lt;p/&gt;" message="milestone-paragraph-SGA batch replacement"/>  
+        <replace pattern="&lt;milestone.+?/&gt;" replacement="" message="milestone non-p batch replacement"/>  
+        <replace pattern="&lt;lb.+?/&gt;" replacement="" message="lb batch replacement"/>  
         <replace pattern="&lt;surface.+?/&gt;" replacement="" message="surface-SGA batch replacement"/> 
         <replace pattern="&lt;zone.+?/&gt;" replacement="" message="zone-SGA batch replacement"/> 
-        <replace pattern="&lt;damage.+?/&gt;" replacement="" message="damage-SGA batch replacement"/> 
         <replace pattern="&lt;mod.+?/&gt;" replacement="" message="mod-SGA batch replacement"/> 
         <replace pattern="&lt;restore.+?/&gt;" replacement="" message="restore-SGA batch replacement"/> 
         <replace pattern="&lt;graphic.+?/&gt;" replacement="" message="graphic-SGA batch replacement"/> 
