@@ -1,0 +1,3292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagnostics xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns:tan="tag:textalign.net,2015:ns">
+   <collation xmlns="tag:textalign.net,2015:ns">
+      <witness id="1823_fullFlat_C11">
+         <commonality with="1818_fullFlat_C11">0.995114523190152909</commonality>
+         <commonality with="1831_fullFlat_C11">0.685137567498071484</commonality>
+      </witness>
+      <witness id="1818_fullFlat_C11">
+         <commonality with="1823_fullFlat_C11">0.995114523190152909</commonality>
+         <commonality with="1831_fullFlat_C11">0.683591490455684813</commonality>
+      </witness>
+      <witness id="1831_fullFlat_C11">
+         <commonality with="1823_fullFlat_C11">0.685137567498071484</commonality>
+         <commonality with="1818_fullFlat_C11">0.683591490455684813</commonality>
+      </witness>
+      <c>
+         <txt>CHAPTER V</txt>
+         <wit ref="1823_fullFlat_C11" pos="1"/>
+         <wit ref="1818_fullFlat_C11" pos="1"/>
+         <wit ref="1831_fullFlat_C11" pos="1"/>
+      </c>
+      <u>
+         <txt>I</txt>
+         <wit ref="1831_fullFlat_C11" pos="10"/>
+      </u>
+      <c>
+         <txt>. CLERVAL then put the following letter into my hands. </txt>
+         <wit ref="1823_fullFlat_C11" pos="10"/>
+         <wit ref="1818_fullFlat_C11" pos="10"/>
+         <wit ref="1831_fullFlat_C11" pos="11"/>
+      </c>
+      <u>
+         <txt>“</txt>
+         <wit ref="1823_fullFlat_C11" pos="65"/>
+      </u>
+      <u>
+         <txt>To V. FRANKENSTE</txt>
+         <wit ref="1818_fullFlat_C11" pos="65"/>
+         <wit ref="1823_fullFlat_C11" pos="66"/>
+      </u>
+      <c>
+         <txt>I</txt>
+         <wit ref="1818_fullFlat_C11" pos="81"/>
+         <wit ref="1823_fullFlat_C11" pos="82"/>
+         <wit ref="1831_fullFlat_C11" pos="66"/>
+      </c>
+      <u>
+         <txt>N. “MY DEAR COUSIN, “I canno</txt>
+         <wit ref="1818_fullFlat_C11" pos="82"/>
+         <wit ref="1823_fullFlat_C11" pos="83"/>
+      </u>
+      <c>
+         <txt>t </txt>
+         <wit ref="1818_fullFlat_C11" pos="110"/>
+         <wit ref="1823_fullFlat_C11" pos="111"/>
+         <wit ref="1831_fullFlat_C11" pos="67"/>
+      </c>
+      <u>
+         <txt>describe to you the une</txt>
+         <wit ref="1818_fullFlat_C11" pos="112"/>
+         <wit ref="1823_fullFlat_C11" pos="113"/>
+      </u>
+      <u>
+         <txt>w</txt>
+         <wit ref="1831_fullFlat_C11" pos="69"/>
+      </u>
+      <c>
+         <txt>as</txt>
+         <wit ref="1818_fullFlat_C11" pos="135"/>
+         <wit ref="1823_fullFlat_C11" pos="136"/>
+         <wit ref="1831_fullFlat_C11" pos="70"/>
+      </c>
+      <u>
+         <txt>iness we have all felt concerning your health. We cannot help imagining that your</txt>
+         <wit ref="1818_fullFlat_C11" pos="137"/>
+         <wit ref="1823_fullFlat_C11" pos="138"/>
+      </u>
+      <c>
+         <txt> fr</txt>
+         <wit ref="1818_fullFlat_C11" pos="218"/>
+         <wit ref="1823_fullFlat_C11" pos="219"/>
+         <wit ref="1831_fullFlat_C11" pos="72"/>
+      </c>
+      <u>
+         <txt>iend Clerval c</txt>
+         <wit ref="1818_fullFlat_C11" pos="221"/>
+         <wit ref="1823_fullFlat_C11" pos="222"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1818_fullFlat_C11" pos="235"/>
+         <wit ref="1823_fullFlat_C11" pos="236"/>
+         <wit ref="1831_fullFlat_C11" pos="75"/>
+      </c>
+      <u>
+         <txt>nceals the extent of your disorder: for it is now several</txt>
+         <wit ref="1818_fullFlat_C11" pos="236"/>
+         <wit ref="1823_fullFlat_C11" pos="237"/>
+      </u>
+      <u>
+         <txt>m</txt>
+         <wit ref="1831_fullFlat_C11" pos="76"/>
+      </u>
+      <c>
+         <txt> m</txt>
+         <wit ref="1818_fullFlat_C11" pos="293"/>
+         <wit ref="1823_fullFlat_C11" pos="294"/>
+         <wit ref="1831_fullFlat_C11" pos="77"/>
+      </c>
+      <u>
+         <txt>y </txt>
+         <wit ref="1831_fullFlat_C11" pos="79"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1818_fullFlat_C11" pos="295"/>
+         <wit ref="1823_fullFlat_C11" pos="296"/>
+         <wit ref="1831_fullFlat_C11" pos="81"/>
+      </c>
+      <u>
+         <txt>w</txt>
+         <wit ref="1831_fullFlat_C11" pos="82"/>
+      </u>
+      <c>
+         <txt>n</txt>
+         <wit ref="1818_fullFlat_C11" pos="296"/>
+         <wit ref="1823_fullFlat_C11" pos="297"/>
+         <wit ref="1831_fullFlat_C11" pos="83"/>
+      </c>
+      <u>
+         <txt> Elizabe</txt>
+         <wit ref="1831_fullFlat_C11" pos="84"/>
+      </u>
+      <c>
+         <txt>th</txt>
+         <wit ref="1818_fullFlat_C11" pos="297"/>
+         <wit ref="1823_fullFlat_C11" pos="298"/>
+         <wit ref="1831_fullFlat_C11" pos="92"/>
+      </c>
+      <u>
+         <txt>:— “My deare</txt>
+         <wit ref="1831_fullFlat_C11" pos="94"/>
+      </u>
+      <c>
+         <txt>s</txt>
+         <wit ref="1818_fullFlat_C11" pos="299"/>
+         <wit ref="1823_fullFlat_C11" pos="300"/>
+         <wit ref="1831_fullFlat_C11" pos="106"/>
+      </c>
+      <u>
+         <txt>t</txt>
+         <wit ref="1831_fullFlat_C11" pos="107"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11" pos="300"/>
+         <wit ref="1823_fullFlat_C11" pos="301"/>
+         <wit ref="1831_fullFlat_C11" pos="108"/>
+      </c>
+      <u>
+         <txt>Cou</txt>
+         <wit ref="1831_fullFlat_C11" pos="109"/>
+      </u>
+      <c>
+         <txt>sin</txt>
+         <wit ref="1818_fullFlat_C11" pos="301"/>
+         <wit ref="1823_fullFlat_C11" pos="302"/>
+         <wit ref="1831_fullFlat_C11" pos="112"/>
+      </c>
+      <u>
+         <txt>ce we have seen your</txt>
+         <wit ref="1818_fullFlat_C11" pos="304"/>
+         <wit ref="1823_fullFlat_C11" pos="305"/>
+      </u>
+      <u>
+         <txt>,</txt>
+         <wit ref="1831_fullFlat_C11" pos="115"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11" pos="324"/>
+         <wit ref="1823_fullFlat_C11" pos="325"/>
+         <wit ref="1831_fullFlat_C11" pos="116"/>
+      </c>
+      <u>
+         <txt>hand-writing; and all this time y</txt>
+         <wit ref="1818_fullFlat_C11" pos="325"/>
+         <wit ref="1823_fullFlat_C11" pos="326"/>
+      </u>
+      <u>
+         <txt>“Y</txt>
+         <wit ref="1831_fullFlat_C11" pos="117"/>
+      </u>
+      <c>
+         <txt>ou have been </txt>
+         <wit ref="1818_fullFlat_C11" pos="358"/>
+         <wit ref="1823_fullFlat_C11" pos="359"/>
+         <wit ref="1831_fullFlat_C11" pos="119"/>
+      </c>
+      <u>
+         <txt>ob</txt>
+         <wit ref="1823_fullFlat_C11" pos="372"/>
+         <wit ref="1818_fullFlat_C11" pos="371"/>
+      </u>
+      <u>
+         <txt>ill, very i</txt>
+         <wit ref="1831_fullFlat_C11" pos="132"/>
+      </u>
+      <c>
+         <txt>l</txt>
+         <wit ref="1823_fullFlat_C11" pos="374"/>
+         <wit ref="1818_fullFlat_C11" pos="373"/>
+         <wit ref="1831_fullFlat_C11" pos="143"/>
+      </c>
+      <u>
+         <txt>ige</txt>
+         <wit ref="1823_fullFlat_C11" pos="375"/>
+         <wit ref="1818_fullFlat_C11" pos="374"/>
+      </u>
+      <u>
+         <txt>l, an</txt>
+         <wit ref="1831_fullFlat_C11" pos="144"/>
+      </u>
+      <c>
+         <txt>d </txt>
+         <wit ref="1823_fullFlat_C11" pos="378"/>
+         <wit ref="1818_fullFlat_C11" pos="377"/>
+         <wit ref="1831_fullFlat_C11" pos="149"/>
+      </c>
+      <u>
+         <txt>even </txt>
+         <wit ref="1831_fullFlat_C11" pos="151"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="380"/>
+         <wit ref="1818_fullFlat_C11" pos="379"/>
+         <wit ref="1831_fullFlat_C11" pos="156"/>
+      </c>
+      <u>
+         <txt>he c</txt>
+         <wit ref="1831_fullFlat_C11" pos="157"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="381"/>
+         <wit ref="1818_fullFlat_C11" pos="380"/>
+         <wit ref="1831_fullFlat_C11" pos="161"/>
+      </c>
+      <u>
+         <txt> dic</txt>
+         <wit ref="1823_fullFlat_C11" pos="382"/>
+         <wit ref="1818_fullFlat_C11" pos="381"/>
+      </u>
+      <u>
+         <txt>ns</txt>
+         <wit ref="1831_fullFlat_C11" pos="162"/>
+      </u>
+      <c>
+         <txt>ta</txt>
+         <wit ref="1823_fullFlat_C11" pos="386"/>
+         <wit ref="1818_fullFlat_C11" pos="385"/>
+         <wit ref="1831_fullFlat_C11" pos="164"/>
+      </c>
+      <u>
+         <txt>n</txt>
+         <wit ref="1831_fullFlat_C11" pos="166"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="388"/>
+         <wit ref="1818_fullFlat_C11" pos="387"/>
+         <wit ref="1831_fullFlat_C11" pos="167"/>
+      </c>
+      <u>
+         <txt>e your</txt>
+         <wit ref="1823_fullFlat_C11" pos="389"/>
+         <wit ref="1818_fullFlat_C11" pos="388"/>
+      </u>
+      <c>
+         <txt> letters </txt>
+         <wit ref="1823_fullFlat_C11" pos="395"/>
+         <wit ref="1818_fullFlat_C11" pos="394"/>
+         <wit ref="1831_fullFlat_C11" pos="168"/>
+      </c>
+      <u>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="404"/>
+         <wit ref="1818_fullFlat_C11" pos="403"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="405"/>
+         <wit ref="1818_fullFlat_C11" pos="404"/>
+         <wit ref="1831_fullFlat_C11" pos="177"/>
+      </c>
+      <u>
+         <txt>f dear kind</txt>
+         <wit ref="1831_fullFlat_C11" pos="178"/>
+      </u>
+      <c>
+         <txt> Henry</txt>
+         <wit ref="1823_fullFlat_C11" pos="406"/>
+         <wit ref="1818_fullFlat_C11" pos="405"/>
+         <wit ref="1831_fullFlat_C11" pos="189"/>
+      </c>
+      <u>
+         <txt>.</txt>
+         <wit ref="1823_fullFlat_C11" pos="412"/>
+         <wit ref="1818_fullFlat_C11" pos="411"/>
+      </u>
+      <u>
+         <txt> are not</txt>
+         <wit ref="1831_fullFlat_C11" pos="195"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="413"/>
+         <wit ref="1818_fullFlat_C11" pos="412"/>
+         <wit ref="1831_fullFlat_C11" pos="203"/>
+      </c>
+      <u>
+         <txt>S</txt>
+         <wit ref="1823_fullFlat_C11" pos="414"/>
+         <wit ref="1818_fullFlat_C11" pos="413"/>
+      </u>
+      <u>
+         <txt>sufficient to reass</txt>
+         <wit ref="1831_fullFlat_C11" pos="204"/>
+      </u>
+      <c>
+         <txt>ure</txt>
+         <wit ref="1823_fullFlat_C11" pos="415"/>
+         <wit ref="1818_fullFlat_C11" pos="414"/>
+         <wit ref="1831_fullFlat_C11" pos="223"/>
+      </c>
+      <u>
+         <txt> me on your account. You are forbidden to write—to ho</txt>
+         <wit ref="1831_fullFlat_C11" pos="226"/>
+      </u>
+      <c>
+         <txt>l</txt>
+         <wit ref="1823_fullFlat_C11" pos="418"/>
+         <wit ref="1818_fullFlat_C11" pos="417"/>
+         <wit ref="1831_fullFlat_C11" pos="279"/>
+      </c>
+      <u>
+         <txt>d a pen; </txt>
+         <wit ref="1831_fullFlat_C11" pos="280"/>
+      </u>
+      <c>
+         <txt>y</txt>
+         <wit ref="1823_fullFlat_C11" pos="419"/>
+         <wit ref="1818_fullFlat_C11" pos="418"/>
+         <wit ref="1831_fullFlat_C11" pos="289"/>
+      </c>
+      <u>
+         <txt>et one word from you</txt>
+         <wit ref="1831_fullFlat_C11" pos="290"/>
+      </u>
+      <c>
+         <txt>,</txt>
+         <wit ref="1823_fullFlat_C11" pos="420"/>
+         <wit ref="1818_fullFlat_C11" pos="419"/>
+         <wit ref="1831_fullFlat_C11" pos="310"/>
+      </c>
+      <u>
+         <txt> dear</txt>
+         <wit ref="1831_fullFlat_C11" pos="311"/>
+      </u>
+      <c>
+         <txt> Victor, </txt>
+         <wit ref="1823_fullFlat_C11" pos="421"/>
+         <wit ref="1818_fullFlat_C11" pos="420"/>
+         <wit ref="1831_fullFlat_C11" pos="316"/>
+      </c>
+      <u>
+         <txt>is necessar</txt>
+         <wit ref="1831_fullFlat_C11" pos="325"/>
+      </u>
+      <c>
+         <txt>y</txt>
+         <wit ref="1823_fullFlat_C11" pos="430"/>
+         <wit ref="1818_fullFlat_C11" pos="429"/>
+         <wit ref="1831_fullFlat_C11" pos="336"/>
+      </c>
+      <u>
+         <txt> to calm </txt>
+         <wit ref="1831_fullFlat_C11" pos="337"/>
+      </u>
+      <c>
+         <txt>ou</txt>
+         <wit ref="1823_fullFlat_C11" pos="431"/>
+         <wit ref="1818_fullFlat_C11" pos="430"/>
+         <wit ref="1831_fullFlat_C11" pos="346"/>
+      </c>
+      <u>
+         <txt>r</txt>
+         <wit ref="1831_fullFlat_C11" pos="348"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="433"/>
+         <wit ref="1818_fullFlat_C11" pos="432"/>
+         <wit ref="1831_fullFlat_C11" pos="349"/>
+      </c>
+      <u>
+         <txt>apprehensions. For a long ti</txt>
+         <wit ref="1831_fullFlat_C11" pos="350"/>
+      </u>
+      <c>
+         <txt>m</txt>
+         <wit ref="1823_fullFlat_C11" pos="434"/>
+         <wit ref="1818_fullFlat_C11" pos="433"/>
+         <wit ref="1831_fullFlat_C11" pos="378"/>
+      </c>
+      <u>
+         <txt>ust</txt>
+         <wit ref="1823_fullFlat_C11" pos="435"/>
+         <wit ref="1818_fullFlat_C11" pos="434"/>
+      </u>
+      <u>
+         <txt>e I</txt>
+         <wit ref="1831_fullFlat_C11" pos="379"/>
+      </u>
+      <c>
+         <txt> have </txt>
+         <wit ref="1823_fullFlat_C11" pos="438"/>
+         <wit ref="1818_fullFlat_C11" pos="437"/>
+         <wit ref="1831_fullFlat_C11" pos="382"/>
+      </c>
+      <u>
+         <txt>been exceedingly ill; and </txt>
+         <wit ref="1823_fullFlat_C11" pos="444"/>
+         <wit ref="1818_fullFlat_C11" pos="443"/>
+      </u>
+      <c>
+         <txt>th</txt>
+         <wit ref="1823_fullFlat_C11" pos="470"/>
+         <wit ref="1818_fullFlat_C11" pos="469"/>
+         <wit ref="1831_fullFlat_C11" pos="388"/>
+      </c>
+      <u>
+         <txt>is makes us all very wretched, as much so nearly as after the death of y</txt>
+         <wit ref="1823_fullFlat_C11" pos="472"/>
+         <wit ref="1818_fullFlat_C11" pos="471"/>
+      </u>
+      <c>
+         <txt>ou</txt>
+         <wit ref="1823_fullFlat_C11" pos="544"/>
+         <wit ref="1818_fullFlat_C11" pos="543"/>
+         <wit ref="1831_fullFlat_C11" pos="390"/>
+      </c>
+      <u>
+         <txt>r dear mot</txt>
+         <wit ref="1823_fullFlat_C11" pos="546"/>
+         <wit ref="1818_fullFlat_C11" pos="545"/>
+      </u>
+      <u>
+         <txt>g</txt>
+         <wit ref="1831_fullFlat_C11" pos="392"/>
+      </u>
+      <c>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="556"/>
+         <wit ref="1818_fullFlat_C11" pos="555"/>
+         <wit ref="1831_fullFlat_C11" pos="393"/>
+      </c>
+      <u>
+         <txt>er. My uncle was almos</txt>
+         <wit ref="1823_fullFlat_C11" pos="557"/>
+         <wit ref="1818_fullFlat_C11" pos="556"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="579"/>
+         <wit ref="1818_fullFlat_C11" pos="578"/>
+         <wit ref="1831_fullFlat_C11" pos="394"/>
+      </c>
+      <u>
+         <txt> persuaded</txt>
+         <wit ref="1823_fullFlat_C11" pos="580"/>
+         <wit ref="1818_fullFlat_C11" pos="579"/>
+      </u>
+      <c>
+         <txt> that </txt>
+         <wit ref="1823_fullFlat_C11" pos="590"/>
+         <wit ref="1818_fullFlat_C11" pos="589"/>
+         <wit ref="1831_fullFlat_C11" pos="395"/>
+      </c>
+      <u>
+         <txt>y</txt>
+         <wit ref="1823_fullFlat_C11" pos="596"/>
+         <wit ref="1818_fullFlat_C11" pos="595"/>
+      </u>
+      <u>
+         <txt>each post w</txt>
+         <wit ref="1831_fullFlat_C11" pos="401"/>
+      </u>
+      <c>
+         <txt>ou</txt>
+         <wit ref="1823_fullFlat_C11" pos="597"/>
+         <wit ref="1818_fullFlat_C11" pos="596"/>
+         <wit ref="1831_fullFlat_C11" pos="412"/>
+      </c>
+      <u>
+         <txt> were indee</txt>
+         <wit ref="1823_fullFlat_C11" pos="599"/>
+         <wit ref="1818_fullFlat_C11" pos="598"/>
+      </u>
+      <u>
+         <txt>l</txt>
+         <wit ref="1831_fullFlat_C11" pos="414"/>
+      </u>
+      <c>
+         <txt>d </txt>
+         <wit ref="1823_fullFlat_C11" pos="610"/>
+         <wit ref="1818_fullFlat_C11" pos="609"/>
+         <wit ref="1831_fullFlat_C11" pos="415"/>
+      </c>
+      <u>
+         <txt>da</txt>
+         <wit ref="1823_fullFlat_C11" pos="612"/>
+         <wit ref="1818_fullFlat_C11" pos="611"/>
+      </u>
+      <u>
+         <txt>bri</txt>
+         <wit ref="1831_fullFlat_C11" pos="417"/>
+      </u>
+      <c>
+         <txt>ng</txt>
+         <wit ref="1823_fullFlat_C11" pos="614"/>
+         <wit ref="1818_fullFlat_C11" pos="613"/>
+         <wit ref="1831_fullFlat_C11" pos="420"/>
+      </c>
+      <u>
+         <txt>erou</txt>
+         <wit ref="1823_fullFlat_C11" pos="616"/>
+         <wit ref="1818_fullFlat_C11" pos="615"/>
+      </u>
+      <u>
+         <txt> thi</txt>
+         <wit ref="1831_fullFlat_C11" pos="422"/>
+      </u>
+      <c>
+         <txt>s</txt>
+         <wit ref="1823_fullFlat_C11" pos="620"/>
+         <wit ref="1818_fullFlat_C11" pos="619"/>
+         <wit ref="1831_fullFlat_C11" pos="426"/>
+      </c>
+      <u>
+         <txt>ly</txt>
+         <wit ref="1823_fullFlat_C11" pos="621"/>
+         <wit ref="1818_fullFlat_C11" pos="620"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="623"/>
+         <wit ref="1818_fullFlat_C11" pos="622"/>
+         <wit ref="1831_fullFlat_C11" pos="427"/>
+      </c>
+      <u>
+         <txt>l</txt>
+         <wit ref="1831_fullFlat_C11" pos="428"/>
+      </u>
+      <c>
+         <txt>i</txt>
+         <wit ref="1823_fullFlat_C11" pos="624"/>
+         <wit ref="1818_fullFlat_C11" pos="623"/>
+         <wit ref="1831_fullFlat_C11" pos="429"/>
+      </c>
+      <u>
+         <txt>ll</txt>
+         <wit ref="1823_fullFlat_C11" pos="625"/>
+         <wit ref="1818_fullFlat_C11" pos="624"/>
+      </u>
+      <u>
+         <txt>ne</txt>
+         <wit ref="1831_fullFlat_C11" pos="430"/>
+      </u>
+      <c>
+         <txt>, and </txt>
+         <wit ref="1823_fullFlat_C11" pos="627"/>
+         <wit ref="1818_fullFlat_C11" pos="626"/>
+         <wit ref="1831_fullFlat_C11" pos="432"/>
+      </c>
+      <u>
+         <txt>c</txt>
+         <wit ref="1823_fullFlat_C11" pos="633"/>
+         <wit ref="1818_fullFlat_C11" pos="632"/>
+      </u>
+      <u>
+         <txt>my persuasi</txt>
+         <wit ref="1831_fullFlat_C11" pos="438"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="634"/>
+         <wit ref="1818_fullFlat_C11" pos="633"/>
+         <wit ref="1831_fullFlat_C11" pos="449"/>
+      </c>
+      <u>
+         <txt>uld</txt>
+         <wit ref="1823_fullFlat_C11" pos="635"/>
+         <wit ref="1818_fullFlat_C11" pos="634"/>
+      </u>
+      <u>
+         <txt>ns</txt>
+         <wit ref="1831_fullFlat_C11" pos="450"/>
+      </u>
+      <c>
+         <txt> ha</txt>
+         <wit ref="1823_fullFlat_C11" pos="638"/>
+         <wit ref="1818_fullFlat_C11" pos="637"/>
+         <wit ref="1831_fullFlat_C11" pos="452"/>
+      </c>
+      <u>
+         <txt>rdly b</txt>
+         <wit ref="1823_fullFlat_C11" pos="641"/>
+         <wit ref="1818_fullFlat_C11" pos="640"/>
+      </u>
+      <u>
+         <txt>v</txt>
+         <wit ref="1831_fullFlat_C11" pos="455"/>
+      </u>
+      <c>
+         <txt>e restrained</txt>
+         <wit ref="1823_fullFlat_C11" pos="647"/>
+         <wit ref="1818_fullFlat_C11" pos="646"/>
+         <wit ref="1831_fullFlat_C11" pos="456"/>
+      </c>
+      <u>
+         <txt> my uncle</txt>
+         <wit ref="1831_fullFlat_C11" pos="468"/>
+      </u>
+      <c>
+         <txt> from undertaking a journey to Ingolstadt. </txt>
+         <wit ref="1823_fullFlat_C11" pos="659"/>
+         <wit ref="1818_fullFlat_C11" pos="658"/>
+         <wit ref="1831_fullFlat_C11" pos="477"/>
+      </c>
+      <u>
+         <txt>I have prevented his encountering the inconveniences and perhaps dangers of so long a journey; yet how often have I regretted not being able to perform it myself! I figure to myself that the task of attending on your sick bed has devolved on some mercenary old nurse, who could never guess your wishes, nor minister to them with the care and affection of your poor cousin. Yet that is over now: </txt>
+         <wit ref="1831_fullFlat_C11" pos="520"/>
+      </u>
+      <c>
+         <txt>Clerval</txt>
+         <wit ref="1823_fullFlat_C11" pos="702"/>
+         <wit ref="1818_fullFlat_C11" pos="701"/>
+         <wit ref="1831_fullFlat_C11" pos="915"/>
+      </c>
+      <u>
+         <txt> always</txt>
+         <wit ref="1823_fullFlat_C11" pos="709"/>
+         <wit ref="1818_fullFlat_C11" pos="708"/>
+      </u>
+      <c>
+         <txt> writes that</txt>
+         <wit ref="1823_fullFlat_C11" pos="716"/>
+         <wit ref="1818_fullFlat_C11" pos="715"/>
+         <wit ref="1831_fullFlat_C11" pos="922"/>
+      </c>
+      <u>
+         <txt> indeed</txt>
+         <wit ref="1831_fullFlat_C11" pos="934"/>
+      </u>
+      <c>
+         <txt> you are getting better</txt>
+         <wit ref="1823_fullFlat_C11" pos="728"/>
+         <wit ref="1818_fullFlat_C11" pos="727"/>
+         <wit ref="1831_fullFlat_C11" pos="941"/>
+      </c>
+      <u>
+         <txt>;</txt>
+         <wit ref="1823_fullFlat_C11" pos="751"/>
+         <wit ref="1818_fullFlat_C11" pos="750"/>
+      </u>
+      <u>
+         <txt>.</txt>
+         <wit ref="1831_fullFlat_C11" pos="964"/>
+      </u>
+      <c>
+         <txt> I eagerly hope that you will confirm this intelligence soon in your own hand</txt>
+         <wit ref="1823_fullFlat_C11" pos="752"/>
+         <wit ref="1818_fullFlat_C11" pos="751"/>
+         <wit ref="1831_fullFlat_C11" pos="965"/>
+      </c>
+      <u>
+         <txt>-</txt>
+         <wit ref="1818_fullFlat_C11" pos="828"/>
+      </u>
+      <c>
+         <txt>writing</txt>
+         <wit ref="1823_fullFlat_C11" pos="829"/>
+         <wit ref="1818_fullFlat_C11" pos="829"/>
+         <wit ref="1831_fullFlat_C11" pos="1042"/>
+      </c>
+      <u>
+         <txt>; for</txt>
+         <wit ref="1823_fullFlat_C11" pos="836"/>
+         <wit ref="1818_fullFlat_C11" pos="836"/>
+      </u>
+      <u>
+         <txt>.</txt>
+         <wit ref="1831_fullFlat_C11" pos="1049"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="841"/>
+         <wit ref="1818_fullFlat_C11" pos="841"/>
+         <wit ref="1831_fullFlat_C11" pos="1050"/>
+      </c>
+      <u>
+         <txt>indeed, inde</txt>
+         <wit ref="1823_fullFlat_C11" pos="842"/>
+         <wit ref="1818_fullFlat_C11" pos="842"/>
+      </u>
+      <u>
+         <txt>“G</txt>
+         <wit ref="1831_fullFlat_C11" pos="1051"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="854"/>
+         <wit ref="1818_fullFlat_C11" pos="854"/>
+         <wit ref="1831_fullFlat_C11" pos="1053"/>
+      </c>
+      <u>
+         <txt>d, Vic</txt>
+         <wit ref="1823_fullFlat_C11" pos="855"/>
+         <wit ref="1818_fullFlat_C11" pos="855"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="861"/>
+         <wit ref="1818_fullFlat_C11" pos="861"/>
+         <wit ref="1831_fullFlat_C11" pos="1054"/>
+      </c>
+      <u>
+         <txt>or,</txt>
+         <wit ref="1823_fullFlat_C11" pos="862"/>
+         <wit ref="1818_fullFlat_C11" pos="862"/>
+      </u>
+      <c>
+         <txt> we</txt>
+         <wit ref="1823_fullFlat_C11" pos="865"/>
+         <wit ref="1818_fullFlat_C11" pos="865"/>
+         <wit ref="1831_fullFlat_C11" pos="1055"/>
+      </c>
+      <u>
+         <txt> are a</txt>
+         <wit ref="1823_fullFlat_C11" pos="868"/>
+         <wit ref="1818_fullFlat_C11" pos="868"/>
+      </u>
+      <c>
+         <txt>ll</txt>
+         <wit ref="1823_fullFlat_C11" pos="874"/>
+         <wit ref="1818_fullFlat_C11" pos="874"/>
+         <wit ref="1831_fullFlat_C11" pos="1058"/>
+      </c>
+      <u>
+         <txt> very miser</txt>
+         <wit ref="1823_fullFlat_C11" pos="876"/>
+         <wit ref="1818_fullFlat_C11" pos="876"/>
+      </u>
+      <u>
+         <txt>—</txt>
+         <wit ref="1831_fullFlat_C11" pos="1060"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1823_fullFlat_C11" pos="887"/>
+         <wit ref="1818_fullFlat_C11" pos="887"/>
+         <wit ref="1831_fullFlat_C11" pos="1061"/>
+      </c>
+      <u>
+         <txt>bl</txt>
+         <wit ref="1823_fullFlat_C11" pos="888"/>
+         <wit ref="1818_fullFlat_C11" pos="888"/>
+      </u>
+      <u>
+         <txt>nd r</txt>
+         <wit ref="1831_fullFlat_C11" pos="1062"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="890"/>
+         <wit ref="1818_fullFlat_C11" pos="890"/>
+         <wit ref="1831_fullFlat_C11" pos="1066"/>
+      </c>
+      <u>
+         <txt> o</txt>
+         <wit ref="1823_fullFlat_C11" pos="891"/>
+         <wit ref="1818_fullFlat_C11" pos="891"/>
+      </u>
+      <u>
+         <txt>tur</txt>
+         <wit ref="1831_fullFlat_C11" pos="1067"/>
+      </u>
+      <c>
+         <txt>n t</txt>
+         <wit ref="1823_fullFlat_C11" pos="893"/>
+         <wit ref="1818_fullFlat_C11" pos="893"/>
+         <wit ref="1831_fullFlat_C11" pos="1070"/>
+      </c>
+      <u>
+         <txt>his acc</txt>
+         <wit ref="1823_fullFlat_C11" pos="896"/>
+         <wit ref="1818_fullFlat_C11" pos="896"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="903"/>
+         <wit ref="1818_fullFlat_C11" pos="903"/>
+         <wit ref="1831_fullFlat_C11" pos="1073"/>
+      </c>
+      <u>
+         <txt>unt. Relieve</txt>
+         <wit ref="1823_fullFlat_C11" pos="904"/>
+         <wit ref="1818_fullFlat_C11" pos="904"/>
+      </u>
+      <c>
+         <txt> us</txt>
+         <wit ref="1823_fullFlat_C11" pos="916"/>
+         <wit ref="1818_fullFlat_C11" pos="916"/>
+         <wit ref="1831_fullFlat_C11" pos="1074"/>
+      </c>
+      <u>
+         <txt>. You will</txt>
+         <wit ref="1831_fullFlat_C11" pos="1077"/>
+      </u>
+      <c>
+         <txt> f</txt>
+         <wit ref="1823_fullFlat_C11" pos="919"/>
+         <wit ref="1818_fullFlat_C11" pos="919"/>
+         <wit ref="1831_fullFlat_C11" pos="1087"/>
+      </c>
+      <u>
+         <txt>ind a happy, chee</txt>
+         <wit ref="1831_fullFlat_C11" pos="1089"/>
+      </u>
+      <c>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="921"/>
+         <wit ref="1818_fullFlat_C11" pos="921"/>
+         <wit ref="1831_fullFlat_C11" pos="1106"/>
+      </c>
+      <u>
+         <txt>ful h</txt>
+         <wit ref="1831_fullFlat_C11" pos="1107"/>
+      </u>
+      <c>
+         <txt>om</txt>
+         <wit ref="1823_fullFlat_C11" pos="922"/>
+         <wit ref="1818_fullFlat_C11" pos="922"/>
+         <wit ref="1831_fullFlat_C11" pos="1112"/>
+      </c>
+      <u>
+         <txt> this f</txt>
+         <wit ref="1823_fullFlat_C11" pos="924"/>
+         <wit ref="1818_fullFlat_C11" pos="924"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="931"/>
+         <wit ref="1818_fullFlat_C11" pos="931"/>
+         <wit ref="1831_fullFlat_C11" pos="1114"/>
+      </c>
+      <u>
+         <txt>ar</txt>
+         <wit ref="1823_fullFlat_C11" pos="932"/>
+         <wit ref="1818_fullFlat_C11" pos="932"/>
+      </u>
+      <c>
+         <txt>, and </txt>
+         <wit ref="1823_fullFlat_C11" pos="934"/>
+         <wit ref="1818_fullFlat_C11" pos="934"/>
+         <wit ref="1831_fullFlat_C11" pos="1115"/>
+      </c>
+      <u>
+         <txt>we shall be the happ</txt>
+         <wit ref="1823_fullFlat_C11" pos="940"/>
+         <wit ref="1818_fullFlat_C11" pos="940"/>
+      </u>
+      <u>
+         <txt>fr</txt>
+         <wit ref="1831_fullFlat_C11" pos="1121"/>
+      </u>
+      <c>
+         <txt>ie</txt>
+         <wit ref="1823_fullFlat_C11" pos="960"/>
+         <wit ref="1818_fullFlat_C11" pos="960"/>
+         <wit ref="1831_fullFlat_C11" pos="1123"/>
+      </c>
+      <u>
+         <txt>st creature</txt>
+         <wit ref="1823_fullFlat_C11" pos="962"/>
+         <wit ref="1818_fullFlat_C11" pos="962"/>
+      </u>
+      <u>
+         <txt>nd</txt>
+         <wit ref="1831_fullFlat_C11" pos="1125"/>
+      </u>
+      <c>
+         <txt>s </txt>
+         <wit ref="1823_fullFlat_C11" pos="973"/>
+         <wit ref="1818_fullFlat_C11" pos="973"/>
+         <wit ref="1831_fullFlat_C11" pos="1127"/>
+      </c>
+      <u>
+         <txt>in</txt>
+         <wit ref="1823_fullFlat_C11" pos="975"/>
+         <wit ref="1818_fullFlat_C11" pos="975"/>
+      </u>
+      <u>
+         <txt>who</txt>
+         <wit ref="1831_fullFlat_C11" pos="1129"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="977"/>
+         <wit ref="1818_fullFlat_C11" pos="977"/>
+         <wit ref="1831_fullFlat_C11" pos="1132"/>
+      </c>
+      <u>
+         <txt>th</txt>
+         <wit ref="1823_fullFlat_C11" pos="978"/>
+         <wit ref="1818_fullFlat_C11" pos="978"/>
+      </u>
+      <u>
+         <txt>lov</txt>
+         <wit ref="1831_fullFlat_C11" pos="1133"/>
+      </u>
+      <c>
+         <txt>e </txt>
+         <wit ref="1823_fullFlat_C11" pos="980"/>
+         <wit ref="1818_fullFlat_C11" pos="980"/>
+         <wit ref="1831_fullFlat_C11" pos="1136"/>
+      </c>
+      <u>
+         <txt>w</txt>
+         <wit ref="1823_fullFlat_C11" pos="982"/>
+         <wit ref="1818_fullFlat_C11" pos="982"/>
+      </u>
+      <u>
+         <txt>y</txt>
+         <wit ref="1831_fullFlat_C11" pos="1138"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="983"/>
+         <wit ref="1818_fullFlat_C11" pos="983"/>
+         <wit ref="1831_fullFlat_C11" pos="1139"/>
+      </c>
+      <u>
+         <txt>u dea</txt>
+         <wit ref="1831_fullFlat_C11" pos="1140"/>
+      </u>
+      <c>
+         <txt>rl</txt>
+         <wit ref="1823_fullFlat_C11" pos="984"/>
+         <wit ref="1818_fullFlat_C11" pos="984"/>
+         <wit ref="1831_fullFlat_C11" pos="1145"/>
+      </c>
+      <u>
+         <txt>d</txt>
+         <wit ref="1823_fullFlat_C11" pos="986"/>
+         <wit ref="1818_fullFlat_C11" pos="986"/>
+      </u>
+      <u>
+         <txt>y</txt>
+         <wit ref="1831_fullFlat_C11" pos="1147"/>
+      </u>
+      <c>
+         <txt>. Your father’s health is </txt>
+         <wit ref="1823_fullFlat_C11" pos="987"/>
+         <wit ref="1818_fullFlat_C11" pos="987"/>
+         <wit ref="1831_fullFlat_C11" pos="1148"/>
+      </c>
+      <u>
+         <txt>now so </txt>
+         <wit ref="1823_fullFlat_C11" pos="1013"/>
+         <wit ref="1818_fullFlat_C11" pos="1013"/>
+      </u>
+      <c>
+         <txt>vigorous, </txt>
+         <wit ref="1823_fullFlat_C11" pos="1020"/>
+         <wit ref="1818_fullFlat_C11" pos="1020"/>
+         <wit ref="1831_fullFlat_C11" pos="1174"/>
+      </c>
+      <u>
+         <txt>th</txt>
+         <wit ref="1823_fullFlat_C11" pos="1030"/>
+         <wit ref="1818_fullFlat_C11" pos="1030"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1823_fullFlat_C11" pos="1032"/>
+         <wit ref="1818_fullFlat_C11" pos="1032"/>
+         <wit ref="1831_fullFlat_C11" pos="1184"/>
+      </c>
+      <u>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="1033"/>
+         <wit ref="1818_fullFlat_C11" pos="1033"/>
+      </u>
+      <u>
+         <txt>nd</txt>
+         <wit ref="1831_fullFlat_C11" pos="1185"/>
+      </u>
+      <c>
+         <txt> he a</txt>
+         <wit ref="1823_fullFlat_C11" pos="1034"/>
+         <wit ref="1818_fullFlat_C11" pos="1034"/>
+         <wit ref="1831_fullFlat_C11" pos="1187"/>
+      </c>
+      <u>
+         <txt>ppear</txt>
+         <wit ref="1823_fullFlat_C11" pos="1039"/>
+         <wit ref="1818_fullFlat_C11" pos="1039"/>
+      </u>
+      <u>
+         <txt>sk</txt>
+         <wit ref="1831_fullFlat_C11" pos="1192"/>
+      </u>
+      <c>
+         <txt>s </txt>
+         <wit ref="1823_fullFlat_C11" pos="1044"/>
+         <wit ref="1818_fullFlat_C11" pos="1044"/>
+         <wit ref="1831_fullFlat_C11" pos="1194"/>
+      </c>
+      <u>
+         <txt>bu</txt>
+         <wit ref="1831_fullFlat_C11" pos="1196"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="1046"/>
+         <wit ref="1818_fullFlat_C11" pos="1046"/>
+         <wit ref="1831_fullFlat_C11" pos="1198"/>
+      </c>
+      <u>
+         <txt>en</txt>
+         <wit ref="1823_fullFlat_C11" pos="1047"/>
+         <wit ref="1818_fullFlat_C11" pos="1047"/>
+      </u>
+      <u>
+         <txt> to</txt>
+         <wit ref="1831_fullFlat_C11" pos="1199"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1049"/>
+         <wit ref="1818_fullFlat_C11" pos="1049"/>
+         <wit ref="1831_fullFlat_C11" pos="1202"/>
+      </c>
+      <u>
+         <txt>year</txt>
+         <wit ref="1823_fullFlat_C11" pos="1050"/>
+         <wit ref="1818_fullFlat_C11" pos="1050"/>
+      </u>
+      <c>
+         <txt>s</txt>
+         <wit ref="1823_fullFlat_C11" pos="1054"/>
+         <wit ref="1818_fullFlat_C11" pos="1054"/>
+         <wit ref="1831_fullFlat_C11" pos="1203"/>
+      </c>
+      <u>
+         <txt>ee</txt>
+         <wit ref="1831_fullFlat_C11" pos="1204"/>
+      </u>
+      <c>
+         <txt> you</txt>
+         <wit ref="1823_fullFlat_C11" pos="1055"/>
+         <wit ref="1818_fullFlat_C11" pos="1055"/>
+         <wit ref="1831_fullFlat_C11" pos="1206"/>
+      </c>
+      <u>
+         <txt>nger since las</txt>
+         <wit ref="1823_fullFlat_C11" pos="1059"/>
+         <wit ref="1818_fullFlat_C11" pos="1059"/>
+      </u>
+      <u>
+         <txt>,—bu</txt>
+         <wit ref="1831_fullFlat_C11" pos="1210"/>
+      </u>
+      <c>
+         <txt>t </txt>
+         <wit ref="1823_fullFlat_C11" pos="1073"/>
+         <wit ref="1818_fullFlat_C11" pos="1073"/>
+         <wit ref="1831_fullFlat_C11" pos="1214"/>
+      </c>
+      <u>
+         <txt>win</txt>
+         <wit ref="1823_fullFlat_C11" pos="1075"/>
+         <wit ref="1818_fullFlat_C11" pos="1075"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="1078"/>
+         <wit ref="1818_fullFlat_C11" pos="1078"/>
+         <wit ref="1831_fullFlat_C11" pos="1216"/>
+      </c>
+      <u>
+         <txt>er. Ernest als</txt>
+         <wit ref="1823_fullFlat_C11" pos="1079"/>
+         <wit ref="1818_fullFlat_C11" pos="1079"/>
+      </u>
+      <c>
+         <txt>o </txt>
+         <wit ref="1823_fullFlat_C11" pos="1093"/>
+         <wit ref="1818_fullFlat_C11" pos="1093"/>
+         <wit ref="1831_fullFlat_C11" pos="1217"/>
+      </c>
+      <u>
+         <txt>is so</txt>
+         <wit ref="1823_fullFlat_C11" pos="1095"/>
+         <wit ref="1818_fullFlat_C11" pos="1095"/>
+      </u>
+      <u>
+         <txt>be</txt>
+         <wit ref="1831_fullFlat_C11" pos="1219"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1100"/>
+         <wit ref="1818_fullFlat_C11" pos="1100"/>
+         <wit ref="1831_fullFlat_C11" pos="1221"/>
+      </c>
+      <u>
+         <txt>m</txt>
+         <wit ref="1823_fullFlat_C11" pos="1101"/>
+         <wit ref="1818_fullFlat_C11" pos="1101"/>
+      </u>
+      <u>
+         <txt>ass</txt>
+         <wit ref="1831_fullFlat_C11" pos="1222"/>
+      </u>
+      <c>
+         <txt>u</txt>
+         <wit ref="1823_fullFlat_C11" pos="1102"/>
+         <wit ref="1818_fullFlat_C11" pos="1102"/>
+         <wit ref="1831_fullFlat_C11" pos="1225"/>
+      </c>
+      <u>
+         <txt>ch imp</txt>
+         <wit ref="1823_fullFlat_C11" pos="1103"/>
+         <wit ref="1818_fullFlat_C11" pos="1103"/>
+      </u>
+      <c>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="1109"/>
+         <wit ref="1818_fullFlat_C11" pos="1109"/>
+         <wit ref="1831_fullFlat_C11" pos="1226"/>
+      </c>
+      <u>
+         <txt>ov</txt>
+         <wit ref="1823_fullFlat_C11" pos="1110"/>
+         <wit ref="1818_fullFlat_C11" pos="1110"/>
+      </u>
+      <c>
+         <txt>ed</txt>
+         <wit ref="1823_fullFlat_C11" pos="1112"/>
+         <wit ref="1818_fullFlat_C11" pos="1112"/>
+         <wit ref="1831_fullFlat_C11" pos="1227"/>
+      </c>
+      <u>
+         <txt>,</txt>
+         <wit ref="1823_fullFlat_C11" pos="1114"/>
+         <wit ref="1818_fullFlat_C11" pos="1114"/>
+      </u>
+      <c>
+         <txt> that you </txt>
+         <wit ref="1823_fullFlat_C11" pos="1115"/>
+         <wit ref="1818_fullFlat_C11" pos="1115"/>
+         <wit ref="1831_fullFlat_C11" pos="1229"/>
+      </c>
+      <u>
+         <txt>are well; and not a care will ever cloud his benevolent countenance. How pleased you </txt>
+         <wit ref="1831_fullFlat_C11" pos="1239"/>
+      </u>
+      <c>
+         <txt>would </txt>
+         <wit ref="1823_fullFlat_C11" pos="1125"/>
+         <wit ref="1818_fullFlat_C11" pos="1125"/>
+         <wit ref="1831_fullFlat_C11" pos="1324"/>
+      </c>
+      <u>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1131"/>
+         <wit ref="1818_fullFlat_C11" pos="1131"/>
+      </u>
+      <u>
+         <txt>be to rem</txt>
+         <wit ref="1831_fullFlat_C11" pos="1330"/>
+      </u>
+      <c>
+         <txt>ar</txt>
+         <wit ref="1823_fullFlat_C11" pos="1132"/>
+         <wit ref="1818_fullFlat_C11" pos="1132"/>
+         <wit ref="1831_fullFlat_C11" pos="1339"/>
+      </c>
+      <u>
+         <txt>dly </txt>
+         <wit ref="1823_fullFlat_C11" pos="1134"/>
+         <wit ref="1818_fullFlat_C11" pos="1134"/>
+      </u>
+      <c>
+         <txt>k</txt>
+         <wit ref="1823_fullFlat_C11" pos="1138"/>
+         <wit ref="1818_fullFlat_C11" pos="1138"/>
+         <wit ref="1831_fullFlat_C11" pos="1341"/>
+      </c>
+      <u>
+         <txt>now</txt>
+         <wit ref="1823_fullFlat_C11" pos="1139"/>
+         <wit ref="1818_fullFlat_C11" pos="1139"/>
+      </u>
+      <u>
+         <txt> the</txt>
+         <wit ref="1831_fullFlat_C11" pos="1342"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1142"/>
+         <wit ref="1818_fullFlat_C11" pos="1142"/>
+         <wit ref="1831_fullFlat_C11" pos="1346"/>
+      </c>
+      <u>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1143"/>
+         <wit ref="1818_fullFlat_C11" pos="1143"/>
+      </u>
+      <c>
+         <txt>im</txt>
+         <wit ref="1823_fullFlat_C11" pos="1144"/>
+         <wit ref="1818_fullFlat_C11" pos="1144"/>
+         <wit ref="1831_fullFlat_C11" pos="1347"/>
+      </c>
+      <u>
+         <txt>:</txt>
+         <wit ref="1823_fullFlat_C11" pos="1146"/>
+         <wit ref="1818_fullFlat_C11" pos="1146"/>
+      </u>
+      <u>
+         <txt>provement</txt>
+         <wit ref="1831_fullFlat_C11" pos="1349"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1147"/>
+         <wit ref="1818_fullFlat_C11" pos="1147"/>
+         <wit ref="1831_fullFlat_C11" pos="1358"/>
+      </c>
+      <u>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1148"/>
+         <wit ref="1818_fullFlat_C11" pos="1148"/>
+      </u>
+      <u>
+         <txt>of our Ern</txt>
+         <wit ref="1831_fullFlat_C11" pos="1359"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="1149"/>
+         <wit ref="1818_fullFlat_C11" pos="1149"/>
+         <wit ref="1831_fullFlat_C11" pos="1369"/>
+      </c>
+      <u>
+         <txt>st! He</txt>
+         <wit ref="1831_fullFlat_C11" pos="1370"/>
+      </u>
+      <c>
+         <txt> is now</txt>
+         <wit ref="1823_fullFlat_C11" pos="1150"/>
+         <wit ref="1818_fullFlat_C11" pos="1150"/>
+         <wit ref="1831_fullFlat_C11" pos="1376"/>
+      </c>
+      <u>
+         <txt> nearly</txt>
+         <wit ref="1823_fullFlat_C11" pos="1157"/>
+         <wit ref="1818_fullFlat_C11" pos="1157"/>
+      </u>
+      <c>
+         <txt> sixteen, and </txt>
+         <wit ref="1823_fullFlat_C11" pos="1164"/>
+         <wit ref="1818_fullFlat_C11" pos="1164"/>
+         <wit ref="1831_fullFlat_C11" pos="1383"/>
+      </c>
+      <u>
+         <txt>has lost that sickly appearance which he had some years ago; he is grown q</txt>
+         <wit ref="1823_fullFlat_C11" pos="1178"/>
+         <wit ref="1818_fullFlat_C11" pos="1178"/>
+      </u>
+      <u>
+         <txt>f</txt>
+         <wit ref="1831_fullFlat_C11" pos="1397"/>
+      </u>
+      <c>
+         <txt>u</txt>
+         <wit ref="1823_fullFlat_C11" pos="1252"/>
+         <wit ref="1818_fullFlat_C11" pos="1252"/>
+         <wit ref="1831_fullFlat_C11" pos="1398"/>
+      </c>
+      <u>
+         <txt>ite</txt>
+         <wit ref="1823_fullFlat_C11" pos="1253"/>
+         <wit ref="1818_fullFlat_C11" pos="1253"/>
+      </u>
+      <u>
+         <txt>ll</txt>
+         <wit ref="1831_fullFlat_C11" pos="1399"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1256"/>
+         <wit ref="1818_fullFlat_C11" pos="1256"/>
+         <wit ref="1831_fullFlat_C11" pos="1401"/>
+      </c>
+      <u>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="1257"/>
+         <wit ref="1818_fullFlat_C11" pos="1257"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="1258"/>
+         <wit ref="1818_fullFlat_C11" pos="1258"/>
+         <wit ref="1831_fullFlat_C11" pos="1402"/>
+      </c>
+      <u>
+         <txt>bust and</txt>
+         <wit ref="1823_fullFlat_C11" pos="1259"/>
+         <wit ref="1818_fullFlat_C11" pos="1259"/>
+      </u>
+      <u>
+         <txt>f</txt>
+         <wit ref="1831_fullFlat_C11" pos="1403"/>
+      </u>
+      <c>
+         <txt> activ</txt>
+         <wit ref="1823_fullFlat_C11" pos="1267"/>
+         <wit ref="1818_fullFlat_C11" pos="1267"/>
+         <wit ref="1831_fullFlat_C11" pos="1404"/>
+      </c>
+      <u>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="1273"/>
+         <wit ref="1818_fullFlat_C11" pos="1273"/>
+      </u>
+      <u>
+         <txt>ity and spirit</txt>
+         <wit ref="1831_fullFlat_C11" pos="1410"/>
+      </u>
+      <c>
+         <txt>. </txt>
+         <wit ref="1823_fullFlat_C11" pos="1274"/>
+         <wit ref="1818_fullFlat_C11" pos="1274"/>
+         <wit ref="1831_fullFlat_C11" pos="1424"/>
+      </c>
+      <u>
+         <txt>“</txt>
+         <wit ref="1823_fullFlat_C11" pos="1276"/>
+         <wit ref="1818_fullFlat_C11" pos="1276"/>
+      </u>
+      <u>
+         <txt>He is desirous to be a true Swiss, and to enter into foreign service; but we cannot part with him, at least until his elder brother return to us. </txt>
+         <wit ref="1831_fullFlat_C11" pos="1426"/>
+      </u>
+      <c>
+         <txt>My uncle </txt>
+         <wit ref="1823_fullFlat_C11" pos="1277"/>
+         <wit ref="1818_fullFlat_C11" pos="1277"/>
+         <wit ref="1831_fullFlat_C11" pos="1572"/>
+      </c>
+      <u>
+         <txt>and</txt>
+         <wit ref="1823_fullFlat_C11" pos="1286"/>
+         <wit ref="1818_fullFlat_C11" pos="1286"/>
+      </u>
+      <u>
+         <txt>is</txt>
+         <wit ref="1831_fullFlat_C11" pos="1581"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1289"/>
+         <wit ref="1818_fullFlat_C11" pos="1289"/>
+         <wit ref="1831_fullFlat_C11" pos="1583"/>
+      </c>
+      <u>
+         <txt>I</txt>
+         <wit ref="1823_fullFlat_C11" pos="1290"/>
+         <wit ref="1818_fullFlat_C11" pos="1290"/>
+      </u>
+      <u>
+         <txt>not</txt>
+         <wit ref="1831_fullFlat_C11" pos="1584"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1291"/>
+         <wit ref="1818_fullFlat_C11" pos="1291"/>
+         <wit ref="1831_fullFlat_C11" pos="1587"/>
+      </c>
+      <u>
+         <txt>conv</txt>
+         <wit ref="1823_fullFlat_C11" pos="1292"/>
+         <wit ref="1818_fullFlat_C11" pos="1292"/>
+      </u>
+      <u>
+         <txt>pl</txt>
+         <wit ref="1831_fullFlat_C11" pos="1588"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="1296"/>
+         <wit ref="1818_fullFlat_C11" pos="1296"/>
+         <wit ref="1831_fullFlat_C11" pos="1590"/>
+      </c>
+      <u>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="1297"/>
+         <wit ref="1818_fullFlat_C11" pos="1297"/>
+      </u>
+      <u>
+         <txt>a</txt>
+         <wit ref="1831_fullFlat_C11" pos="1591"/>
+      </u>
+      <c>
+         <txt>sed </txt>
+         <wit ref="1823_fullFlat_C11" pos="1298"/>
+         <wit ref="1818_fullFlat_C11" pos="1298"/>
+         <wit ref="1831_fullFlat_C11" pos="1592"/>
+      </c>
+      <u>
+         <txt>with the ide</txt>
+         <wit ref="1831_fullFlat_C11" pos="1596"/>
+      </u>
+      <c>
+         <txt>a </txt>
+         <wit ref="1823_fullFlat_C11" pos="1302"/>
+         <wit ref="1818_fullFlat_C11" pos="1302"/>
+         <wit ref="1831_fullFlat_C11" pos="1608"/>
+      </c>
+      <u>
+         <txt>of a mi</txt>
+         <wit ref="1831_fullFlat_C11" pos="1610"/>
+      </u>
+      <c>
+         <txt>l</txt>
+         <wit ref="1823_fullFlat_C11" pos="1304"/>
+         <wit ref="1818_fullFlat_C11" pos="1304"/>
+         <wit ref="1831_fullFlat_C11" pos="1617"/>
+      </c>
+      <u>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="1305"/>
+         <wit ref="1818_fullFlat_C11" pos="1305"/>
+      </u>
+      <u>
+         <txt>itary career i</txt>
+         <wit ref="1831_fullFlat_C11" pos="1618"/>
+      </u>
+      <c>
+         <txt>n</txt>
+         <wit ref="1823_fullFlat_C11" pos="1306"/>
+         <wit ref="1818_fullFlat_C11" pos="1306"/>
+         <wit ref="1831_fullFlat_C11" pos="1632"/>
+      </c>
+      <u>
+         <txt>g</txt>
+         <wit ref="1823_fullFlat_C11" pos="1307"/>
+         <wit ref="1818_fullFlat_C11" pos="1307"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1308"/>
+         <wit ref="1818_fullFlat_C11" pos="1308"/>
+         <wit ref="1831_fullFlat_C11" pos="1633"/>
+      </c>
+      <u>
+         <txt>time l</txt>
+         <wit ref="1823_fullFlat_C11" pos="1309"/>
+         <wit ref="1818_fullFlat_C11" pos="1309"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1823_fullFlat_C11" pos="1315"/>
+         <wit ref="1818_fullFlat_C11" pos="1315"/>
+         <wit ref="1831_fullFlat_C11" pos="1634"/>
+      </c>
+      <u>
+         <txt> di</txt>
+         <wit ref="1831_fullFlat_C11" pos="1635"/>
+      </u>
+      <c>
+         <txt>st</txt>
+         <wit ref="1823_fullFlat_C11" pos="1316"/>
+         <wit ref="1818_fullFlat_C11" pos="1316"/>
+         <wit ref="1831_fullFlat_C11" pos="1638"/>
+      </c>
+      <u>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1318"/>
+         <wit ref="1818_fullFlat_C11" pos="1318"/>
+      </u>
+      <u>
+         <txt>a</txt>
+         <wit ref="1831_fullFlat_C11" pos="1640"/>
+      </u>
+      <c>
+         <txt>n</txt>
+         <wit ref="1823_fullFlat_C11" pos="1319"/>
+         <wit ref="1818_fullFlat_C11" pos="1319"/>
+         <wit ref="1831_fullFlat_C11" pos="1641"/>
+      </c>
+      <u>
+         <txt>igh</txt>
+         <wit ref="1823_fullFlat_C11" pos="1320"/>
+         <wit ref="1818_fullFlat_C11" pos="1320"/>
+      </u>
+      <c>
+         <txt>t </txt>
+         <wit ref="1823_fullFlat_C11" pos="1323"/>
+         <wit ref="1818_fullFlat_C11" pos="1323"/>
+         <wit ref="1831_fullFlat_C11" pos="1642"/>
+      </c>
+      <u>
+         <txt>ab</txt>
+         <wit ref="1823_fullFlat_C11" pos="1325"/>
+         <wit ref="1818_fullFlat_C11" pos="1325"/>
+      </u>
+      <u>
+         <txt>c</txt>
+         <wit ref="1831_fullFlat_C11" pos="1644"/>
+      </u>
+      <c>
+         <txt>ou</txt>
+         <wit ref="1823_fullFlat_C11" pos="1327"/>
+         <wit ref="1818_fullFlat_C11" pos="1327"/>
+         <wit ref="1831_fullFlat_C11" pos="1645"/>
+      </c>
+      <u>
+         <txt>t what professio</txt>
+         <wit ref="1823_fullFlat_C11" pos="1329"/>
+         <wit ref="1818_fullFlat_C11" pos="1329"/>
+      </u>
+      <c>
+         <txt>n</txt>
+         <wit ref="1823_fullFlat_C11" pos="1345"/>
+         <wit ref="1818_fullFlat_C11" pos="1345"/>
+         <wit ref="1831_fullFlat_C11" pos="1647"/>
+      </c>
+      <u>
+         <txt>try; but</txt>
+         <wit ref="1831_fullFlat_C11" pos="1648"/>
+      </u>
+      <c>
+         <txt> Ernest </txt>
+         <wit ref="1823_fullFlat_C11" pos="1346"/>
+         <wit ref="1818_fullFlat_C11" pos="1346"/>
+         <wit ref="1831_fullFlat_C11" pos="1656"/>
+      </c>
+      <u>
+         <txt>should follow. His constant ill</txt>
+         <wit ref="1823_fullFlat_C11" pos="1354"/>
+         <wit ref="1818_fullFlat_C11" pos="1354"/>
+      </u>
+      <c>
+         <txt>ne</txt>
+         <wit ref="1823_fullFlat_C11" pos="1385"/>
+         <wit ref="1818_fullFlat_C11" pos="1385"/>
+         <wit ref="1831_fullFlat_C11" pos="1664"/>
+      </c>
+      <u>
+         <txt>ss</txt>
+         <wit ref="1823_fullFlat_C11" pos="1387"/>
+         <wit ref="1818_fullFlat_C11" pos="1387"/>
+      </u>
+      <u>
+         <txt>ver</txt>
+         <wit ref="1831_fullFlat_C11" pos="1666"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1389"/>
+         <wit ref="1818_fullFlat_C11" pos="1389"/>
+         <wit ref="1831_fullFlat_C11" pos="1669"/>
+      </c>
+      <u>
+         <txt>w</txt>
+         <wit ref="1823_fullFlat_C11" pos="1390"/>
+         <wit ref="1818_fullFlat_C11" pos="1390"/>
+      </u>
+      <c>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1391"/>
+         <wit ref="1818_fullFlat_C11" pos="1391"/>
+         <wit ref="1831_fullFlat_C11" pos="1670"/>
+      </c>
+      <u>
+         <txt>en</txt>
+         <wit ref="1823_fullFlat_C11" pos="1392"/>
+         <wit ref="1818_fullFlat_C11" pos="1392"/>
+      </u>
+      <u>
+         <txt>ad</txt>
+         <wit ref="1831_fullFlat_C11" pos="1671"/>
+      </u>
+      <c>
+         <txt> you</txt>
+         <wit ref="1823_fullFlat_C11" pos="1394"/>
+         <wit ref="1818_fullFlat_C11" pos="1394"/>
+         <wit ref="1831_fullFlat_C11" pos="1673"/>
+      </c>
+      <u>
+         <txt>ng has dep</txt>
+         <wit ref="1823_fullFlat_C11" pos="1398"/>
+         <wit ref="1818_fullFlat_C11" pos="1398"/>
+      </u>
+      <c>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="1408"/>
+         <wit ref="1818_fullFlat_C11" pos="1408"/>
+         <wit ref="1831_fullFlat_C11" pos="1677"/>
+      </c>
+      <u>
+         <txt>ived</txt>
+         <wit ref="1823_fullFlat_C11" pos="1409"/>
+         <wit ref="1818_fullFlat_C11" pos="1409"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1413"/>
+         <wit ref="1818_fullFlat_C11" pos="1413"/>
+         <wit ref="1831_fullFlat_C11" pos="1678"/>
+      </c>
+      <u>
+         <txt>him </txt>
+         <wit ref="1823_fullFlat_C11" pos="1414"/>
+         <wit ref="1818_fullFlat_C11" pos="1414"/>
+      </u>
+      <u>
+         <txt>p</txt>
+         <wit ref="1831_fullFlat_C11" pos="1679"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="1418"/>
+         <wit ref="1818_fullFlat_C11" pos="1418"/>
+         <wit ref="1831_fullFlat_C11" pos="1680"/>
+      </c>
+      <u>
+         <txt>f th</txt>
+         <wit ref="1823_fullFlat_C11" pos="1419"/>
+         <wit ref="1818_fullFlat_C11" pos="1419"/>
+      </u>
+      <u>
+         <txt>w</txt>
+         <wit ref="1831_fullFlat_C11" pos="1681"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="1423"/>
+         <wit ref="1818_fullFlat_C11" pos="1423"/>
+         <wit ref="1831_fullFlat_C11" pos="1682"/>
+      </c>
+      <u>
+         <txt> habit</txt>
+         <wit ref="1823_fullFlat_C11" pos="1424"/>
+         <wit ref="1818_fullFlat_C11" pos="1424"/>
+      </u>
+      <u>
+         <txt>r</txt>
+         <wit ref="1831_fullFlat_C11" pos="1683"/>
+      </u>
+      <c>
+         <txt>s of application</txt>
+         <wit ref="1823_fullFlat_C11" pos="1430"/>
+         <wit ref="1818_fullFlat_C11" pos="1430"/>
+         <wit ref="1831_fullFlat_C11" pos="1684"/>
+      </c>
+      <u>
+         <txt>;</txt>
+         <wit ref="1823_fullFlat_C11" pos="1446"/>
+         <wit ref="1818_fullFlat_C11" pos="1446"/>
+      </u>
+      <u>
+         <txt>. He looks upon study as</txt>
+         <wit ref="1831_fullFlat_C11" pos="1700"/>
+      </u>
+      <c>
+         <txt> an</txt>
+         <wit ref="1823_fullFlat_C11" pos="1447"/>
+         <wit ref="1818_fullFlat_C11" pos="1447"/>
+         <wit ref="1831_fullFlat_C11" pos="1724"/>
+      </c>
+      <u>
+         <txt>d</txt>
+         <wit ref="1823_fullFlat_C11" pos="1450"/>
+         <wit ref="1818_fullFlat_C11" pos="1450"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1451"/>
+         <wit ref="1818_fullFlat_C11" pos="1451"/>
+         <wit ref="1831_fullFlat_C11" pos="1727"/>
+      </c>
+      <u>
+         <txt>now that he enjoys go</txt>
+         <wit ref="1823_fullFlat_C11" pos="1452"/>
+         <wit ref="1818_fullFlat_C11" pos="1452"/>
+      </u>
+      <c>
+         <txt>od</txt>
+         <wit ref="1823_fullFlat_C11" pos="1473"/>
+         <wit ref="1818_fullFlat_C11" pos="1473"/>
+         <wit ref="1831_fullFlat_C11" pos="1728"/>
+      </c>
+      <u>
+         <txt>ious</txt>
+         <wit ref="1831_fullFlat_C11" pos="1730"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1475"/>
+         <wit ref="1818_fullFlat_C11" pos="1475"/>
+         <wit ref="1831_fullFlat_C11" pos="1734"/>
+      </c>
+      <u>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1476"/>
+         <wit ref="1818_fullFlat_C11" pos="1476"/>
+      </u>
+      <u>
+         <txt>f</txt>
+         <wit ref="1831_fullFlat_C11" pos="1735"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="1477"/>
+         <wit ref="1818_fullFlat_C11" pos="1477"/>
+         <wit ref="1831_fullFlat_C11" pos="1736"/>
+      </c>
+      <u>
+         <txt>al</txt>
+         <wit ref="1823_fullFlat_C11" pos="1478"/>
+         <wit ref="1818_fullFlat_C11" pos="1478"/>
+      </u>
+      <u>
+         <txt>t</txt>
+         <wit ref="1831_fullFlat_C11" pos="1737"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="1480"/>
+         <wit ref="1818_fullFlat_C11" pos="1480"/>
+         <wit ref="1831_fullFlat_C11" pos="1738"/>
+      </c>
+      <u>
+         <txt>er;—</txt>
+         <wit ref="1831_fullFlat_C11" pos="1739"/>
+      </u>
+      <c>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1481"/>
+         <wit ref="1818_fullFlat_C11" pos="1481"/>
+         <wit ref="1831_fullFlat_C11" pos="1743"/>
+      </c>
+      <u>
+         <txt>,</txt>
+         <wit ref="1823_fullFlat_C11" pos="1482"/>
+         <wit ref="1818_fullFlat_C11" pos="1482"/>
+      </u>
+      <u>
+         <txt>is</txt>
+         <wit ref="1831_fullFlat_C11" pos="1744"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1483"/>
+         <wit ref="1818_fullFlat_C11" pos="1483"/>
+         <wit ref="1831_fullFlat_C11" pos="1746"/>
+      </c>
+      <u>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1484"/>
+         <wit ref="1818_fullFlat_C11" pos="1484"/>
+      </u>
+      <u>
+         <txt>tim</txt>
+         <wit ref="1831_fullFlat_C11" pos="1747"/>
+      </u>
+      <c>
+         <txt>e is </txt>
+         <wit ref="1823_fullFlat_C11" pos="1485"/>
+         <wit ref="1818_fullFlat_C11" pos="1485"/>
+         <wit ref="1831_fullFlat_C11" pos="1750"/>
+      </c>
+      <u>
+         <txt>co</txt>
+         <wit ref="1823_fullFlat_C11" pos="1490"/>
+         <wit ref="1818_fullFlat_C11" pos="1490"/>
+      </u>
+      <u>
+         <txt>spe</txt>
+         <wit ref="1831_fullFlat_C11" pos="1755"/>
+      </u>
+      <c>
+         <txt>nt</txt>
+         <wit ref="1823_fullFlat_C11" pos="1492"/>
+         <wit ref="1818_fullFlat_C11" pos="1492"/>
+         <wit ref="1831_fullFlat_C11" pos="1758"/>
+      </c>
+      <u>
+         <txt>inually</txt>
+         <wit ref="1823_fullFlat_C11" pos="1494"/>
+         <wit ref="1818_fullFlat_C11" pos="1494"/>
+      </u>
+      <c>
+         <txt> in the open air, climbing the hills</txt>
+         <wit ref="1823_fullFlat_C11" pos="1501"/>
+         <wit ref="1818_fullFlat_C11" pos="1501"/>
+         <wit ref="1831_fullFlat_C11" pos="1760"/>
+      </c>
+      <u>
+         <txt>,</txt>
+         <wit ref="1823_fullFlat_C11" pos="1537"/>
+         <wit ref="1818_fullFlat_C11" pos="1537"/>
+      </u>
+      <c>
+         <txt> or rowing on the lake. I </txt>
+         <wit ref="1823_fullFlat_C11" pos="1538"/>
+         <wit ref="1818_fullFlat_C11" pos="1538"/>
+         <wit ref="1831_fullFlat_C11" pos="1796"/>
+      </c>
+      <u>
+         <txt>there</txt>
+         <wit ref="1823_fullFlat_C11" pos="1564"/>
+         <wit ref="1818_fullFlat_C11" pos="1564"/>
+      </u>
+      <c>
+         <txt>f</txt>
+         <wit ref="1823_fullFlat_C11" pos="1569"/>
+         <wit ref="1818_fullFlat_C11" pos="1569"/>
+         <wit ref="1831_fullFlat_C11" pos="1822"/>
+      </c>
+      <u>
+         <txt>or</txt>
+         <wit ref="1823_fullFlat_C11" pos="1570"/>
+         <wit ref="1818_fullFlat_C11" pos="1570"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="1572"/>
+         <wit ref="1818_fullFlat_C11" pos="1572"/>
+         <wit ref="1831_fullFlat_C11" pos="1823"/>
+      </c>
+      <u>
+         <txt> p</txt>
+         <wit ref="1823_fullFlat_C11" pos="1573"/>
+         <wit ref="1818_fullFlat_C11" pos="1573"/>
+      </u>
+      <u>
+         <txt>a</txt>
+         <wit ref="1831_fullFlat_C11" pos="1824"/>
+      </u>
+      <c>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="1575"/>
+         <wit ref="1818_fullFlat_C11" pos="1575"/>
+         <wit ref="1831_fullFlat_C11" pos="1825"/>
+      </c>
+      <u>
+         <txt>oposed</txt>
+         <wit ref="1823_fullFlat_C11" pos="1576"/>
+         <wit ref="1818_fullFlat_C11" pos="1576"/>
+      </u>
+      <c>
+         <txt> that he </txt>
+         <wit ref="1823_fullFlat_C11" pos="1582"/>
+         <wit ref="1818_fullFlat_C11" pos="1582"/>
+         <wit ref="1831_fullFlat_C11" pos="1826"/>
+      </c>
+      <u>
+         <txt>shou</txt>
+         <wit ref="1823_fullFlat_C11" pos="1591"/>
+         <wit ref="1818_fullFlat_C11" pos="1591"/>
+      </u>
+      <u>
+         <txt>wil</txt>
+         <wit ref="1831_fullFlat_C11" pos="1835"/>
+      </u>
+      <c>
+         <txt>l</txt>
+         <wit ref="1823_fullFlat_C11" pos="1595"/>
+         <wit ref="1818_fullFlat_C11" pos="1595"/>
+         <wit ref="1831_fullFlat_C11" pos="1838"/>
+      </c>
+      <u>
+         <txt>d</txt>
+         <wit ref="1823_fullFlat_C11" pos="1596"/>
+         <wit ref="1818_fullFlat_C11" pos="1596"/>
+      </u>
+      <c>
+         <txt> be</txt>
+         <wit ref="1823_fullFlat_C11" pos="1597"/>
+         <wit ref="1818_fullFlat_C11" pos="1597"/>
+         <wit ref="1831_fullFlat_C11" pos="1839"/>
+      </c>
+      <u>
+         <txt> a farmer; whi</txt>
+         <wit ref="1823_fullFlat_C11" pos="1600"/>
+         <wit ref="1818_fullFlat_C11" pos="1600"/>
+      </u>
+      <c>
+         <txt>c</txt>
+         <wit ref="1823_fullFlat_C11" pos="1614"/>
+         <wit ref="1818_fullFlat_C11" pos="1614"/>
+         <wit ref="1831_fullFlat_C11" pos="1842"/>
+      </c>
+      <u>
+         <txt>h y</txt>
+         <wit ref="1823_fullFlat_C11" pos="1615"/>
+         <wit ref="1818_fullFlat_C11" pos="1615"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="1618"/>
+         <wit ref="1818_fullFlat_C11" pos="1618"/>
+         <wit ref="1831_fullFlat_C11" pos="1843"/>
+      </c>
+      <u>
+         <txt>u know, </txt>
+         <wit ref="1823_fullFlat_C11" pos="1619"/>
+         <wit ref="1818_fullFlat_C11" pos="1619"/>
+      </u>
+      <u>
+         <txt>c</txt>
+         <wit ref="1823_fullFlat_C11" pos="1627"/>
+      </u>
+      <u>
+         <txt>C</txt>
+         <wit ref="1818_fullFlat_C11" pos="1627"/>
+      </u>
+      <u>
+         <txt>ousin, is a favourite sche</txt>
+         <wit ref="1823_fullFlat_C11" pos="1628"/>
+         <wit ref="1818_fullFlat_C11" pos="1628"/>
+      </u>
+      <c>
+         <txt>me </txt>
+         <wit ref="1823_fullFlat_C11" pos="1654"/>
+         <wit ref="1818_fullFlat_C11" pos="1654"/>
+         <wit ref="1831_fullFlat_C11" pos="1844"/>
+      </c>
+      <u>
+         <txt>of mine. A farmer’s is a very healthy happy life; </txt>
+         <wit ref="1823_fullFlat_C11" pos="1657"/>
+         <wit ref="1818_fullFlat_C11" pos="1657"/>
+      </u>
+      <c>
+         <txt>an</txt>
+         <wit ref="1823_fullFlat_C11" pos="1707"/>
+         <wit ref="1818_fullFlat_C11" pos="1707"/>
+         <wit ref="1831_fullFlat_C11" pos="1847"/>
+      </c>
+      <u>
+         <txt> i</txt>
+         <wit ref="1831_fullFlat_C11" pos="1849"/>
+      </u>
+      <c>
+         <txt>d</txt>
+         <wit ref="1823_fullFlat_C11" pos="1709"/>
+         <wit ref="1818_fullFlat_C11" pos="1709"/>
+         <wit ref="1831_fullFlat_C11" pos="1851"/>
+      </c>
+      <u>
+         <txt>ler, unless we yield</txt>
+         <wit ref="1831_fullFlat_C11" pos="1852"/>
+      </u>
+      <c>
+         <txt> the </txt>
+         <wit ref="1823_fullFlat_C11" pos="1710"/>
+         <wit ref="1818_fullFlat_C11" pos="1710"/>
+         <wit ref="1831_fullFlat_C11" pos="1872"/>
+      </c>
+      <u>
+         <txt>l</txt>
+         <wit ref="1823_fullFlat_C11" pos="1715"/>
+         <wit ref="1818_fullFlat_C11" pos="1715"/>
+      </u>
+      <u>
+         <txt>point, and p</txt>
+         <wit ref="1831_fullFlat_C11" pos="1877"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="1716"/>
+         <wit ref="1818_fullFlat_C11" pos="1716"/>
+         <wit ref="1831_fullFlat_C11" pos="1889"/>
+      </c>
+      <u>
+         <txt>as</txt>
+         <wit ref="1823_fullFlat_C11" pos="1717"/>
+         <wit ref="1818_fullFlat_C11" pos="1717"/>
+      </u>
+      <u>
+         <txt>rmi</txt>
+         <wit ref="1831_fullFlat_C11" pos="1890"/>
+      </u>
+      <c>
+         <txt>t h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1719"/>
+         <wit ref="1818_fullFlat_C11" pos="1719"/>
+         <wit ref="1831_fullFlat_C11" pos="1893"/>
+      </c>
+      <u>
+         <txt>urtful,</txt>
+         <wit ref="1823_fullFlat_C11" pos="1722"/>
+         <wit ref="1818_fullFlat_C11" pos="1722"/>
+      </u>
+      <u>
+         <txt>im</txt>
+         <wit ref="1831_fullFlat_C11" pos="1896"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1729"/>
+         <wit ref="1818_fullFlat_C11" pos="1729"/>
+         <wit ref="1831_fullFlat_C11" pos="1898"/>
+      </c>
+      <u>
+         <txt>t</txt>
+         <wit ref="1831_fullFlat_C11" pos="1899"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="1730"/>
+         <wit ref="1818_fullFlat_C11" pos="1730"/>
+         <wit ref="1831_fullFlat_C11" pos="1900"/>
+      </c>
+      <u>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="1731"/>
+         <wit ref="1818_fullFlat_C11" pos="1731"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="1732"/>
+         <wit ref="1818_fullFlat_C11" pos="1732"/>
+         <wit ref="1831_fullFlat_C11" pos="1901"/>
+      </c>
+      <u>
+         <txt>ra</txt>
+         <wit ref="1823_fullFlat_C11" pos="1733"/>
+         <wit ref="1818_fullFlat_C11" pos="1733"/>
+      </u>
+      <u>
+         <txt>en</txt>
+         <wit ref="1831_fullFlat_C11" pos="1902"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="1735"/>
+         <wit ref="1818_fullFlat_C11" pos="1735"/>
+         <wit ref="1831_fullFlat_C11" pos="1904"/>
+      </c>
+      <u>
+         <txt>h</txt>
+         <wit ref="1823_fullFlat_C11" pos="1736"/>
+         <wit ref="1818_fullFlat_C11" pos="1736"/>
+      </u>
+      <c>
+         <txt>er</txt>
+         <wit ref="1823_fullFlat_C11" pos="1737"/>
+         <wit ref="1818_fullFlat_C11" pos="1737"/>
+         <wit ref="1831_fullFlat_C11" pos="1905"/>
+      </c>
+      <u>
+         <txt> on</txt>
+         <wit ref="1831_fullFlat_C11" pos="1907"/>
+      </u>
+      <c>
+         <txt> the </txt>
+         <wit ref="1823_fullFlat_C11" pos="1739"/>
+         <wit ref="1818_fullFlat_C11" pos="1739"/>
+         <wit ref="1831_fullFlat_C11" pos="1910"/>
+      </c>
+      <u>
+         <txt>most beneficial </txt>
+         <wit ref="1823_fullFlat_C11" pos="1744"/>
+         <wit ref="1818_fullFlat_C11" pos="1744"/>
+      </u>
+      <c>
+         <txt>profession </txt>
+         <wit ref="1823_fullFlat_C11" pos="1760"/>
+         <wit ref="1818_fullFlat_C11" pos="1760"/>
+         <wit ref="1831_fullFlat_C11" pos="1915"/>
+      </c>
+      <u>
+         <txt>of any. My uncle had an idea of his being educated as an advocate, that through his interest he might become a judge. But, besides that he is not at all fitted for such an occupation, it is certainly more creditable to cultivate the earth for the sustenance of man, than to be the confidant, and sometimes the accomplice, of his vices; </txt>
+         <wit ref="1823_fullFlat_C11" pos="1771"/>
+         <wit ref="1818_fullFlat_C11" pos="1771"/>
+      </u>
+      <c>
+         <txt>which </txt>
+         <wit ref="1823_fullFlat_C11" pos="2107"/>
+         <wit ref="1818_fullFlat_C11" pos="2107"/>
+         <wit ref="1831_fullFlat_C11" pos="1926"/>
+      </c>
+      <u>
+         <txt>is t</txt>
+         <wit ref="1823_fullFlat_C11" pos="2113"/>
+         <wit ref="1818_fullFlat_C11" pos="2113"/>
+      </u>
+      <c>
+         <txt>he </txt>
+         <wit ref="1823_fullFlat_C11" pos="2117"/>
+         <wit ref="1818_fullFlat_C11" pos="2117"/>
+         <wit ref="1831_fullFlat_C11" pos="1932"/>
+      </c>
+      <u>
+         <txt>p</txt>
+         <wit ref="1823_fullFlat_C11" pos="2120"/>
+         <wit ref="1818_fullFlat_C11" pos="2120"/>
+      </u>
+      <u>
+         <txt>has selected. “Little alte</txt>
+         <wit ref="1831_fullFlat_C11" pos="1935"/>
+      </u>
+      <c>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="2121"/>
+         <wit ref="1818_fullFlat_C11" pos="2121"/>
+         <wit ref="1831_fullFlat_C11" pos="1961"/>
+      </c>
+      <u>
+         <txt>ofess</txt>
+         <wit ref="1823_fullFlat_C11" pos="2122"/>
+         <wit ref="1818_fullFlat_C11" pos="2122"/>
+      </u>
+      <u>
+         <txt>at</txt>
+         <wit ref="1831_fullFlat_C11" pos="1962"/>
+      </u>
+      <c>
+         <txt>ion</txt>
+         <wit ref="1823_fullFlat_C11" pos="2127"/>
+         <wit ref="1818_fullFlat_C11" pos="2127"/>
+         <wit ref="1831_fullFlat_C11" pos="1964"/>
+      </c>
+      <u>
+         <txt> of a lawyer. I said</txt>
+         <wit ref="1823_fullFlat_C11" pos="2130"/>
+         <wit ref="1818_fullFlat_C11" pos="2130"/>
+      </u>
+      <c>
+         <txt>, </txt>
+         <wit ref="1823_fullFlat_C11" pos="2150"/>
+         <wit ref="1818_fullFlat_C11" pos="2150"/>
+         <wit ref="1831_fullFlat_C11" pos="1967"/>
+      </c>
+      <u>
+         <txt>tha</txt>
+         <wit ref="1823_fullFlat_C11" pos="2152"/>
+         <wit ref="1818_fullFlat_C11" pos="2152"/>
+      </u>
+      <u>
+         <txt>excep</txt>
+         <wit ref="1831_fullFlat_C11" pos="1969"/>
+      </u>
+      <c>
+         <txt>t the </txt>
+         <wit ref="1823_fullFlat_C11" pos="2155"/>
+         <wit ref="1818_fullFlat_C11" pos="2155"/>
+         <wit ref="1831_fullFlat_C11" pos="1974"/>
+      </c>
+      <u>
+         <txt>empl</txt>
+         <wit ref="1823_fullFlat_C11" pos="2161"/>
+         <wit ref="1818_fullFlat_C11" pos="2161"/>
+      </u>
+      <u>
+         <txt>gr</txt>
+         <wit ref="1831_fullFlat_C11" pos="1980"/>
+      </u>
+      <c>
+         <txt>o</txt>
+         <wit ref="1823_fullFlat_C11" pos="2165"/>
+         <wit ref="1818_fullFlat_C11" pos="2165"/>
+         <wit ref="1831_fullFlat_C11" pos="1982"/>
+      </c>
+      <u>
+         <txt>ymen</txt>
+         <wit ref="1823_fullFlat_C11" pos="2166"/>
+         <wit ref="1818_fullFlat_C11" pos="2166"/>
+      </u>
+      <u>
+         <txt>w</txt>
+         <wit ref="1831_fullFlat_C11" pos="1983"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1823_fullFlat_C11" pos="2170"/>
+         <wit ref="1818_fullFlat_C11" pos="2170"/>
+         <wit ref="1831_fullFlat_C11" pos="1984"/>
+      </c>
+      <u>
+         <txt>s</txt>
+         <wit ref="1823_fullFlat_C11" pos="2171"/>
+         <wit ref="1818_fullFlat_C11" pos="2171"/>
+      </u>
+      <u>
+         <txt>h</txt>
+         <wit ref="1831_fullFlat_C11" pos="1985"/>
+      </u>
+      <c>
+         <txt> of </txt>
+         <wit ref="1823_fullFlat_C11" pos="2172"/>
+         <wit ref="1818_fullFlat_C11" pos="2172"/>
+         <wit ref="1831_fullFlat_C11" pos="1986"/>
+      </c>
+      <u>
+         <txt>our de</txt>
+         <wit ref="1831_fullFlat_C11" pos="1990"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1823_fullFlat_C11" pos="2176"/>
+         <wit ref="1818_fullFlat_C11" pos="2176"/>
+         <wit ref="1831_fullFlat_C11" pos="1996"/>
+      </c>
+      <u>
+         <txt>r children, has taken</txt>
+         <wit ref="1831_fullFlat_C11" pos="1997"/>
+      </u>
+      <c>
+         <txt> p</txt>
+         <wit ref="1823_fullFlat_C11" pos="2177"/>
+         <wit ref="1818_fullFlat_C11" pos="2177"/>
+         <wit ref="1831_fullFlat_C11" pos="2018"/>
+      </c>
+      <u>
+         <txt>ro</txt>
+         <wit ref="1823_fullFlat_C11" pos="2179"/>
+         <wit ref="1818_fullFlat_C11" pos="2179"/>
+      </u>
+      <u>
+         <txt>lace </txt>
+         <wit ref="1831_fullFlat_C11" pos="2020"/>
+      </u>
+      <c>
+         <txt>s</txt>
+         <wit ref="1823_fullFlat_C11" pos="2181"/>
+         <wit ref="1818_fullFlat_C11" pos="2181"/>
+         <wit ref="1831_fullFlat_C11" pos="2025"/>
+      </c>
+      <u>
+         <txt>p</txt>
+         <wit ref="1823_fullFlat_C11" pos="2182"/>
+         <wit ref="1818_fullFlat_C11" pos="2182"/>
+      </u>
+      <u>
+         <txt>inc</txt>
+         <wit ref="1831_fullFlat_C11" pos="2026"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="2183"/>
+         <wit ref="1818_fullFlat_C11" pos="2183"/>
+         <wit ref="1831_fullFlat_C11" pos="2029"/>
+      </c>
+      <u>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="2184"/>
+         <wit ref="1818_fullFlat_C11" pos="2184"/>
+      </u>
+      <u>
+         <txt> y</txt>
+         <wit ref="1831_fullFlat_C11" pos="2030"/>
+      </u>
+      <c>
+         <txt>ou</txt>
+         <wit ref="1823_fullFlat_C11" pos="2185"/>
+         <wit ref="1818_fullFlat_C11" pos="2185"/>
+         <wit ref="1831_fullFlat_C11" pos="2032"/>
+      </c>
+      <u>
+         <txt> left u</txt>
+         <wit ref="1831_fullFlat_C11" pos="2034"/>
+      </u>
+      <c>
+         <txt>s</txt>
+         <wit ref="1823_fullFlat_C11" pos="2187"/>
+         <wit ref="1818_fullFlat_C11" pos="2187"/>
+         <wit ref="1831_fullFlat_C11" pos="2041"/>
+      </c>
+      <u>
+         <txt>.</txt>
+         <wit ref="1831_fullFlat_C11" pos="2042"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="2188"/>
+         <wit ref="1818_fullFlat_C11" pos="2188"/>
+         <wit ref="1831_fullFlat_C11" pos="2043"/>
+      </c>
+      <u>
+         <txt>f</txt>
+         <wit ref="1823_fullFlat_C11" pos="2189"/>
+         <wit ref="1818_fullFlat_C11" pos="2189"/>
+      </u>
+      <u>
+         <txt>The blue l</txt>
+         <wit ref="1831_fullFlat_C11" pos="2044"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1823_fullFlat_C11" pos="2190"/>
+         <wit ref="1818_fullFlat_C11" pos="2190"/>
+         <wit ref="1831_fullFlat_C11" pos="2054"/>
+      </c>
+      <u>
+         <txt>rm</txt>
+         <wit ref="1823_fullFlat_C11" pos="2191"/>
+         <wit ref="1818_fullFlat_C11" pos="2191"/>
+      </u>
+      <u>
+         <txt>k</txt>
+         <wit ref="1831_fullFlat_C11" pos="2055"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="2193"/>
+         <wit ref="1818_fullFlat_C11" pos="2193"/>
+         <wit ref="1831_fullFlat_C11" pos="2056"/>
+      </c>
+      <u>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="2194"/>
+         <wit ref="1818_fullFlat_C11" pos="2194"/>
+      </u>
+      <c>
+         <txt>, </txt>
+         <wit ref="1823_fullFlat_C11" pos="2195"/>
+         <wit ref="1818_fullFlat_C11" pos="2195"/>
+         <wit ref="1831_fullFlat_C11" pos="2057"/>
+      </c>
+      <u>
+         <txt>if they</txt>
+         <wit ref="1823_fullFlat_C11" pos="2197"/>
+         <wit ref="1818_fullFlat_C11" pos="2197"/>
+      </u>
+      <u>
+         <txt>and</txt>
+         <wit ref="1831_fullFlat_C11" pos="2059"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="2204"/>
+         <wit ref="1818_fullFlat_C11" pos="2204"/>
+         <wit ref="1831_fullFlat_C11" pos="2062"/>
+      </c>
+      <u>
+         <txt>were </txt>
+         <wit ref="1823_fullFlat_C11" pos="2205"/>
+         <wit ref="1818_fullFlat_C11" pos="2205"/>
+      </u>
+      <u>
+         <txt>s</txt>
+         <wit ref="1831_fullFlat_C11" pos="2063"/>
+      </u>
+      <c>
+         <txt>no</txt>
+         <wit ref="1823_fullFlat_C11" pos="2210"/>
+         <wit ref="1818_fullFlat_C11" pos="2210"/>
+         <wit ref="1831_fullFlat_C11" pos="2064"/>
+      </c>
+      <u>
+         <txt>t </txt>
+         <wit ref="1823_fullFlat_C11" pos="2212"/>
+         <wit ref="1818_fullFlat_C11" pos="2212"/>
+      </u>
+      <u>
+         <txt>w-cl</txt>
+         <wit ref="1831_fullFlat_C11" pos="2066"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1823_fullFlat_C11" pos="2214"/>
+         <wit ref="1818_fullFlat_C11" pos="2214"/>
+         <wit ref="1831_fullFlat_C11" pos="2070"/>
+      </c>
+      <u>
+         <txt>d</txt>
+         <wit ref="1831_fullFlat_C11" pos="2071"/>
+      </u>
+      <c>
+         <txt> mo</txt>
+         <wit ref="1823_fullFlat_C11" pos="2215"/>
+         <wit ref="1818_fullFlat_C11" pos="2215"/>
+         <wit ref="1831_fullFlat_C11" pos="2072"/>
+      </c>
+      <u>
+         <txt>re hono</txt>
+         <wit ref="1823_fullFlat_C11" pos="2218"/>
+         <wit ref="1818_fullFlat_C11" pos="2218"/>
+      </u>
+      <c>
+         <txt>u</txt>
+         <wit ref="1823_fullFlat_C11" pos="2225"/>
+         <wit ref="1818_fullFlat_C11" pos="2225"/>
+         <wit ref="1831_fullFlat_C11" pos="2075"/>
+      </c>
+      <u>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="2226"/>
+         <wit ref="1818_fullFlat_C11" pos="2226"/>
+      </u>
+      <u>
+         <txt>nt</txt>
+         <wit ref="1831_fullFlat_C11" pos="2076"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1823_fullFlat_C11" pos="2227"/>
+         <wit ref="1818_fullFlat_C11" pos="2227"/>
+         <wit ref="1831_fullFlat_C11" pos="2078"/>
+      </c>
+      <u>
+         <txt>ble</txt>
+         <wit ref="1823_fullFlat_C11" pos="2228"/>
+         <wit ref="1818_fullFlat_C11" pos="2228"/>
+      </u>
+      <u>
+         <txt>ins</txt>
+         <wit ref="1831_fullFlat_C11" pos="2079"/>
+      </u>
+      <c>
+         <txt>, they </txt>
+         <wit ref="1823_fullFlat_C11" pos="2231"/>
+         <wit ref="1818_fullFlat_C11" pos="2231"/>
+         <wit ref="1831_fullFlat_C11" pos="2082"/>
+      </c>
+      <u>
+         <txt>w</txt>
+         <wit ref="1818_fullFlat_C11" pos="2238"/>
+         <wit ref="1823_fullFlat_C11" pos="2238"/>
+      </u>
+      <u>
+         <txt>never change;—and I think our placid hom</txt>
+         <wit ref="1831_fullFlat_C11" pos="2089"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1818_fullFlat_C11" pos="2239"/>
+         <wit ref="1823_fullFlat_C11" pos="2239"/>
+         <wit ref="1831_fullFlat_C11" pos="2129"/>
+      </c>
+      <u>
+         <txt>, and our contented hearts a</txt>
+         <wit ref="1831_fullFlat_C11" pos="2130"/>
+      </u>
+      <c>
+         <txt>re </txt>
+         <wit ref="1818_fullFlat_C11" pos="2240"/>
+         <wit ref="1823_fullFlat_C11" pos="2240"/>
+         <wit ref="1831_fullFlat_C11" pos="2158"/>
+      </c>
+      <u>
+         <txt>regul</txt>
+         <wit ref="1831_fullFlat_C11" pos="2161"/>
+      </u>
+      <c>
+         <txt>at</txt>
+         <wit ref="1818_fullFlat_C11" pos="2243"/>
+         <wit ref="1823_fullFlat_C11" pos="2243"/>
+         <wit ref="1831_fullFlat_C11" pos="2166"/>
+      </c>
+      <u>
+         <txt>ed by the same immutable</txt>
+         <wit ref="1831_fullFlat_C11" pos="2168"/>
+      </u>
+      <c>
+         <txt> l</txt>
+         <wit ref="1818_fullFlat_C11" pos="2245"/>
+         <wit ref="1823_fullFlat_C11" pos="2245"/>
+         <wit ref="1831_fullFlat_C11" pos="2192"/>
+      </c>
+      <u>
+         <txt>e</txt>
+         <wit ref="1818_fullFlat_C11" pos="2247"/>
+         <wit ref="1823_fullFlat_C11" pos="2247"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1818_fullFlat_C11" pos="2248"/>
+         <wit ref="1823_fullFlat_C11" pos="2248"/>
+         <wit ref="1831_fullFlat_C11" pos="2194"/>
+      </c>
+      <u>
+         <txt>w</txt>
+         <wit ref="1831_fullFlat_C11" pos="2195"/>
+      </u>
+      <c>
+         <txt>s</txt>
+         <wit ref="1818_fullFlat_C11" pos="2249"/>
+         <wit ref="1823_fullFlat_C11" pos="2249"/>
+         <wit ref="1831_fullFlat_C11" pos="2196"/>
+      </c>
+      <u>
+         <txt>t a</txt>
+         <wit ref="1818_fullFlat_C11" pos="2250"/>
+         <wit ref="1823_fullFlat_C11" pos="2250"/>
+      </u>
+      <u>
+         <txt>.</txt>
+         <wit ref="1831_fullFlat_C11" pos="2197"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11" pos="2253"/>
+         <wit ref="1823_fullFlat_C11" pos="2253"/>
+         <wit ref="1831_fullFlat_C11" pos="2198"/>
+      </c>
+      <u>
+         <txt>happier</txt>
+         <wit ref="1818_fullFlat_C11" pos="2254"/>
+         <wit ref="1823_fullFlat_C11" pos="2254"/>
+      </u>
+      <u>
+         <txt>My</txt>
+         <wit ref="1831_fullFlat_C11" pos="2199"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11" pos="2261"/>
+         <wit ref="1823_fullFlat_C11" pos="2261"/>
+         <wit ref="1831_fullFlat_C11" pos="2201"/>
+      </c>
+      <u>
+         <txt>spec</txt>
+         <wit ref="1818_fullFlat_C11" pos="2262"/>
+         <wit ref="1823_fullFlat_C11" pos="2262"/>
+      </u>
+      <u>
+         <txt>tr</txt>
+         <wit ref="1831_fullFlat_C11" pos="2202"/>
+      </u>
+      <c>
+         <txt>i</txt>
+         <wit ref="1818_fullFlat_C11" pos="2266"/>
+         <wit ref="1823_fullFlat_C11" pos="2266"/>
+         <wit ref="1831_fullFlat_C11" pos="2204"/>
+      </c>
+      <u>
+         <txt>es o</txt>
+         <wit ref="1818_fullFlat_C11" pos="2267"/>
+         <wit ref="1823_fullFlat_C11" pos="2267"/>
+      </u>
+      <c>
+         <txt>f</txt>
+         <wit ref="1818_fullFlat_C11" pos="2271"/>
+         <wit ref="1823_fullFlat_C11" pos="2271"/>
+         <wit ref="1831_fullFlat_C11" pos="2205"/>
+      </c>
+      <u>
+         <txt>ling</txt>
+         <wit ref="1831_fullFlat_C11" pos="2206"/>
+      </u>
+      <c>
+         <txt> occupation</txt>
+         <wit ref="1818_fullFlat_C11" pos="2272"/>
+         <wit ref="1823_fullFlat_C11" pos="2272"/>
+         <wit ref="1831_fullFlat_C11" pos="2210"/>
+      </c>
+      <u>
+         <txt> than that of a judge, whose misfortune it wa</txt>
+         <wit ref="1818_fullFlat_C11" pos="2283"/>
+         <wit ref="1823_fullFlat_C11" pos="2283"/>
+      </u>
+      <c>
+         <txt>s </txt>
+         <wit ref="1818_fullFlat_C11" pos="2328"/>
+         <wit ref="1823_fullFlat_C11" pos="2328"/>
+         <wit ref="1831_fullFlat_C11" pos="2221"/>
+      </c>
+      <u>
+         <txt>always </txt>
+         <wit ref="1818_fullFlat_C11" pos="2330"/>
+         <wit ref="1823_fullFlat_C11" pos="2330"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1818_fullFlat_C11" pos="2337"/>
+         <wit ref="1823_fullFlat_C11" pos="2337"/>
+         <wit ref="1831_fullFlat_C11" pos="2223"/>
+      </c>
+      <u>
+         <txt>o meddle with th</txt>
+         <wit ref="1818_fullFlat_C11" pos="2338"/>
+         <wit ref="1823_fullFlat_C11" pos="2338"/>
+      </u>
+      <u>
+         <txt>ak</txt>
+         <wit ref="1831_fullFlat_C11" pos="2224"/>
+      </u>
+      <c>
+         <txt>e </txt>
+         <wit ref="1818_fullFlat_C11" pos="2354"/>
+         <wit ref="1823_fullFlat_C11" pos="2354"/>
+         <wit ref="1831_fullFlat_C11" pos="2226"/>
+      </c>
+      <u>
+         <txt>dark side of h</txt>
+         <wit ref="1818_fullFlat_C11" pos="2356"/>
+         <wit ref="1823_fullFlat_C11" pos="2356"/>
+      </u>
+      <c>
+         <txt>u</txt>
+         <wit ref="1818_fullFlat_C11" pos="2370"/>
+         <wit ref="1823_fullFlat_C11" pos="2370"/>
+         <wit ref="1831_fullFlat_C11" pos="2228"/>
+      </c>
+      <u>
+         <txt>man</txt>
+         <wit ref="1818_fullFlat_C11" pos="2371"/>
+         <wit ref="1823_fullFlat_C11" pos="2371"/>
+      </u>
+      <u>
+         <txt>p</txt>
+         <wit ref="1831_fullFlat_C11" pos="2229"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11" pos="2374"/>
+         <wit ref="1823_fullFlat_C11" pos="2374"/>
+         <wit ref="1831_fullFlat_C11" pos="2230"/>
+      </c>
+      <u>
+         <txt>nature. M</txt>
+         <wit ref="1818_fullFlat_C11" pos="2375"/>
+         <wit ref="1823_fullFlat_C11" pos="2375"/>
+      </u>
+      <u>
+         <txt>m</txt>
+         <wit ref="1831_fullFlat_C11" pos="2231"/>
+      </u>
+      <c>
+         <txt>y </txt>
+         <wit ref="1818_fullFlat_C11" pos="2384"/>
+         <wit ref="1823_fullFlat_C11" pos="2384"/>
+         <wit ref="1831_fullFlat_C11" pos="2232"/>
+      </c>
+      <u>
+         <txt>uncle smiled, and said, </txt>
+         <wit ref="1818_fullFlat_C11" pos="2386"/>
+         <wit ref="1823_fullFlat_C11" pos="2386"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1818_fullFlat_C11" pos="2410"/>
+         <wit ref="1823_fullFlat_C11" pos="2410"/>
+         <wit ref="1831_fullFlat_C11" pos="2234"/>
+      </c>
+      <u>
+         <txt>hat I ought to b</txt>
+         <wit ref="1818_fullFlat_C11" pos="2411"/>
+         <wit ref="1823_fullFlat_C11" pos="2411"/>
+      </u>
+      <u>
+         <txt>im</txt>
+         <wit ref="1831_fullFlat_C11" pos="2235"/>
+      </u>
+      <c>
+         <txt>e an</txt>
+         <wit ref="1818_fullFlat_C11" pos="2427"/>
+         <wit ref="1823_fullFlat_C11" pos="2427"/>
+         <wit ref="1831_fullFlat_C11" pos="2237"/>
+      </c>
+      <u>
+         <txt> advocate myself, which put an en</txt>
+         <wit ref="1818_fullFlat_C11" pos="2431"/>
+         <wit ref="1823_fullFlat_C11" pos="2431"/>
+      </u>
+      <c>
+         <txt>d </txt>
+         <wit ref="1818_fullFlat_C11" pos="2464"/>
+         <wit ref="1823_fullFlat_C11" pos="2464"/>
+         <wit ref="1831_fullFlat_C11" pos="2241"/>
+      </c>
+      <u>
+         <txt>to the convers</txt>
+         <wit ref="1818_fullFlat_C11" pos="2466"/>
+         <wit ref="1823_fullFlat_C11" pos="2466"/>
+      </u>
+      <c>
+         <txt>a</txt>
+         <wit ref="1818_fullFlat_C11" pos="2480"/>
+         <wit ref="1823_fullFlat_C11" pos="2480"/>
+         <wit ref="1831_fullFlat_C11" pos="2243"/>
+      </c>
+      <u>
+         <txt>tion on that subject. “And now I </txt>
+         <wit ref="1818_fullFlat_C11" pos="2481"/>
+         <wit ref="1823_fullFlat_C11" pos="2481"/>
+      </u>
+      <c>
+         <txt>mus</txt>
+         <wit ref="1818_fullFlat_C11" pos="2514"/>
+         <wit ref="1823_fullFlat_C11" pos="2514"/>
+         <wit ref="1831_fullFlat_C11" pos="2244"/>
+      </c>
+      <u>
+         <txt>t tell you a littl</txt>
+         <wit ref="1818_fullFlat_C11" pos="2517"/>
+         <wit ref="1823_fullFlat_C11" pos="2517"/>
+      </u>
+      <c>
+         <txt>e </txt>
+         <wit ref="1818_fullFlat_C11" pos="2535"/>
+         <wit ref="1823_fullFlat_C11" pos="2535"/>
+         <wit ref="1831_fullFlat_C11" pos="2247"/>
+      </c>
+      <u>
+         <txt>story that will pl</txt>
+         <wit ref="1818_fullFlat_C11" pos="2537"/>
+         <wit ref="1823_fullFlat_C11" pos="2537"/>
+      </u>
+      <u>
+         <txt>m</txt>
+         <wit ref="1831_fullFlat_C11" pos="2249"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1818_fullFlat_C11" pos="2555"/>
+         <wit ref="1823_fullFlat_C11" pos="2555"/>
+         <wit ref="1831_fullFlat_C11" pos="2250"/>
+      </c>
+      <u>
+         <txt>ase</txt>
+         <wit ref="1818_fullFlat_C11" pos="2556"/>
+         <wit ref="1823_fullFlat_C11" pos="2556"/>
+      </u>
+      <u>
+         <txt>,</txt>
+         <wit ref="1818_fullFlat_C11" pos="2559"/>
+         <wit ref="1831_fullFlat_C11" pos="2251"/>
+      </u>
+      <c>
+         <txt> and </txt>
+         <wit ref="1823_fullFlat_C11" pos="2559"/>
+         <wit ref="1818_fullFlat_C11" pos="2560"/>
+         <wit ref="1831_fullFlat_C11" pos="2252"/>
+      </c>
+      <u>
+         <txt>p</txt>
+         <wit ref="1823_fullFlat_C11" pos="2564"/>
+         <wit ref="1818_fullFlat_C11" pos="2565"/>
+      </u>
+      <u>
+         <txt>I am rewarded for any ex</txt>
+         <wit ref="1831_fullFlat_C11" pos="2257"/>
+      </u>
+      <c>
+         <txt>er</txt>
+         <wit ref="1823_fullFlat_C11" pos="2565"/>
+         <wit ref="1818_fullFlat_C11" pos="2566"/>
+         <wit ref="1831_fullFlat_C11" pos="2281"/>
+      </c>
+      <u>
+         <txt>tions by seeing none but </txt>
+         <wit ref="1831_fullFlat_C11" pos="2283"/>
+      </u>
+      <c>
+         <txt>hap</txt>
+         <wit ref="1823_fullFlat_C11" pos="2567"/>
+         <wit ref="1818_fullFlat_C11" pos="2568"/>
+         <wit ref="1831_fullFlat_C11" pos="2308"/>
+      </c>
+      <u>
+         <txt>py, kind face</txt>
+         <wit ref="1831_fullFlat_C11" pos="2311"/>
+      </u>
+      <c>
+         <txt>s a</txt>
+         <wit ref="1823_fullFlat_C11" pos="2570"/>
+         <wit ref="1818_fullFlat_C11" pos="2571"/>
+         <wit ref="1831_fullFlat_C11" pos="2324"/>
+      </c>
+      <u>
+         <txt>round </txt>
+         <wit ref="1831_fullFlat_C11" pos="2327"/>
+      </u>
+      <c>
+         <txt>m</txt>
+         <wit ref="1823_fullFlat_C11" pos="2573"/>
+         <wit ref="1818_fullFlat_C11" pos="2574"/>
+         <wit ref="1831_fullFlat_C11" pos="2333"/>
+      </c>
+      <u>
+         <txt>us</txt>
+         <wit ref="1823_fullFlat_C11" pos="2574"/>
+         <wit ref="1818_fullFlat_C11" pos="2575"/>
+      </u>
+      <u>
+         <txt>e. Sinc</txt>
+         <wit ref="1831_fullFlat_C11" pos="2334"/>
+      </u>
+      <c>
+         <txt>e you</txt>
+         <wit ref="1823_fullFlat_C11" pos="2576"/>
+         <wit ref="1818_fullFlat_C11" pos="2577"/>
+         <wit ref="1831_fullFlat_C11" pos="2341"/>
+      </c>
+      <u>
+         <txt> left us, but one change has taken place in our little household</txt>
+         <wit ref="1831_fullFlat_C11" pos="2346"/>
+      </u>
+      <c>
+         <txt>. Do you </txt>
+         <wit ref="1823_fullFlat_C11" pos="2581"/>
+         <wit ref="1818_fullFlat_C11" pos="2582"/>
+         <wit ref="1831_fullFlat_C11" pos="2410"/>
+      </c>
+      <u>
+         <txt>not </txt>
+         <wit ref="1823_fullFlat_C11" pos="2590"/>
+         <wit ref="1818_fullFlat_C11" pos="2591"/>
+      </u>
+      <c>
+         <txt>remember</txt>
+         <wit ref="1823_fullFlat_C11" pos="2594"/>
+         <wit ref="1818_fullFlat_C11" pos="2595"/>
+         <wit ref="1831_fullFlat_C11" pos="2419"/>
+      </c>
+      <u>
+         <txt> on what occasion</txt>
+         <wit ref="1831_fullFlat_C11" pos="2427"/>
+      </u>
+      <c>
+         <txt> Justine Moritz</txt>
+         <wit ref="1823_fullFlat_C11" pos="2602"/>
+         <wit ref="1818_fullFlat_C11" pos="2603"/>
+         <wit ref="1831_fullFlat_C11" pos="2444"/>
+      </c>
+      <u>
+         <txt> entered our family</txt>
+         <wit ref="1831_fullFlat_C11" pos="2459"/>
+      </u>
+      <c>
+         <txt>? Probably you do not; I will relate her history, therefore, in a few words. Madame Moritz, her mother, was a widow with four children, of whom Justine was the third. This girl had always been the favourite of her father; but, through a strange perversity, her mother could not endure her, and, after the death of M. Moritz, treated her very ill. My aunt observed this; and, when Justine was twelve years of age, prevailed on her mother to allow her to live at </txt>
+         <wit ref="1823_fullFlat_C11" pos="2617"/>
+         <wit ref="1818_fullFlat_C11" pos="2618"/>
+         <wit ref="1831_fullFlat_C11" pos="2478"/>
+      </c>
+      <u>
+         <txt>he</txt>
+         <wit ref="1823_fullFlat_C11" pos="3078"/>
+         <wit ref="1818_fullFlat_C11" pos="3079"/>
+      </u>
+      <u>
+         <txt>ou</txt>
+         <wit ref="1831_fullFlat_C11" pos="2939"/>
+      </u>
+      <c>
+         <txt>r house. The republican institutions of our country have produced simpler and happier manners than those which prevail in the great monarchies that surround it. Hence there is less distinction between the several classes of its inhabitants; and the lower orders being neither so poor nor so despised, their manners are more refined and moral. A servant in Geneva does not mean the same thing as a servant in France and England. Justine, thus received in our family, learned the duties of a servant; a condition which, in our fortunate country, does not include the idea of ignorance, and a sacrifice of the dignity of a human being. “</txt>
+         <wit ref="1823_fullFlat_C11" pos="3080"/>
+         <wit ref="1818_fullFlat_C11" pos="3081"/>
+         <wit ref="1831_fullFlat_C11" pos="2941"/>
+      </c>
+      <u>
+         <txt>After what I have said, I dare say you well remember the heroine of my little tale: for </txt>
+         <wit ref="1823_fullFlat_C11" pos="3714"/>
+         <wit ref="1818_fullFlat_C11" pos="3715"/>
+      </u>
+      <c>
+         <txt>Justine</txt>
+         <wit ref="1823_fullFlat_C11" pos="3802"/>
+         <wit ref="1818_fullFlat_C11" pos="3803"/>
+         <wit ref="1831_fullFlat_C11" pos="3575"/>
+      </c>
+      <u>
+         <txt>, you may remember,</txt>
+         <wit ref="1831_fullFlat_C11" pos="3582"/>
+      </u>
+      <c>
+         <txt> was a great favourite of your</txt>
+         <wit ref="1823_fullFlat_C11" pos="3809"/>
+         <wit ref="1818_fullFlat_C11" pos="3810"/>
+         <wit ref="1831_fullFlat_C11" pos="3601"/>
+      </c>
+      <u>
+         <txt>’</txt>
+         <wit ref="1818_fullFlat_C11" pos="3840"/>
+      </u>
+      <c>
+         <txt>s; and I recollect you once remarked, that if you were in an ill</txt>
+         <wit ref="1823_fullFlat_C11" pos="3839"/>
+         <wit ref="1831_fullFlat_C11" pos="3631"/>
+         <wit ref="1818_fullFlat_C11" pos="3841"/>
+      </c>
+      <u>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="3903"/>
+         <wit ref="1818_fullFlat_C11" pos="3905"/>
+      </u>
+      <u>
+         <txt>-</txt>
+         <wit ref="1831_fullFlat_C11" pos="3695"/>
+      </u>
+      <c>
+         <txt>humour, one glance from Justine could dissipate it, for the same reason that Ariosto gives concerning the beauty of Angelica—she looked so frank-hearted and happy. My aunt conceived a great attachment for her, by which she was induced to give her an education superior to that which she had at first intended. This benefit was fully repaid; Justine was the most grateful little creature in the world: I do not mean that she made any professions</txt>
+         <wit ref="1823_fullFlat_C11" pos="3904"/>
+         <wit ref="1818_fullFlat_C11" pos="3906"/>
+         <wit ref="1831_fullFlat_C11" pos="3696"/>
+      </c>
+      <u>
+         <txt>,</txt>
+         <wit ref="1823_fullFlat_C11" pos="4348"/>
+         <wit ref="1818_fullFlat_C11" pos="4350"/>
+      </u>
+      <u>
+         <txt>;</txt>
+         <wit ref="1831_fullFlat_C11" pos="4140"/>
+      </u>
+      <c>
+         <txt> I never heard one pass her lips; but you could see by her eyes that she almost adored her protectress. Although her disposition was gay, and in many respects inconsiderate, yet she paid the greatest attention to every gesture of my aunt. She thought her the model of all excellence, and endeavoured to imitate her phraseology and manners, so that even now she often reminds me of her. “When my dearest aunt died, every one was too much occupied in their own grief to notice poor Justine, who had attended her during her illness with the most anxious affection. Poor Justine was very ill; but other trials were reserved for her. “One by one, her brothers and sister died; and her mother, with the exception of her neglected daughter, was left childless. The conscience of the woman was troubled; she began to think that the deaths of her favourites was a judgment from heaven to chastise her partiality. She was a Roman </txt>
+         <wit ref="1823_fullFlat_C11" pos="4349"/>
+         <wit ref="1818_fullFlat_C11" pos="4351"/>
+         <wit ref="1831_fullFlat_C11" pos="4141"/>
+      </c>
+      <u>
+         <txt>C</txt>
+         <wit ref="1823_fullFlat_C11" pos="5269"/>
+         <wit ref="1818_fullFlat_C11" pos="5271"/>
+      </u>
+      <u>
+         <txt>c</txt>
+         <wit ref="1831_fullFlat_C11" pos="5061"/>
+      </u>
+      <c>
+         <txt>atholic; and I believe her confessor confirmed the idea which she had conceived. Accordingly, a few months after your departure for Ingolstadt, Justine was called home by her repentant mother. Poor girl! she wept when she quitted our house</txt>
+         <wit ref="1823_fullFlat_C11" pos="5270"/>
+         <wit ref="1818_fullFlat_C11" pos="5272"/>
+         <wit ref="1831_fullFlat_C11" pos="5062"/>
+      </c>
+      <u>
+         <txt>;</txt>
+         <wit ref="1823_fullFlat_C11" pos="5509"/>
+         <wit ref="1831_fullFlat_C11" pos="5301"/>
+      </u>
+      <u>
+         <txt>:</txt>
+         <wit ref="1818_fullFlat_C11" pos="5511"/>
+      </u>
+      <c>
+         <txt> she was much altered since the death of my aunt; grief had given softness and a winning mildness to her manners, which had before been remarkable for vivacity. Nor was her residence at her mother’s house of a nature to restore her gaiety. The poor woman was very vacillating in her repentance. She sometimes begged Justine to forgive her unkindness, but much oftener accused her of having caused the deaths of her brothers and sister. Perpetual fretting at length threw Madame Moritz into a decline, which at first increased her irritability, but she is now at peace for</txt>
+         <wit ref="1823_fullFlat_C11" pos="5510"/>
+         <wit ref="1818_fullFlat_C11" pos="5512"/>
+         <wit ref="1831_fullFlat_C11" pos="5302"/>
+      </c>
+      <u>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="6081"/>
+         <wit ref="1818_fullFlat_C11" pos="6083"/>
+      </u>
+      <c>
+         <txt>ever. She died on the first approach of cold weather, at the beginning of this last winter. Justine has returned to us; and I assure you I love her tenderly. She is very clever and gentle, and extremely pretty; as I mentioned before, her mien and her expressions continually remind me of my dear aunt. “I must say also a few words to you, my dear cousin, of little darling William. I wish you could see him; he is very tall of his age, with sweet laughing blue eyes, dark eye-lashes, and curling hair. When he smiles, two little dimples appear on each cheek, which are rosy with health. He has already had one or two little wives, but Louisa Biron is his favourite, a pretty little girl of five years of age. “Now, dear Victor, I dare say you wish to be indulged in a little gossip concerning the good people of Geneva. The pretty Miss Mansfield has already received the congratulatory visits on her approaching marriage with a young Englishman, John Melbourne, Esq. Her ugly sister, Manon, married M. Duvillard, the rich banker, last autumn. Your favourite schoolfellow, Louis Manoir, has suffered several misfortunes since the departure of Clerval from Geneva. But he has already recovered his spirits, and is reported to be on the point of marrying a very lively pretty Frenchwoman, Madame Tavernier. She is a widow, and much older than Manoir; but she is very much admired, and a favourite with every</txt>
+         <wit ref="1823_fullFlat_C11" pos="6082"/>
+         <wit ref="1818_fullFlat_C11" pos="6084"/>
+         <wit ref="1831_fullFlat_C11" pos="5873"/>
+      </c>
+      <u>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="7486"/>
+         <wit ref="1818_fullFlat_C11" pos="7488"/>
+      </u>
+      <c>
+         <txt>body. “I have written myself into </txt>
+         <wit ref="1823_fullFlat_C11" pos="7487"/>
+         <wit ref="1818_fullFlat_C11" pos="7489"/>
+         <wit ref="1831_fullFlat_C11" pos="7277"/>
+      </c>
+      <u>
+         <txt>good</txt>
+         <wit ref="1823_fullFlat_C11" pos="7521"/>
+         <wit ref="1818_fullFlat_C11" pos="7523"/>
+      </u>
+      <u>
+         <txt>better</txt>
+         <wit ref="1831_fullFlat_C11" pos="7311"/>
+      </u>
+      <c>
+         <txt> spirits, dear cousin; </txt>
+         <wit ref="1823_fullFlat_C11" pos="7525"/>
+         <wit ref="1818_fullFlat_C11" pos="7527"/>
+         <wit ref="1831_fullFlat_C11" pos="7317"/>
+      </c>
+      <u>
+         <txt>but m</txt>
+         <wit ref="1831_fullFlat_C11" pos="7340"/>
+      </u>
+      <c>
+         <txt>y</txt>
+         <wit ref="1823_fullFlat_C11" pos="7548"/>
+         <wit ref="1818_fullFlat_C11" pos="7550"/>
+         <wit ref="1831_fullFlat_C11" pos="7345"/>
+      </c>
+      <u>
+         <txt> anxi</txt>
+         <wit ref="1831_fullFlat_C11" pos="7346"/>
+      </u>
+      <c>
+         <txt>et</txt>
+         <wit ref="1823_fullFlat_C11" pos="7549"/>
+         <wit ref="1818_fullFlat_C11" pos="7551"/>
+         <wit ref="1831_fullFlat_C11" pos="7351"/>
+      </c>
+      <u>
+         <txt>y returns upon me as</txt>
+         <wit ref="1831_fullFlat_C11" pos="7353"/>
+      </u>
+      <c>
+         <txt> I</txt>
+         <wit ref="1823_fullFlat_C11" pos="7551"/>
+         <wit ref="1818_fullFlat_C11" pos="7553"/>
+         <wit ref="1831_fullFlat_C11" pos="7373"/>
+      </c>
+      <u>
+         <txt> cannot</txt>
+         <wit ref="1823_fullFlat_C11" pos="7553"/>
+         <wit ref="1818_fullFlat_C11" pos="7555"/>
+      </u>
+      <c>
+         <txt> conclude</txt>
+         <wit ref="1823_fullFlat_C11" pos="7560"/>
+         <wit ref="1818_fullFlat_C11" pos="7562"/>
+         <wit ref="1831_fullFlat_C11" pos="7375"/>
+      </c>
+      <u>
+         <txt> without again anxiously inquiring concerning your health</txt>
+         <wit ref="1823_fullFlat_C11" pos="7569"/>
+         <wit ref="1818_fullFlat_C11" pos="7571"/>
+      </u>
+      <c>
+         <txt>. </txt>
+         <wit ref="1823_fullFlat_C11" pos="7626"/>
+         <wit ref="1818_fullFlat_C11" pos="7628"/>
+         <wit ref="1831_fullFlat_C11" pos="7384"/>
+      </c>
+      <u>
+         <txt>D</txt>
+         <wit ref="1823_fullFlat_C11" pos="7628"/>
+         <wit ref="1818_fullFlat_C11" pos="7630"/>
+      </u>
+      <u>
+         <txt>Write, d</txt>
+         <wit ref="1831_fullFlat_C11" pos="7386"/>
+      </u>
+      <c>
+         <txt>ear</txt>
+         <wit ref="1823_fullFlat_C11" pos="7629"/>
+         <wit ref="1818_fullFlat_C11" pos="7631"/>
+         <wit ref="1831_fullFlat_C11" pos="7394"/>
+      </c>
+      <u>
+         <txt>est</txt>
+         <wit ref="1831_fullFlat_C11" pos="7397"/>
+      </u>
+      <c>
+         <txt> Victor,</txt>
+         <wit ref="1823_fullFlat_C11" pos="7632"/>
+         <wit ref="1818_fullFlat_C11" pos="7634"/>
+         <wit ref="1831_fullFlat_C11" pos="7400"/>
+      </c>
+      <u>
+         <txt>—one</txt>
+         <wit ref="1831_fullFlat_C11" pos="7408"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="7640"/>
+         <wit ref="1818_fullFlat_C11" pos="7642"/>
+         <wit ref="1831_fullFlat_C11" pos="7412"/>
+      </c>
+      <u>
+         <txt>line—one word w</txt>
+         <wit ref="1831_fullFlat_C11" pos="7413"/>
+      </u>
+      <c>
+         <txt>i</txt>
+         <wit ref="1823_fullFlat_C11" pos="7641"/>
+         <wit ref="1818_fullFlat_C11" pos="7643"/>
+         <wit ref="1831_fullFlat_C11" pos="7428"/>
+      </c>
+      <u>
+         <txt>f</txt>
+         <wit ref="1823_fullFlat_C11" pos="7642"/>
+         <wit ref="1818_fullFlat_C11" pos="7644"/>
+      </u>
+      <u>
+         <txt>ll be a blessing</txt>
+         <wit ref="1831_fullFlat_C11" pos="7429"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1823_fullFlat_C11" pos="7643"/>
+         <wit ref="1818_fullFlat_C11" pos="7645"/>
+         <wit ref="1831_fullFlat_C11" pos="7445"/>
+      </c>
+      <u>
+         <txt>y</txt>
+         <wit ref="1823_fullFlat_C11" pos="7644"/>
+         <wit ref="1818_fullFlat_C11" pos="7646"/>
+      </u>
+      <u>
+         <txt>to us. Ten th</txt>
+         <wit ref="1831_fullFlat_C11" pos="7446"/>
+      </u>
+      <c>
+         <txt>ou</txt>
+         <wit ref="1823_fullFlat_C11" pos="7645"/>
+         <wit ref="1818_fullFlat_C11" pos="7647"/>
+         <wit ref="1831_fullFlat_C11" pos="7459"/>
+      </c>
+      <u>
+         <txt>sand thanks to Henry for his kindness, his affection, and his many letters: we</txt>
+         <wit ref="1831_fullFlat_C11" pos="7461"/>
+      </u>
+      <c>
+         <txt> are </txt>
+         <wit ref="1823_fullFlat_C11" pos="7647"/>
+         <wit ref="1818_fullFlat_C11" pos="7649"/>
+         <wit ref="1831_fullFlat_C11" pos="7539"/>
+      </c>
+      <u>
+         <txt>not very ill, write yourself, and make your father and all of us happy; or——I cannot bear to think of the other </txt>
+         <wit ref="1823_fullFlat_C11" pos="7652"/>
+         <wit ref="1818_fullFlat_C11" pos="7654"/>
+      </u>
+      <c>
+         <txt>si</txt>
+         <wit ref="1823_fullFlat_C11" pos="7764"/>
+         <wit ref="1818_fullFlat_C11" pos="7766"/>
+         <wit ref="1831_fullFlat_C11" pos="7544"/>
+      </c>
+      <u>
+         <txt>de of the questio</txt>
+         <wit ref="1823_fullFlat_C11" pos="7766"/>
+         <wit ref="1818_fullFlat_C11" pos="7768"/>
+      </u>
+      <c>
+         <txt>n</txt>
+         <wit ref="1823_fullFlat_C11" pos="7783"/>
+         <wit ref="1818_fullFlat_C11" pos="7785"/>
+         <wit ref="1831_fullFlat_C11" pos="7546"/>
+      </c>
+      <u>
+         <txt>; my t</txt>
+         <wit ref="1823_fullFlat_C11" pos="7784"/>
+         <wit ref="1818_fullFlat_C11" pos="7786"/>
+      </u>
+      <u>
+         <txt>c</txt>
+         <wit ref="1831_fullFlat_C11" pos="7547"/>
+      </u>
+      <c>
+         <txt>e</txt>
+         <wit ref="1823_fullFlat_C11" pos="7790"/>
+         <wit ref="1818_fullFlat_C11" pos="7792"/>
+         <wit ref="1831_fullFlat_C11" pos="7548"/>
+      </c>
+      <u>
+         <txt>ars al</txt>
+         <wit ref="1823_fullFlat_C11" pos="7791"/>
+         <wit ref="1818_fullFlat_C11" pos="7793"/>
+      </u>
+      <c>
+         <txt>re</txt>
+         <wit ref="1823_fullFlat_C11" pos="7797"/>
+         <wit ref="1818_fullFlat_C11" pos="7799"/>
+         <wit ref="1831_fullFlat_C11" pos="7549"/>
+      </c>
+      <u>
+         <txt>ad</txt>
+         <wit ref="1823_fullFlat_C11" pos="7799"/>
+         <wit ref="1818_fullFlat_C11" pos="7801"/>
+      </u>
+      <u>
+         <txt>l</txt>
+         <wit ref="1831_fullFlat_C11" pos="7551"/>
+      </u>
+      <c>
+         <txt>y </txt>
+         <wit ref="1823_fullFlat_C11" pos="7801"/>
+         <wit ref="1818_fullFlat_C11" pos="7803"/>
+         <wit ref="1831_fullFlat_C11" pos="7552"/>
+      </c>
+      <u>
+         <txt>grate</txt>
+         <wit ref="1831_fullFlat_C11" pos="7554"/>
+      </u>
+      <c>
+         <txt>f</txt>
+         <wit ref="1823_fullFlat_C11" pos="7803"/>
+         <wit ref="1818_fullFlat_C11" pos="7805"/>
+         <wit ref="1831_fullFlat_C11" pos="7559"/>
+      </c>
+      <u>
+         <txt>u</txt>
+         <wit ref="1831_fullFlat_C11" pos="7560"/>
+      </u>
+      <c>
+         <txt>l</txt>
+         <wit ref="1823_fullFlat_C11" pos="7804"/>
+         <wit ref="1818_fullFlat_C11" pos="7806"/>
+         <wit ref="1831_fullFlat_C11" pos="7561"/>
+      </c>
+      <u>
+         <txt>ow</txt>
+         <wit ref="1823_fullFlat_C11" pos="7805"/>
+         <wit ref="1818_fullFlat_C11" pos="7807"/>
+      </u>
+      <c>
+         <txt>. Adieu</txt>
+         <wit ref="1823_fullFlat_C11" pos="7807"/>
+         <wit ref="1818_fullFlat_C11" pos="7809"/>
+         <wit ref="1831_fullFlat_C11" pos="7562"/>
+      </c>
+      <u>
+         <txt>! my cousin; take care of yourself; and, I entreat you</txt>
+         <wit ref="1831_fullFlat_C11" pos="7569"/>
+      </u>
+      <c>
+         <txt>, </txt>
+         <wit ref="1823_fullFlat_C11" pos="7814"/>
+         <wit ref="1818_fullFlat_C11" pos="7816"/>
+         <wit ref="1831_fullFlat_C11" pos="7623"/>
+      </c>
+      <u>
+         <txt>my dea</txt>
+         <wit ref="1823_fullFlat_C11" pos="7816"/>
+         <wit ref="1818_fullFlat_C11" pos="7818"/>
+      </u>
+      <u>
+         <txt>w</txt>
+         <wit ref="1831_fullFlat_C11" pos="7625"/>
+      </u>
+      <c>
+         <txt>r</txt>
+         <wit ref="1823_fullFlat_C11" pos="7822"/>
+         <wit ref="1818_fullFlat_C11" pos="7824"/>
+         <wit ref="1831_fullFlat_C11" pos="7626"/>
+      </c>
+      <u>
+         <txt>est cous</txt>
+         <wit ref="1823_fullFlat_C11" pos="7823"/>
+         <wit ref="1818_fullFlat_C11" pos="7825"/>
+      </u>
+      <c>
+         <txt>i</txt>
+         <wit ref="1823_fullFlat_C11" pos="7831"/>
+         <wit ref="1818_fullFlat_C11" pos="7833"/>
+         <wit ref="1831_fullFlat_C11" pos="7627"/>
+      </c>
+      <u>
+         <txt>n.</txt>
+         <wit ref="1823_fullFlat_C11" pos="7832"/>
+         <wit ref="1818_fullFlat_C11" pos="7834"/>
+      </u>
+      <u>
+         <txt>te!</txt>
+         <wit ref="1831_fullFlat_C11" pos="7628"/>
+      </u>
+      <c>
+         <txt> “ELIZABETH LAVENZA. “Geneva, March 18th, 17—.</txt>
+         <wit ref="1823_fullFlat_C11" pos="7834"/>
+         <wit ref="1818_fullFlat_C11" pos="7836"/>
+         <wit ref="1831_fullFlat_C11" pos="7631"/>
+      </c>
+      <u>
+         <txt>”</txt>
+         <wit ref="1818_fullFlat_C11" pos="7882"/>
+         <wit ref="1831_fullFlat_C11" pos="7677"/>
+      </u>
+   </collation>
+</diagnostics>
