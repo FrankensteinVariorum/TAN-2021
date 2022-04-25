@@ -99,7 +99,8 @@
     <xsl:param name="tan:ignore-punctuation-differences" as="xs:boolean" select="false()"/>
     
     <xsl:param name="additional-batch-replacements" as="element()*">
-        <!--ebb: normalizations to batch process for collation. NOTE: We want to do these to preserve some markup in the output for post-processing to reconstruct the edition files. 
+        <!--ebb: normalizations to batch process for collation. NOTE: We want to do these to preserve some markup \\
+            in the output for post-processing to reconstruct the edition files. 
             Remember, these will be processed in order, so watch out for conflicts. -->
         <replace pattern="(&lt;.+?&gt;\s*)&amp;gt;" replacement="$1" message="normalizing away extra right angle brackets"/>
          <replace pattern="&amp;amp;" replacement="and" message="ampersand batch replacement"/>
