@@ -59,6 +59,13 @@
    <!-- 2022-04-16 ebb: I converted this from false() to true(). Shall error elements placed in TAN files during the validation process also be passed on messages? -->
    <xsl:param name="tan:error-messages-on" as="xs:boolean" select="true()"/>
    
+   <!-- What should the default definition of a token be? Expected is an element of
+      any name, with attribute @pattern with a regular expression and optional
+      attribute @flags, indicating any special treatment, e.g., i for case-insensitive.
+   -->
+   <xsl:param name="tan:token-definition-default" as="element()?">
+      <token-definition pattern="[\w&#xad;​&#x200b;&#x200d;]+|[^\w&#xad;​&#x200b;&#x200d;\s]" flags=""/>
+   </xsl:param>
    
    
    <!-- END-OF-PROCESS PARAMETERS -->
