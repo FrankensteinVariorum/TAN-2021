@@ -123,8 +123,8 @@
    <!-- docx -->
    <xsl:include href="docx/TAN-fn-docx.xsl" use-when="not($tan:validation-mode-on)"/>
    <!-- tei -->
-   <xsl:include href="tei/TAN-fn-tei.xsl" use-when="not($tan:validation-mode-on)"/>
-
+  <!-- 2022-07-16 ebb: This is throwing an error b/c it can't be located: <xsl:include href="tei/TAN-fn-tei.xsl" use-when="not($tan:validation-mode-on)"/>
+-->
 
    <!-- PROCESSES -->
    <!-- Resolving TAN files -->

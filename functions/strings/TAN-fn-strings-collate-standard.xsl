@@ -319,6 +319,7 @@
                   <xsl:variable name="this-is-base-collation" select="$this-collation-position eq 1"/>
                   <xsl:copy>
                      <xsl:copy-of select="@*"/>
+                     <xsl:copy-of select="text()"/> <!--2022-07-16 ebb: Tried grabbing text here; no luck -->
                      <xsl:attribute name="is-base" select="$this-is-base-collation"/>
                      <!-- group each <u> and <c> based on whether a child <x> or <wit> for the linking text has a matching position -->
                      <xsl:for-each-group select="*"
@@ -384,6 +385,7 @@
                                                   <xsl:attribute name="pos"
                                                   select="$this-new-pos-int - $this-diff-with-linking-text-pos"
                                                   />
+                                                <xsl:copy-of select="text()"/><!--2022-07-16 ebb: Here is where I think I can output the text of a witness?? -->
                                                 </xsl:copy>
                                              </xsl:for-each>
                                              <xsl:copy-of select="$this-element/tan:x"/>
@@ -560,6 +562,7 @@
                                  <xsl:copy-of select="$these-base-collation-items/node()"/>
                                  <wit>
                                     <xsl:copy-of select="$this-new-collation-item/tan:wit/@*"/>
+                                    <xsl:apply-templates select="$this-new-collation-item/tan:wit"/>
                                  </wit>
                               </u>
                            </xsl:when>
@@ -569,6 +572,7 @@
                                  <xsl:copy-of select="$these-base-collation-items/node()"/>
                                  <wit>
                                     <xsl:copy-of select="$this-new-collation-item/tan:wit/@*"/>
+                                    <xsl:apply-templates select="$this-new-collation-item/tan:wit"/>
                                  </wit>
                               </c>
                            </xsl:when>

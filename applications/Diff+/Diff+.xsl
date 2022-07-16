@@ -188,7 +188,7 @@
         adjustment, it is recommended you add templates to the mode prepare-input, keeping in mind that
         an important template is applied by Diff+ to the root element, to prepare it for grouping.
     -->
-    <xsl:param name="xml-handling-option" as="xs:integer" select="1"/>
+    <xsl:param name="xml-handling-option" as="xs:integer" select="2"/>
     
     
     

@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group xmlns="tag:textalign.net,2015:ns" cgk="_C11b" count="5">
+   <stats>
+      <witness class="a-w-1818_fullFlat_C11b" ref="1818_fullFlat_C11b">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/1818_fullFlat_C11b.xml</uri>
+         <length>640</length>
+         <diff-count>31</diff-count>
+         <diff-length>631</diff-length>
+         <diff-portion>98.6%</diff-portion>
+      </witness>
+      <witness class="a-w-1823_fullFlat_C11b" ref="1823_fullFlat_C11b">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/1823_fullFlat_C11b.xml</uri>
+         <length>641</length>
+         <diff-count>32</diff-count>
+         <diff-length>632</diff-length>
+         <diff-portion>98.6%</diff-portion>
+      </witness>
+      <witness class="a-w-1831_fullFlat_C11b" ref="1831_fullFlat_C11b">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/1831_fullFlat_C11b.xml</uri>
+         <length>46</length>
+         <diff-count>14</diff-count>
+         <diff-length>37</diff-length>
+         <diff-portion>80.4%</diff-portion>
+      </witness>
+      <witness class="a-w-Thomas_fullFlat_C11b" ref="Thomas_fullFlat_C11b">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/Thomas_fullFlat_C11b.xml</uri>
+         <length>934</length>
+         <diff-count>39</diff-count>
+         <diff-length>925</diff-length>
+         <diff-portion>99.0%</diff-portion>
+      </witness>
+      <witness class="a-w-msColl_C11b" ref="msColl_C11b">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/msColl_C11b.xml</uri>
+         <length>150</length>
+         <diff-count>30</diff-count>
+         <diff-length>141</diff-length>
+         <diff-portion>94.0%</diff-portion>
+      </witness>
+      <collation id="collation" class="a-collation">
+         <uri>file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-collation-fewTinyChunks11/collation-C11b-compared.xml</uri>
+         <length>1028</length>
+         <diff-count>61</diff-count>
+         <diff-length>1019</diff-length>
+         <diff-portion>99.1%</diff-portion>
+      </collation>
+   </stats>
+   <venns>
+      <venn>
+         <a>1818_fullFlat_C11b</a>
+         <b>1823_fullFlat_C11b</b>
+         <c>1831_fullFlat_C11b</c>
+         <node-count>51</node-count>
+         <length>677</length>
+         <part>
+            <a/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>1</node-count>
+            <length>1</length>
+            <portion>0.001477104874446086</portion>
+            <texts>
+               <u>
+                  <txt>“</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="6"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>13</node-count>
+            <length>36</length>
+            <portion>0.053175775480059084</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>30</node-count>
+            <length>630</length>
+            <portion>0.930576070901033973</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+            <texts/>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>7</node-count>
+            <length>10</length>
+            <portion>0.014771048744460857</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1818_fullFlat_C11b</a>
+         <b>1823_fullFlat_C11b</b>
+         <c>Thomas_fullFlat_C11b</c>
+         <node-count>48</node-count>
+         <length>963</length>
+         <part>
+            <a/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>1</node-count>
+            <length>1</length>
+            <portion>0.001038421599169263</portion>
+            <texts>
+               <u>
+                  <txt>“</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="6"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>10</node-count>
+            <length>322</length>
+            <portion>0.334371754932502596</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>2</node-count>
+            <length>28</length>
+            <portion>0.029075804776739356</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+            <texts/>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>35</node-count>
+            <length>612</length>
+            <portion>0.635514018691588785</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1818_fullFlat_C11b</a>
+         <b>1823_fullFlat_C11b</b>
+         <c>msColl_C11b</c>
+         <node-count>54</node-count>
+         <length>701</length>
+         <part>
+            <a/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>1</node-count>
+            <length>1</length>
+            <portion>0.001426533523537803</portion>
+            <texts>
+               <u>
+                  <txt>“</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="6"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>16</node-count>
+            <length>60</length>
+            <portion>0.085592011412268188</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>17</node-count>
+            <length>550</length>
+            <portion>0.784593437945791726</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+            <texts/>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>20</node-count>
+            <length>90</length>
+            <portion>0.128388017118402282</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1818_fullFlat_C11b</a>
+         <b>1831_fullFlat_C11b</b>
+         <c>Thomas_fullFlat_C11b</c>
+         <node-count>59</node-count>
+         <length>993</length>
+         <part>
+            <a/>
+            <node-count>2</node-count>
+            <length>28</length>
+            <portion>0.028197381671701913</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>12</node-count>
+            <length>31</length>
+            <portion>0.03121852970795569</portion>
+            <texts>
+               <u>
+                  <txt>!--emp</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>t</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="8"/>
+               </u>
+               <u>
+                  <txt>y: n</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="9"/>
+               </u>
+               <u>
+                  <txt>o</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="13"/>
+               </u>
+               <u>
+                  <txt>text</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="15"/>
+               </u>
+               <u>
+                  <txt>o</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="21"/>
+               </u>
+               <u>
+                  <txt>r</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="22"/>
+               </u>
+               <u>
+                  <txt>c</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="29"/>
+               </u>
+               <u>
+                  <txt>la</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="32"/>
+               </u>
+               <u>
+                  <txt>ion uni</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="35"/>
+               </u>
+               <u>
+                  <txt>--</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="44"/>
+               </u>
+               <u>
+                  <txt>&gt;</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="46"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>9</node-count>
+            <length>317</length>
+            <portion>0.319234642497482377</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>28</node-count>
+            <length>602</length>
+            <portion>0.606243705941591138</portion>
+            <texts>
+               <u>
+                  <txt>ab/&gt;</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="2"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>v.</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="7"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="7"/>
+               </u>
+               <u>
+                  <txt>.&lt;</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="11"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="11"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="13"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="13"/>
+               </u>
+               <u>
+                  <txt>b/&gt;</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="14"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="14"/>
+               </u>
+               <u>
+                  <txt> &lt;</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="17"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="17"/>
+               </u>
+               <u>
+                  <txt>/&gt;</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="20"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="22"/>
+               </u>
+               <u>
+                  <txt>&lt;p/&gt;“,&lt;p/&gt; &lt;p/&gt;“i cannot describe to you the uneasiness we have all felt concerning your he</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="22"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="24"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="113"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="115"/>
+               </u>
+               <u>
+                  <txt>lth. we cannot hel</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="114"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="116"/>
+               </u>
+               <u>
+                  <txt>p</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="132"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="134"/>
+               </u>
+               <u>
+                  <txt> imagining that your friend clerval conceals the extent of your disorder: for it is now several months since we have seen your hand-w</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="133"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="135"/>
+               </u>
+               <u>
+                  <txt>ri</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="266"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="268"/>
+               </u>
+               <u>
+                  <txt>ting; and all this time you have been obliged to dictate your letters to henry. surely, victor, you must have </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="268"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="270"/>
+               </u>
+               <u>
+                  <txt>and this makes us all very wretched, as much so nearly as after the death of your dear mother.</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="405"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="380"/>
+               </u>
+               <u>
+                  <txt> my uncle </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="499"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="763"/>
+               </u>
+               <u>
+                  <txt>was</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="509"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="779"/>
+               </u>
+               <u>
+                  <txt> almost persuaded</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="512"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="794"/>
+               </u>
+               <u>
+                  <txt> that you were indeed</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="529"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="811"/>
+               </u>
+               <u>
+                  <txt>dangerously ill, </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="551"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="833"/>
+               </u>
+               <u>
+                  <txt>and</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="568"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="856"/>
+               </u>
+               <u>
+                  <txt> could hardly be rest</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="571"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="865"/>
+               </u>
+               <u>
+                  <txt>rained from </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="592"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="886"/>
+               </u>
+               <u>
+                  <txt>undertaking </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="604"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="898"/>
+               </u>
+               <u>
+                  <txt>a journey to ing</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="616"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="910"/>
+               </u>
+               <u>
+                  <txt>s</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="634"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="928"/>
+               </u>
+               <u>
+                  <txt>ad</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="636"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="930"/>
+               </u>
+               <u>
+                  <txt> </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="640"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="934"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>1</node-count>
+            <length>5</length>
+            <portion>0.005035246727089627</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>7</node-count>
+            <length>10</length>
+            <portion>0.010070493454179255</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1818_fullFlat_C11b</a>
+         <b>1831_fullFlat_C11b</b>
+         <c>msColl_C11b</c>
+         <node-count>61</node-count>
+         <length>727</length>
+         <part>
+            <a/>
+            <node-count>16</node-count>
+            <length>549</length>
+            <portion>0.75515818431911967</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>8</node-count>
+            <length>27</length>
+            <portion>0.037138927097661623</portion>
+            <texts>
+               <u>
+                  <txt>!--emp</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>y: n</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="9"/>
+               </u>
+               <u>
+                  <txt>text</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="15"/>
+               </u>
+               <u>
+                  <txt>r</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="22"/>
+               </u>
+               <u>
+                  <txt>c</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="29"/>
+               </u>
+               <u>
+                  <txt>la</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="32"/>
+               </u>
+               <u>
+                  <txt>ion uni</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="35"/>
+               </u>
+               <u>
+                  <txt>--</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="44"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>11</node-count>
+            <length>51</length>
+            <portion>0.07015130674002751</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>1</node-count>
+            <length>1</length>
+            <portion>0.001375515818431912</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>14</node-count>
+            <length>81</length>
+            <portion>0.111416781292984869</portion>
+            <texts>
+               <u>
+                  <txt>v.</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="7"/>
+                  <wit ref="msColl_C11b" pos="5"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="13"/>
+                  <wit ref="msColl_C11b" pos="10"/>
+               </u>
+               <u>
+                  <txt> &lt;</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="17"/>
+                  <wit ref="msColl_C11b" pos="20"/>
+               </u>
+               <u>
+                  <txt>/&gt;</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="20"/>
+                  <wit ref="msColl_C11b" pos="25"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="113"/>
+                  <wit ref="msColl_C11b" pos="27"/>
+               </u>
+               <u>
+                  <txt>p</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="132"/>
+                  <wit ref="msColl_C11b" pos="28"/>
+               </u>
+               <u>
+                  <txt>ri</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="266"/>
+                  <wit ref="msColl_C11b" pos="29"/>
+               </u>
+               <u>
+                  <txt> that you were indeed</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="529"/>
+                  <wit ref="msColl_C11b" pos="70"/>
+               </u>
+               <u>
+                  <txt>dangerously ill, </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="551"/>
+                  <wit ref="msColl_C11b" pos="92"/>
+               </u>
+               <u>
+                  <txt>rained from </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="592"/>
+                  <wit ref="msColl_C11b" pos="109"/>
+               </u>
+               <u>
+                  <txt>a journey to ing</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="616"/>
+                  <wit ref="msColl_C11b" pos="121"/>
+               </u>
+               <u>
+                  <txt>s</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="634"/>
+                  <wit ref="msColl_C11b" pos="139"/>
+               </u>
+               <u>
+                  <txt>ad</txt>
+                  <wit ref="1818_fullFlat_C11b" pos="636"/>
+                  <wit ref="msColl_C11b" pos="141"/>
+               </u>
+               <u>
+                  <txt> </txt>
+                  <wit ref="1818_fullFlat_C11b" pos="640"/>
+                  <wit ref="msColl_C11b" pos="145"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>5</node-count>
+            <length>9</length>
+            <portion>0.012379642365887208</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>6</node-count>
+            <length>9</length>
+            <portion>0.012379642365887208</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1818_fullFlat_C11b</a>
+         <b>Thomas_fullFlat_C11b</b>
+         <c>msColl_C11b</c>
+         <node-count>58</node-count>
+         <length>1000</length>
+         <part>
+            <a/>
+            <node-count>2</node-count>
+            <length>28</length>
+            <portion>0.028</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>5</node-count>
+            <length>300</length>
+            <portion>0.3</portion>
+            <texts>
+               <u>
+                  <txt>nd</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="482"/>
+               </u>
+               <u>
+                  <txt> suspicion fills us with anguish. i perceive that your father &lt;del/&gt;conceals&lt;del/&gt; attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. at one time</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="489"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt; being</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="782"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="850"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="859"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>11</node-count>
+            <length>38</length>
+            <portion>0.038</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>15</node-count>
+            <length>522</length>
+            <portion>0.522</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+            <texts/>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>5</node-count>
+            <length>22</length>
+            <portion>0.022</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>20</node-count>
+            <length>90</length>
+            <portion>0.09</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1823_fullFlat_C11b</a>
+         <b>1831_fullFlat_C11b</b>
+         <c>Thomas_fullFlat_C11b</c>
+         <node-count>60</node-count>
+         <length>994</length>
+         <part>
+            <a/>
+            <node-count>3</node-count>
+            <length>29</length>
+            <portion>0.029175050301810865</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>12</node-count>
+            <length>31</length>
+            <portion>0.031187122736418511</portion>
+            <texts>
+               <u>
+                  <txt>!--emp</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>t</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="8"/>
+               </u>
+               <u>
+                  <txt>y: n</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="9"/>
+               </u>
+               <u>
+                  <txt>o</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="13"/>
+               </u>
+               <u>
+                  <txt>text</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="15"/>
+               </u>
+               <u>
+                  <txt>o</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="21"/>
+               </u>
+               <u>
+                  <txt>r</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="22"/>
+               </u>
+               <u>
+                  <txt>c</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="29"/>
+               </u>
+               <u>
+                  <txt>la</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="32"/>
+               </u>
+               <u>
+                  <txt>ion uni</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="35"/>
+               </u>
+               <u>
+                  <txt>--</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="44"/>
+               </u>
+               <u>
+                  <txt>&gt;</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="46"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>9</node-count>
+            <length>317</length>
+            <portion>0.318913480885311871</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>28</node-count>
+            <length>602</length>
+            <portion>0.605633802816901408</portion>
+            <texts>
+               <u>
+                  <txt>ab/&gt;</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="2"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>v.</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="8"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="7"/>
+               </u>
+               <u>
+                  <txt>.&lt;</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="12"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="11"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="14"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="13"/>
+               </u>
+               <u>
+                  <txt>b/&gt;</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="15"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="14"/>
+               </u>
+               <u>
+                  <txt> &lt;</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="18"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="17"/>
+               </u>
+               <u>
+                  <txt>/&gt;</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="21"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="22"/>
+               </u>
+               <u>
+                  <txt>&lt;p/&gt;“,&lt;p/&gt; &lt;p/&gt;“i cannot describe to you the uneasiness we have all felt concerning your he</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="23"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="24"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="114"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="115"/>
+               </u>
+               <u>
+                  <txt>lth. we cannot hel</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="115"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="116"/>
+               </u>
+               <u>
+                  <txt>p</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="133"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="134"/>
+               </u>
+               <u>
+                  <txt> imagining that your friend clerval conceals the extent of your disorder: for it is now several months since we have seen your hand-w</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="134"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="135"/>
+               </u>
+               <u>
+                  <txt>ri</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="267"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="268"/>
+               </u>
+               <u>
+                  <txt>ting; and all this time you have been obliged to dictate your letters to henry. surely, victor, you must have </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="269"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="270"/>
+               </u>
+               <u>
+                  <txt>and this makes us all very wretched, as much so nearly as after the death of your dear mother.</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="406"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="380"/>
+               </u>
+               <u>
+                  <txt> my uncle </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="500"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="763"/>
+               </u>
+               <u>
+                  <txt>was</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="510"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="779"/>
+               </u>
+               <u>
+                  <txt> almost persuaded</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="513"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="794"/>
+               </u>
+               <u>
+                  <txt> that you were indeed</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="530"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="811"/>
+               </u>
+               <u>
+                  <txt>dangerously ill, </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="552"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="833"/>
+               </u>
+               <u>
+                  <txt>and</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="569"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="856"/>
+               </u>
+               <u>
+                  <txt> could hardly be rest</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="572"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="865"/>
+               </u>
+               <u>
+                  <txt>rained from </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="593"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="886"/>
+               </u>
+               <u>
+                  <txt>undertaking </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="605"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="898"/>
+               </u>
+               <u>
+                  <txt>a journey to ing</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="617"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="910"/>
+               </u>
+               <u>
+                  <txt>s</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="635"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="928"/>
+               </u>
+               <u>
+                  <txt>ad</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="637"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="930"/>
+               </u>
+               <u>
+                  <txt> </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="641"/>
+                  <wit ref="Thomas_fullFlat_C11b" pos="934"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>1</node-count>
+            <length>5</length>
+            <portion>0.005030181086519115</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>7</node-count>
+            <length>10</length>
+            <portion>0.010060362173038229</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1823_fullFlat_C11b</a>
+         <b>1831_fullFlat_C11b</b>
+         <c>msColl_C11b</c>
+         <node-count>62</node-count>
+         <length>728</length>
+         <part>
+            <a/>
+            <node-count>17</node-count>
+            <length>550</length>
+            <portion>0.755494505494505495</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>8</node-count>
+            <length>27</length>
+            <portion>0.037087912087912088</portion>
+            <texts>
+               <u>
+                  <txt>!--emp</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>y: n</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="9"/>
+               </u>
+               <u>
+                  <txt>text</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="15"/>
+               </u>
+               <u>
+                  <txt>r</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="22"/>
+               </u>
+               <u>
+                  <txt>c</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="29"/>
+               </u>
+               <u>
+                  <txt>la</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="32"/>
+               </u>
+               <u>
+                  <txt>ion uni</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="35"/>
+               </u>
+               <u>
+                  <txt>--</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="44"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>11</node-count>
+            <length>51</length>
+            <portion>0.070054945054945055</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>1</node-count>
+            <length>1</length>
+            <portion>0.001373626373626374</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>14</node-count>
+            <length>81</length>
+            <portion>0.111263736263736264</portion>
+            <texts>
+               <u>
+                  <txt>v.</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="8"/>
+                  <wit ref="msColl_C11b" pos="5"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="14"/>
+                  <wit ref="msColl_C11b" pos="10"/>
+               </u>
+               <u>
+                  <txt> &lt;</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="18"/>
+                  <wit ref="msColl_C11b" pos="20"/>
+               </u>
+               <u>
+                  <txt>/&gt;</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="21"/>
+                  <wit ref="msColl_C11b" pos="25"/>
+               </u>
+               <u>
+                  <txt>a</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="114"/>
+                  <wit ref="msColl_C11b" pos="27"/>
+               </u>
+               <u>
+                  <txt>p</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="133"/>
+                  <wit ref="msColl_C11b" pos="28"/>
+               </u>
+               <u>
+                  <txt>ri</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="267"/>
+                  <wit ref="msColl_C11b" pos="29"/>
+               </u>
+               <u>
+                  <txt> that you were indeed</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="530"/>
+                  <wit ref="msColl_C11b" pos="70"/>
+               </u>
+               <u>
+                  <txt>dangerously ill, </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="552"/>
+                  <wit ref="msColl_C11b" pos="92"/>
+               </u>
+               <u>
+                  <txt>rained from </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="593"/>
+                  <wit ref="msColl_C11b" pos="109"/>
+               </u>
+               <u>
+                  <txt>a journey to ing</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="617"/>
+                  <wit ref="msColl_C11b" pos="121"/>
+               </u>
+               <u>
+                  <txt>s</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="635"/>
+                  <wit ref="msColl_C11b" pos="139"/>
+               </u>
+               <u>
+                  <txt>ad</txt>
+                  <wit ref="1823_fullFlat_C11b" pos="637"/>
+                  <wit ref="msColl_C11b" pos="141"/>
+               </u>
+               <u>
+                  <txt> </txt>
+                  <wit ref="1823_fullFlat_C11b" pos="641"/>
+                  <wit ref="msColl_C11b" pos="145"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>5</node-count>
+            <length>9</length>
+            <portion>0.012362637362637363</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>6</node-count>
+            <length>9</length>
+            <portion>0.012362637362637363</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1823_fullFlat_C11b</a>
+         <b>Thomas_fullFlat_C11b</b>
+         <c>msColl_C11b</c>
+         <node-count>59</node-count>
+         <length>1001</length>
+         <part>
+            <a/>
+            <node-count>3</node-count>
+            <length>29</length>
+            <portion>0.028971028971028971</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>5</node-count>
+            <length>300</length>
+            <portion>0.2997002997002997</portion>
+            <texts>
+               <u>
+                  <txt>nd</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="482"/>
+               </u>
+               <u>
+                  <txt> suspicion fills us with anguish. i perceive that your father &lt;del/&gt;conceals&lt;del/&gt; attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. at one time</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="489"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt; being</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="782"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="850"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="859"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>11</node-count>
+            <length>38</length>
+            <portion>0.037962037962037962</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>15</node-count>
+            <length>522</length>
+            <portion>0.521478521478521479</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>0</node-count>
+            <length>0</length>
+            <portion>0</portion>
+            <texts/>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>5</node-count>
+            <length>22</length>
+            <portion>0.021978021978021978</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>20</node-count>
+            <length>90</length>
+            <portion>0.08991008991008991</portion>
+         </part>
+      </venn>
+      <venn>
+         <a>1831_fullFlat_C11b</a>
+         <b>Thomas_fullFlat_C11b</b>
+         <c>msColl_C11b</c>
+         <node-count>64</node-count>
+         <length>999</length>
+         <part>
+            <a/>
+            <node-count>8</node-count>
+            <length>27</length>
+            <portion>0.027027027027027027</portion>
+         </part>
+         <part>
+            <b/>
+            <node-count>19</node-count>
+            <length>821</length>
+            <portion>0.821821821821821822</portion>
+            <texts>
+               <u>
+                  <txt>ab/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>.&lt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="11"/>
+               </u>
+               <u>
+                  <txt>b/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="14"/>
+               </u>
+               <u>
+                  <txt>&lt;p/&gt;“,&lt;p/&gt; &lt;p/&gt;“i cannot describe to you the uneasiness we have all felt concerning your he</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="24"/>
+               </u>
+               <u>
+                  <txt>lth. we cannot hel</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="116"/>
+               </u>
+               <u>
+                  <txt> imagining that your friend clerval conceals the extent of your disorder: for it is now several months since we have seen your hand-w</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="135"/>
+               </u>
+               <u>
+                  <txt>ting; and all this time you have been obliged to dictate your letters to henry. surely, victor, you must have </txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="270"/>
+               </u>
+               <u>
+                  <txt>and this makes us all very wretched, as much so nearly as after the death of your dear mother.</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="380"/>
+               </u>
+               <u>
+                  <txt>nd</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="482"/>
+               </u>
+               <u>
+                  <txt> suspicion fills us with anguish. i perceive that your father &lt;del/&gt;conceals&lt;del/&gt; attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. at one time</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="489"/>
+               </u>
+               <u>
+                  <txt> my uncle </txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="763"/>
+               </u>
+               <u>
+                  <txt>was</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="779"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt; being</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="782"/>
+               </u>
+               <u>
+                  <txt> almost persuaded</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="794"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="850"/>
+               </u>
+               <u>
+                  <txt>and</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="856"/>
+               </u>
+               <u>
+                  <txt>&lt;del/&gt;</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="859"/>
+               </u>
+               <u>
+                  <txt> could hardly be rest</txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="865"/>
+               </u>
+               <u>
+                  <txt>undertaking </txt>
+                  <wit ref="Thomas_fullFlat_C11b" pos="898"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <c/>
+            <node-count>7</node-count>
+            <length>34</length>
+            <portion>0.034034034034034034</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <node-count>1</node-count>
+            <length>1</length>
+            <portion>0.001001001001001001</portion>
+         </part>
+         <part>
+            <a/>
+            <c/>
+            <node-count>4</node-count>
+            <length>4</length>
+            <portion>0.004004004004004004</portion>
+            <texts>
+               <u>
+                  <txt>t</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="8"/>
+                  <wit ref="msColl_C11b" pos="2"/>
+               </u>
+               <u>
+                  <txt>o</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="13"/>
+                  <wit ref="msColl_C11b" pos="3"/>
+               </u>
+               <u>
+                  <txt>o</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="21"/>
+                  <wit ref="msColl_C11b" pos="57"/>
+               </u>
+               <u>
+                  <txt>&gt;</txt>
+                  <wit ref="1831_fullFlat_C11b" pos="46"/>
+                  <wit ref="msColl_C11b" pos="150"/>
+               </u>
+            </texts>
+         </part>
+         <part>
+            <b/>
+            <c/>
+            <node-count>18</node-count>
+            <length>98</length>
+            <portion>0.098098098098098098</portion>
+         </part>
+         <part>
+            <a/>
+            <b/>
+            <c/>
+            <node-count>7</node-count>
+            <length>14</length>
+            <portion>0.014014014014014014</portion>
+         </part>
+      </venn>
+   </venns>
+   <group-name>_C11b</group-name>
+   <group-label>1818_fullFlat_C11b 1831_fullFlat_C11b msColl_C11b Thomas_fullFlat_C11b 1823_fullFlat_C11b</group-label>
+   <file orig-length="721"
+         length="640"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/1818_fullFlat_C11b.xml"
+         ref="1818_fullFlat_C11b"/>
+   <file orig-length="722"
+         length="641"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/1823_fullFlat_C11b.xml"
+         ref="1823_fullFlat_C11b"/>
+   <file orig-length="57"
+         length="46"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/1831_fullFlat_C11b.xml"
+         ref="1831_fullFlat_C11b"/>
+   <file orig-length="1074"
+         length="934"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/Thomas_fullFlat_C11b.xml"
+         ref="Thomas_fullFlat_C11b"/>
+   <file orig-length="1170"
+         length="150"
+         uri="file:/Users/eeb4/Documents/GitHub/fv/TAN-2021/applications/Diff+/fv-source-fewTinyChunks11/msColl_C11b.xml"
+         ref="msColl_C11b"/>
+   <collation>
+      <witness id="1818_fullFlat_C11b">
+         <commonality with="1823_fullFlat_C11b">0.99921935987509758</commonality>
+         <commonality with="Thomas_fullFlat_C11b">0.768742058449809403</commonality>
+         <commonality with="msColl_C11b">0.212658227848101266</commonality>
+         <commonality with="1831_fullFlat_C11b">0.040816326530612245</commonality>
+      </witness>
+      <witness id="1823_fullFlat_C11b">
+         <commonality with="1818_fullFlat_C11b">0.99921935987509758</commonality>
+         <commonality with="Thomas_fullFlat_C11b">0.768253968253968254</commonality>
+         <commonality with="msColl_C11b">0.212389380530973451</commonality>
+         <commonality with="1831_fullFlat_C11b">0.040756914119359534</commonality>
+      </witness>
+      <witness id="Thomas_fullFlat_C11b">
+         <commonality with="1818_fullFlat_C11b">0.768742058449809403</commonality>
+         <commonality with="1823_fullFlat_C11b">0.768253968253968254</commonality>
+         <commonality with="msColl_C11b">0.156826568265682657</commonality>
+         <commonality with="1831_fullFlat_C11b">0.028571428571428571</commonality>
+      </witness>
+      <witness id="msColl_C11b">
+         <commonality with="1818_fullFlat_C11b">0.212658227848101266</commonality>
+         <commonality with="1823_fullFlat_C11b">0.212389380530973451</commonality>
+         <commonality with="Thomas_fullFlat_C11b">0.156826568265682657</commonality>
+         <commonality with="1831_fullFlat_C11b">0.061224489795918367</commonality>
+      </witness>
+      <witness id="1831_fullFlat_C11b">
+         <commonality with="msColl_C11b">0.061224489795918367</commonality>
+         <commonality with="1818_fullFlat_C11b">0.040816326530612245</commonality>
+         <commonality with="1823_fullFlat_C11b">0.040756914119359534</commonality>
+         <commonality with="Thomas_fullFlat_C11b">0.028571428571428571</commonality>
+      </witness>
+      <u>
+         <txt>&lt;</txt>
+         <wit ref="1818_fullFlat_C11b" pos="1"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="1"/>
+         <wit ref="1823_fullFlat_C11b" pos="1"/>
+         <wit ref="1831_fullFlat_C11b" pos="1"/>
+      </u>
+      <u>
+         <txt>ab/&gt;</txt>
+         <wit ref="1818_fullFlat_C11b" pos="2"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="2"/>
+         <wit ref="1823_fullFlat_C11b" pos="2"/>
+      </u>
+      <u>
+         <txt>“</txt>
+         <wit ref="1823_fullFlat_C11b" pos="6"/>
+      </u>
+      <u>
+         <txt>!--emp</txt>
+         <wit ref="1831_fullFlat_C11b" pos="2"/>
+      </u>
+      <u>
+         <txt>"</txt>
+         <wit ref="msColl_C11b" pos="1"/>
+      </u>
+      <u>
+         <txt>t</txt>
+         <wit ref="1831_fullFlat_C11b" pos="8"/>
+         <wit ref="msColl_C11b" pos="2"/>
+      </u>
+      <u>
+         <txt>y: n</txt>
+         <wit ref="1831_fullFlat_C11b" pos="9"/>
+      </u>
+      <u>
+         <txt>o</txt>
+         <wit ref="1831_fullFlat_C11b" pos="13"/>
+         <wit ref="msColl_C11b" pos="3"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11b" pos="6"/>
+         <wit ref="1823_fullFlat_C11b" pos="7"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="6"/>
+         <wit ref="msColl_C11b" pos="4"/>
+         <wit ref="1831_fullFlat_C11b" pos="14"/>
+      </c>
+      <u>
+         <txt>v.</txt>
+         <wit ref="1818_fullFlat_C11b" pos="7"/>
+         <wit ref="1823_fullFlat_C11b" pos="8"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="7"/>
+         <wit ref="msColl_C11b" pos="5"/>
+      </u>
+      <u>
+         <txt>text</txt>
+         <wit ref="1831_fullFlat_C11b" pos="15"/>
+      </u>
+      <c>
+         <txt> f</txt>
+         <wit ref="1818_fullFlat_C11b" pos="9"/>
+         <wit ref="1823_fullFlat_C11b" pos="10"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="9"/>
+         <wit ref="msColl_C11b" pos="7"/>
+         <wit ref="1831_fullFlat_C11b" pos="19"/>
+      </c>
+      <u>
+         <txt>.&lt;</txt>
+         <wit ref="1818_fullFlat_C11b" pos="11"/>
+         <wit ref="1823_fullFlat_C11b" pos="12"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="11"/>
+      </u>
+      <u>
+         <txt>r</txt>
+         <wit ref="msColl_C11b" pos="9"/>
+      </u>
+      <u>
+         <txt>a</txt>
+         <wit ref="1818_fullFlat_C11b" pos="13"/>
+         <wit ref="1823_fullFlat_C11b" pos="14"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="13"/>
+         <wit ref="msColl_C11b" pos="10"/>
+      </u>
+      <u>
+         <txt>b/&gt;</txt>
+         <wit ref="1818_fullFlat_C11b" pos="14"/>
+         <wit ref="1823_fullFlat_C11b" pos="15"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="14"/>
+      </u>
+      <u>
+         <txt>nkenstien</txt>
+         <wit ref="msColl_C11b" pos="11"/>
+      </u>
+      <u>
+         <txt> &lt;</txt>
+         <wit ref="1818_fullFlat_C11b" pos="17"/>
+         <wit ref="1823_fullFlat_C11b" pos="18"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="17"/>
+         <wit ref="msColl_C11b" pos="20"/>
+      </u>
+      <u>
+         <txt>p</txt>
+         <wit ref="1818_fullFlat_C11b" pos="19"/>
+         <wit ref="1823_fullFlat_C11b" pos="20"/>
+      </u>
+      <u>
+         <txt>del</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="19"/>
+         <wit ref="msColl_C11b" pos="22"/>
+      </u>
+      <u>
+         <txt>/&gt;</txt>
+         <wit ref="1818_fullFlat_C11b" pos="20"/>
+         <wit ref="1823_fullFlat_C11b" pos="21"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="22"/>
+         <wit ref="msColl_C11b" pos="25"/>
+      </u>
+      <u>
+         <txt>&lt;p/&gt;“,&lt;p/&gt; &lt;p/&gt;“i cannot describe to you the uneasiness we have all felt concerning your he</txt>
+         <wit ref="1818_fullFlat_C11b" pos="22"/>
+         <wit ref="1823_fullFlat_C11b" pos="23"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="24"/>
+      </u>
+      <u>
+         <txt>a</txt>
+         <wit ref="1818_fullFlat_C11b" pos="113"/>
+         <wit ref="1823_fullFlat_C11b" pos="114"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="115"/>
+         <wit ref="msColl_C11b" pos="27"/>
+      </u>
+      <u>
+         <txt>lth. we cannot hel</txt>
+         <wit ref="1818_fullFlat_C11b" pos="114"/>
+         <wit ref="1823_fullFlat_C11b" pos="115"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="116"/>
+      </u>
+      <u>
+         <txt>p</txt>
+         <wit ref="1818_fullFlat_C11b" pos="132"/>
+         <wit ref="1823_fullFlat_C11b" pos="133"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="134"/>
+         <wit ref="msColl_C11b" pos="28"/>
+      </u>
+      <u>
+         <txt> imagining that your friend clerval conceals the extent of your disorder: for it is now several months since we have seen your hand-w</txt>
+         <wit ref="1818_fullFlat_C11b" pos="133"/>
+         <wit ref="1823_fullFlat_C11b" pos="134"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="135"/>
+      </u>
+      <u>
+         <txt>ri</txt>
+         <wit ref="1818_fullFlat_C11b" pos="266"/>
+         <wit ref="1823_fullFlat_C11b" pos="267"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="268"/>
+         <wit ref="msColl_C11b" pos="29"/>
+      </u>
+      <u>
+         <txt>ting; and all this time you have been obliged to dictate your letters to henry. surely, victor, you must have </txt>
+         <wit ref="1818_fullFlat_C11b" pos="268"/>
+         <wit ref="1823_fullFlat_C11b" pos="269"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="270"/>
+      </u>
+      <u>
+         <txt>&lt;pb/&gt;been exceedingly ill; </txt>
+         <wit ref="1818_fullFlat_C11b" pos="378"/>
+         <wit ref="1823_fullFlat_C11b" pos="379"/>
+      </u>
+      <u>
+         <txt>and this makes us all very wretched, as much so nearly as after the death of your dear mother.</txt>
+         <wit ref="1818_fullFlat_C11b" pos="405"/>
+         <wit ref="1823_fullFlat_C11b" pos="406"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="380"/>
+      </u>
+      <u>
+         <txt>&lt;del/&gt; </txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="474"/>
+         <wit ref="msColl_C11b" pos="31"/>
+      </u>
+      <u>
+         <txt>&lt;del&gt;l&lt;/del&gt; m</txt>
+         <wit ref="msColl_C11b" pos="38"/>
+      </u>
+      <u>
+         <txt>a</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="481"/>
+         <wit ref="msColl_C11b" pos="52"/>
+      </u>
+      <u>
+         <txt>nd</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="482"/>
+      </u>
+      <u>
+         <txt>rch </txt>
+         <wit ref="msColl_C11b" pos="53"/>
+      </u>
+      <u>
+         <txt>o</txt>
+         <wit ref="msColl_C11b" pos="57"/>
+         <wit ref="1831_fullFlat_C11b" pos="21"/>
+      </u>
+      <u>
+         <txt>f</txt>
+         <wit ref="msColl_C11b" pos="58"/>
+      </u>
+      <u>
+         <txt>r</txt>
+         <wit ref="1831_fullFlat_C11b" pos="22"/>
+      </u>
+      <u>
+         <txt> this</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="484"/>
+         <wit ref="msColl_C11b" pos="59"/>
+         <wit ref="1831_fullFlat_C11b" pos="23"/>
+      </u>
+      <u>
+         <txt> suspicion fills us with anguish. i perceive that your father &lt;del/&gt;conceals&lt;del/&gt; attempts to conceal his fears from me; but cheerfulness has flown from our little circle, only to be restored by a certain assuranance that there is no foundation for our anxiety. at one time</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="489"/>
+      </u>
+      <u>
+         <txt> my uncle </txt>
+         <wit ref="1818_fullFlat_C11b" pos="499"/>
+         <wit ref="1823_fullFlat_C11b" pos="500"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="763"/>
+      </u>
+      <u>
+         <txt>&lt;del/&gt;</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="773"/>
+         <wit ref="msColl_C11b" pos="64"/>
+      </u>
+      <u>
+         <txt>was</txt>
+         <wit ref="1818_fullFlat_C11b" pos="509"/>
+         <wit ref="1823_fullFlat_C11b" pos="510"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="779"/>
+      </u>
+      <u>
+         <txt>&lt;del/&gt; being</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="782"/>
+      </u>
+      <u>
+         <txt> almost persuaded</txt>
+         <wit ref="1818_fullFlat_C11b" pos="512"/>
+         <wit ref="1823_fullFlat_C11b" pos="513"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="794"/>
+      </u>
+      <u>
+         <txt> that you were indeed</txt>
+         <wit ref="1818_fullFlat_C11b" pos="529"/>
+         <wit ref="1823_fullFlat_C11b" pos="530"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="811"/>
+         <wit ref="msColl_C11b" pos="70"/>
+      </u>
+      <c>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11b" pos="550"/>
+         <wit ref="1823_fullFlat_C11b" pos="551"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="832"/>
+         <wit ref="msColl_C11b" pos="91"/>
+         <wit ref="1831_fullFlat_C11b" pos="28"/>
+      </c>
+      <u>
+         <txt>dangerously ill, </txt>
+         <wit ref="1818_fullFlat_C11b" pos="551"/>
+         <wit ref="1823_fullFlat_C11b" pos="552"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="833"/>
+         <wit ref="msColl_C11b" pos="92"/>
+      </u>
+      <u>
+         <txt>&lt;del/&gt;</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="850"/>
+      </u>
+      <u>
+         <txt>and</txt>
+         <wit ref="1818_fullFlat_C11b" pos="568"/>
+         <wit ref="1823_fullFlat_C11b" pos="569"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="856"/>
+      </u>
+      <u>
+         <txt>&lt;del/&gt;</txt>
+         <wit ref="Thomas_fullFlat_C11b" pos="859"/>
+      </u>
+      <u>
+         <txt> could hardly be rest</txt>
+         <wit ref="1818_fullFlat_C11b" pos="571"/>
+         <wit ref="1823_fullFlat_C11b" pos="572"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="865"/>
+      </u>
+      <u>
+         <txt>rained from </txt>
+         <wit ref="1818_fullFlat_C11b" pos="592"/>
+         <wit ref="1823_fullFlat_C11b" pos="593"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="886"/>
+         <wit ref="msColl_C11b" pos="109"/>
+      </u>
+      <u>
+         <txt>undertaking </txt>
+         <wit ref="1818_fullFlat_C11b" pos="604"/>
+         <wit ref="1823_fullFlat_C11b" pos="605"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="898"/>
+      </u>
+      <u>
+         <txt>a journey to ing</txt>
+         <wit ref="1818_fullFlat_C11b" pos="616"/>
+         <wit ref="1823_fullFlat_C11b" pos="617"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="910"/>
+         <wit ref="msColl_C11b" pos="121"/>
+      </u>
+      <u>
+         <txt>c</txt>
+         <wit ref="1831_fullFlat_C11b" pos="29"/>
+      </u>
+      <c>
+         <txt>ol</txt>
+         <wit ref="1818_fullFlat_C11b" pos="632"/>
+         <wit ref="1823_fullFlat_C11b" pos="633"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="926"/>
+         <wit ref="msColl_C11b" pos="137"/>
+         <wit ref="1831_fullFlat_C11b" pos="30"/>
+      </c>
+      <u>
+         <txt>s</txt>
+         <wit ref="1818_fullFlat_C11b" pos="634"/>
+         <wit ref="1823_fullFlat_C11b" pos="635"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="928"/>
+         <wit ref="msColl_C11b" pos="139"/>
+      </u>
+      <u>
+         <txt>la</txt>
+         <wit ref="1831_fullFlat_C11b" pos="32"/>
+      </u>
+      <c>
+         <txt>t</txt>
+         <wit ref="1818_fullFlat_C11b" pos="635"/>
+         <wit ref="1823_fullFlat_C11b" pos="636"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="929"/>
+         <wit ref="msColl_C11b" pos="140"/>
+         <wit ref="1831_fullFlat_C11b" pos="34"/>
+      </c>
+      <u>
+         <txt>ad</txt>
+         <wit ref="1818_fullFlat_C11b" pos="636"/>
+         <wit ref="1823_fullFlat_C11b" pos="637"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="930"/>
+         <wit ref="msColl_C11b" pos="141"/>
+      </u>
+      <u>
+         <txt>ion uni</txt>
+         <wit ref="1831_fullFlat_C11b" pos="35"/>
+      </u>
+      <c>
+         <txt>t.</txt>
+         <wit ref="1818_fullFlat_C11b" pos="638"/>
+         <wit ref="1823_fullFlat_C11b" pos="639"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="932"/>
+         <wit ref="msColl_C11b" pos="143"/>
+         <wit ref="1831_fullFlat_C11b" pos="42"/>
+      </c>
+      <u>
+         <txt> </txt>
+         <wit ref="1818_fullFlat_C11b" pos="640"/>
+         <wit ref="1823_fullFlat_C11b" pos="641"/>
+         <wit ref="Thomas_fullFlat_C11b" pos="934"/>
+         <wit ref="msColl_C11b" pos="145"/>
+      </u>
+      <u>
+         <txt>&lt;lb/</txt>
+         <wit ref="msColl_C11b" pos="146"/>
+      </u>
+      <u>
+         <txt>--</txt>
+         <wit ref="1831_fullFlat_C11b" pos="44"/>
+      </u>
+      <u>
+         <txt>&gt;</txt>
+         <wit ref="msColl_C11b" pos="150"/>
+         <wit ref="1831_fullFlat_C11b" pos="46"/>
+      </u>
+   </collation>
+</group>

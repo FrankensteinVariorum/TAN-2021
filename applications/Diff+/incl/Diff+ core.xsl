@@ -695,8 +695,11 @@
                             <xsl:choose>
                                 
                                 <xsl:when test="count($finalized-texts-to-compare) eq 2">
-                                    <xsl:copy-of
+                                   <!--ebb: modifying this: <xsl:copy-of
                                         select="tan:adjust-diff(tan:diff($finalized-texts-to-compare[1], $finalized-texts-to-compare[2], $tan:snap-to-word))"
+                                    /> -->
+                                    <xsl:copy-of
+                                        select="tan:collate($finalized-texts-to-compare[1], $finalized-texts-to-compare[2], $tan:snap-to-word)"
                                     />
                                 </xsl:when>
                                 
@@ -726,308 +729,8 @@
     </xsl:variable>
     
     
-    <!-- At this point, the master XML data should be finished. From this point forward we deal with 
-    presenting that data legibly via HTML. -->
+    <!-- 2922-07-16 ebb: At this point, I removed a huge block of HTML prep templates -->
     
-    
-    <!-- PREPARATION FOR HTML -->
-    
-    <!-- In each diff/collate report, find the primary input file. Remove the diff / collation results. Apply templates
-        to the primary file with the diff/collation results as a tunnel parameter, to be infused into the text nodes
-        of the primary file. That allows us to begin a basic structure of presenting the diff/collation results in the
-        form of the primary document, to improve legibility.
-    -->
-    <!-- Remove temporary attributes we're not interested in -->
-    <!-- We also insert the global notices, and replace the diff or collation, if required. -->
-    
-    
-    <xsl:variable name="xml-to-html-prep" as="document-node()*">
-        <xsl:apply-templates select="$xml-output-pass-1" mode="prep-for-html"/>
-    </xsl:variable>
-    
-    
-    <xsl:mode name="prep-for-html" on-no-match="shallow-copy"/>
-    
-    <xsl:template match="tan:group" mode="prep-for-html">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            
-            <xsl:copy-of select="$notices"/>
-            
-            <xsl:apply-templates mode="#current">
-                <xsl:with-param name="last-wit-ref" tunnel="yes" as="xs:string?"
-                    select="tan:stats/tan:witness[last()]/@ref"/>
-            </xsl:apply-templates>
-        </xsl:copy>
-    </xsl:template>
-    
-    <xsl:template match="tan:stats" mode="prep-for-html">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates mode="#current"/>
-            <xsl:if test="$replace-diff-results-with-pre-alteration-forms">
-                <div xmlns="http://www.w3.org/1999/xhtml" class="note warning">There may be
-                    discrepancies between the statistics and the displayed text. The original texts
-                    may have been altered before the text comparison and statistics were generated
-                    (see any attached notices), but for legibility the results styled according to
-                    the original text form. To see the difference that justifies the statistics, see
-                    the original input or any supplementary output.</div>
-            </xsl:if>
-        </xsl:copy>
-    </xsl:template>
-    
-    <xsl:template match="tan:diff[tan:common or tan:a or tan:b]" mode="prep-for-html">
-        <xsl:variable name="diff-a-file-base-uri" select="../tan:stats/tan:witness[1]/tan:uri" as="element()?"/>
-        <xsl:variable name="diff-b-file-base-uri" select="../tan:stats/tan:witness[2]/tan:uri" as="element()?"/>
-        
-        <xsl:variable name="diff-a-prepped-file" as="document-node()"
-            select="($main-input-files-non-mixed)[*/@xml:base eq $diff-a-file-base-uri]"
-        />
-        <xsl:variable name="diff-b-prepped-file" as="document-node()"
-            select="($main-input-files-non-mixed)[*/@xml:base eq $diff-b-file-base-uri]"
-        />
-        
-        <xsl:variable name="diagnostics-on" as="xs:boolean" select="false()"/>
-        <xsl:if test="$diagnostics-on">
-            <xsl:message select="'diagnostics on, template mode prep-for-html on tan:diff'"/>
-            <xsl:message select="'a base uri: ' || $diff-a-file-base-uri"/>
-            <xsl:message select="'b base uri: ' || $diff-b-file-base-uri"/>
-            <xsl:message select="'a text: ' || string($diff-a-prepped-file)"/>
-            <xsl:message select="'b text: ' || string($diff-b-prepped-file)"/>
-            <xsl:message select="'This diff (orig): ', ."/>
-            <xsl:message select="'This diff replaced with a and b: ', tan:replace-diff(
-                string($diff-a-prepped-file),
-                string($diff-b-prepped-file),
-                ., false())"/>
-        </xsl:if>
-        
-        
-        <xsl:choose>
-            <xsl:when test="$replace-diff-results-with-pre-alteration-forms">
-                <xsl:copy-of select="
-                        tan:replace-diff(
-                        string($diff-a-prepped-file),
-                        string($diff-b-prepped-file),
-                        ., false())"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:copy-of select="."/>
-            </xsl:otherwise>
-        </xsl:choose>
-        
-    </xsl:template>
-    
-    <xsl:template match="tan:collation[tan:witness]" mode="prep-for-html">
-        <xsl:param name="last-wit-ref" tunnel="yes" as="xs:string"/>
-        <xsl:variable name="primary-file-base-uri"
-            select="../tan:stats/tan:witness[@ref eq $last-wit-ref]/tan:uri" as="element()"/>
-        <xsl:variable name="primary-prepped-file" as="document-node()"
-            select="($main-input-files-non-mixed)[*/@xml:base eq $primary-file-base-uri]"
-        />
-        
-        <xsl:choose>
-            <xsl:when test="$replace-diff-results-with-pre-alteration-forms">
-                <xsl:sequence select="
-                        tan:replace-collation(string($primary-prepped-file),
-                        $last-wit-ref, .)"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:copy-of select="."/>
-            </xsl:otherwise>
-        </xsl:choose>
-        
-    </xsl:template>
-    
-
-
-    <xsl:variable name="html-output-pass-1" as="document-node()*">
-        <xsl:for-each select="$xml-to-html-prep/*">
-            <xsl:variable name="primary-witness" as="element()"
-                select="tan:stats/tan:witness[last()]"/>
-            <xsl:variable name="primary-file-base-uri" select="$primary-witness/tan:uri" as="element()?"/>
-            
-            <xsl:variable name="primary-file-idref" select="$primary-witness/@ref" as="xs:string"/>
-            <xsl:variable name="primary-prepped-file" as="document-node()"
-                select="($main-input-files-non-mixed)[*/@xml:base eq $primary-file-base-uri]"
-            />
-            <xsl:variable name="primary-prepped-file-adjusted" as="document-node()">
-                <xsl:apply-templates select="$primary-prepped-file"
-                    mode="adjust-primary-tree-for-html"/>
-            </xsl:variable>
-            
-            <xsl:variable name="diagnostics-on" as="xs:boolean" select="false()"/>
-            <xsl:if test="$diagnostics-on">
-                <xsl:message select="'Diagnostics on, Diff+, $html-output-pass-1'"/>
-                <xsl:message select="'This xml to html prep: ', tan:trim-long-tree(., 10, 20)"/>
-                <xsl:message select="'Primary witness: ', $primary-witness"/>
-                <xsl:message select="'Primary file base uri: ' || $primary-file-base-uri"/>
-                <xsl:message select="'Primary file idref: ' || $primary-file-idref"/>
-                <xsl:message select="'Primary prepped file: ', tan:trim-long-tree($primary-prepped-file/*, 10, 20)"/>
-                <xsl:message select="'Primary prepped file adjusted: ', tan:trim-long-tree($primary-prepped-file-adjusted, 10, 20)"/>
-            </xsl:if>
-            
-            <xsl:document>
-                <xsl:sequence
-                    select="tan:diff-or-collate-to-html(., $primary-file-idref, $primary-prepped-file-adjusted/*)"
-                />
-            </xsl:document>
-        </xsl:for-each>
-    </xsl:variable>
-    
-    
-    <xsl:mode name="adjust-primary-tree-for-html" on-no-match="shallow-copy"/>
-    
-    <xsl:template match="/*/@*" mode="adjust-primary-tree-for-html"/>
-    
-    
-    <xsl:variable name="html-output-pass-2" as="document-node()*">
-        <xsl:apply-templates select="$html-output-pass-1" mode="html-output-pass-2"/>
-        
-    </xsl:variable>
-    
-    
-    <xsl:mode name="html-output-pass-2" on-no-match="shallow-copy"/>
-    
-    <xsl:template match="/*" mode="html-output-pass-2">
-        <xsl:variable name="this-title" as="xs:string?">
-            <xsl:sequence
-                select="'Comparison of ' || tan:cardinal(xs:integer(tan:find-class(., 'a-count')))
-                || ' files'"
-            />
-        </xsl:variable>
-        <xsl:variable name="this-subtitle" as="xs:string?" select="
-                'String differences and analyses across ' ||
-                replace(string-join(
-                for $i in html:table[tan:has-class(., 'e-stats')]//html:tr[not(tan:has-class(., ('a-collation', 'a-diff', 'averages')))]/html:td[tan:has-class(., ('a-uri', 'e-uri'))]
-                return
-                    tan:cfne(string($i)), ', '), '%20', ' ')"/>
-        <xsl:variable name="this-target-uri" select="replace(@_target-uri, '\w+$', 'html')"/>
-        <html xmlns="http://www.w3.org/1999/xhtml">
-            <xsl:attribute name="_target-format">xhtml-noindent</xsl:attribute>
-            <xsl:attribute name="_target-uri" select="$this-target-uri"/>
-            <head>
-                <title>
-                    <xsl:value-of select="string-join(($this-title, $this-subtitle), ': ')"/>
-                </title>
-                <!-- TAN css attend to some basic style issues common to TAN converted to HTML. -->
-                <link rel="stylesheet"
-                    href="{tan:uri-relative-to($resolved-uri-to-diff-css, $this-target-uri)}"
-                    type="text/css">
-                    <!-- Inserted comments ensure that the elements do not close and make them unreadable to the browser -->
-                    <xsl:comment/>
-                </link>
-                <!-- The TAN JavaScript code uses jQuery. -->
-                <script src="{tan:uri-relative-to($resolved-uri-to-jquery, $this-target-uri)}">
-                    <xsl:comment/>
-                </script>
-                <!-- The d3js library is required for use of the Venn JavaScript library -->
-                <script src="https://d3js.org/d3.v5.min.js">
-                    <xsl:comment/>
-                </script>
-                <!-- The Venn JavaScript library: https://github.com/benfred/venn.js/ -->
-                <script src="{tan:uri-relative-to($resolved-uri-to-venn-js, $this-target-uri)}">
-                    <xsl:comment/>
-                </script>
-            </head>
-            <body>
-                <h1>
-                    <xsl:value-of select="$this-title"/>
-                </h1>
-                <div class="subtitle">
-                    <xsl:value-of select="$this-subtitle"/>
-                </div>
-                <div class="timedate">
-                    <xsl:value-of
-                        select="'Comparison generated ' || format-dateTime(current-dateTime(), '[MNn] [D], [Y], [h]:[m01] [PN]')"
-                    />
-                </div>
-                <xsl:apply-templates mode="#current"/>
-                
-                <!-- TAN JavaScript comes at the end, to ensure the DOM is loaded. The file supports manipulation of the sources and their appearance. -->
-                <script src="{tan:uri-relative-to($resolved-uri-to-diff-js, $this-target-uri)}"><!--  --></script>
-                <!-- The TAN JavaScript library provides some generic functionality across all TAN HTML output -->
-                <script src="{tan:uri-relative-to($resolved-uri-to-TAN-js, $this-target-uri)}"><!--  --></script>
-            </body>
-        </html>
-    </xsl:template>
-    
-    <xsl:template match="html:div[tan:has-class(., ('e-txt', 'e-a', 'e-b', 'e-common'))]/text()" mode="html-output-pass-2">
-        <xsl:variable name="this-text-length" as="xs:integer" select="string-length(.)"/>
-        <xsl:variable name="estimated-length-of-message" as="xs:integer" select="40"/>
-        <xsl:variable name="elide-this-text" as="xs:boolean" select="$elide-lengthy-text and ($this-text-length gt $elision-trigger-point-norm + $estimated-length-of-message)"/>
-        <xsl:variable name="text-parts" as="xs:string+" select="
-                if ($elide-this-text)
-                then
-                    (substring(., 1, $elision-trigger-point-norm idiv 2), substring(., string-length(.) - $elision-trigger-point-norm idiv 2))
-                else
-                    ."/>
-        <xsl:for-each select="$text-parts">
-            <xsl:if test="$elide-this-text and position() gt 1">
-                <div class="elision">…[{$this-text-length - (2 * ($elision-trigger-point-norm idiv 2))} chars]…</div>
-            </xsl:if>
-            <xsl:analyze-string select="." regex="\n">
-                <xsl:matching-substring>
-                    <xsl:text>¶</xsl:text>
-                    <xsl:element name="br" namespace="http://www.w3.org/1999/xhtml"/>
-                </xsl:matching-substring>
-                <xsl:non-matching-substring>
-                    <xsl:sequence select="tan:parse-a-hrefs(tan:controls-to-pictures(.))"/>
-                </xsl:non-matching-substring>
-            </xsl:analyze-string>
-        </xsl:for-each>
-    </xsl:template>
-    
-    <xsl:template
-        match="html:div[tan:has-class(., ('a-cgk', 'a-count', 'e-group-name', 'e-group-label', 'e-file', 'a-part', 'a-org',
-        'a-sample', 'a-q'))]"
-        mode="html-output-pass-2"/>
-    
-    
-    <xsl:variable name="resolved-uri-to-css-dir" as="xs:string" select="
-            if (string-length($output-css-library-directory-uri) gt 0 and matches($output-css-library-directory-uri, '\S'))
-            then
-                (resolve-uri(replace(normalize-space($output-css-library-directory-uri), '([^/])$', '$1/'), $calling-stylesheet-uri))
-            else
-                $output-directory-uri-resolved || 'css/'"/>
-    <xsl:variable name="resolved-uri-to-js-dir" as="xs:string" select="
-            if (string-length($output-javascript-library-directory-uri) gt 0 and matches($output-javascript-library-directory-uri, '\S'))
-            then
-                (resolve-uri(replace(normalize-space($output-javascript-library-directory-uri), '([^/])$', '$1/'), $calling-stylesheet-uri))
-            else
-                $output-directory-uri-resolved || 'js/'"/>
-    
-    <xsl:variable name="resolved-uri-to-diff-css" as="xs:string"
-        select="($resolved-uri-to-css-dir || 'diff.css')"/>
-    <xsl:variable name="resolved-uri-to-TAN-js" as="xs:string"
-        select="($resolved-uri-to-js-dir || 'tan2020.js')"/>
-    <xsl:variable name="resolved-uri-to-diff-js" as="xs:string"
-        select="($resolved-uri-to-js-dir || 'diff.js')"/>
-    <xsl:variable name="resolved-uri-to-jquery" as="xs:string"
-        select="($resolved-uri-to-js-dir || 'jquery.js')"/>
-    <xsl:variable name="resolved-uri-to-venn-js" as="xs:string"
-        select="($resolved-uri-to-js-dir || 'venn.js/venn.js')"/>
-  
-   
-    
-    <xsl:mode name="return-final-messages" on-no-match="shallow-skip"/>
-    
-    <!-- The messages are handled by $notices, not the html file, and we do not want to check whether
-        @href points to a file, because directories are referred to. Same with the stats table, which 
-        simply derives from the input, or points to expected secondary output. -->
-    <xsl:template match="html:div[tan:has-class(., 'e-message')] | html:table[tan:has-class(., 'e-stats')]" mode="return-final-messages"/>
-    
-    <xsl:template match="html:script/@src | @href" mode="return-final-messages">
-        <xsl:variable name="target-uri" select="root(.)/*/@_target-uri" as="xs:string"/>
-        <xsl:try>
-            <xsl:variable name="this-link-resolved" select="resolve-uri(., $target-uri)" as="xs:anyURI"/>
-            <xsl:if test="not(unparsed-text-available($this-link-resolved))">
-                <xsl:message select="'Unparsed text not available at ' || . || ' relative to ' || $target-uri || '. See ' || path(.)"/>
-            </xsl:if>
-            <xsl:catch>
-                <xsl:message select=". || ' cannot be parsed as a uri'"/>
-            </xsl:catch>
-        </xsl:try>
-    </xsl:template>
     
     <xsl:template match="tan:global-notices/*" mode="return-final-messages">
         <xsl:message select="'= = = = ' || name(.) || ' = = = ='"/>
@@ -1069,7 +772,7 @@
     <xsl:template match="/">
         <!-- The main output template returns only secondary output, one HTML page per
             group of compared texts, plus messages. -->
-        <xsl:apply-templates select="$notices, $xml-output-pass-1, $html-output-pass-2"
+        <xsl:apply-templates select="$notices, $xml-output-pass-1"
             mode="return-final-messages"/>
         <!--<xsl:for-each select="$global-notices">
             <xsl:message select="'= = = = ' || name(.) || ' = = = ='"/>
@@ -1077,7 +780,7 @@
                 <xsl:message select="string(.)"/>
             </xsl:for-each>
         </xsl:for-each>-->
-        <xsl:for-each select="$xml-output-pass-1, $html-output-pass-2">
+        <xsl:for-each select="$xml-output-pass-1">
             <xsl:call-template name="tan:save-as">
                 <xsl:with-param name="document-to-save" select="."/>
             </xsl:call-template>

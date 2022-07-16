@@ -31,7 +31,7 @@
         $filename-adjustments-before-grouping below).
         3. Filename and language, a synthesis of the previous two options.
     -->
-   <xsl:param name="file-group-option" as="xs:integer" select="1"/>
+   <xsl:param name="file-group-option" as="xs:integer" select="2"/>
     
     <!-- What changes if any should be made to a filename before attempting to group it with other files? The
       desired changes must be expressed as batch replacements. A batch replacement consists of a sequence
@@ -243,7 +243,7 @@
     
     <!-- Ignore the tei header and tan header and (ebb): several other elements 
     ebb: putting back this mode:  tan:normalize-tree-space
-    Okay, the mode's presence or absence doesn't seem to matter. If an element is removed, spaces appeararound any text that was inside it.
+    Okay, the mode's presence or absence doesn't seem to matter. If an element is removed, spaces appear around any text that was inside it.
     This throws off the collation.
     -->
   <!--  <xsl:template match="tan:head | tei:teiHeader | Q{}milestone | Q{}lb | Q{}metamark | Q{}surface | Q{}zone | Q{}damage | Q{}mod | Q{}restore | Q{}comment | Q{}mdel | Q{}graphic | Q{}unclear | Q{}retrace | Q{}head | Q{}header" priority="2" mode="prepare-input tan:normalize-tree-space"/>-->
